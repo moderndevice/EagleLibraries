@@ -1,0 +1,2319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;b&gt;Transformers&lt;/b&gt;&lt;p&gt;
+&lt;a href="www.hammondmfg.com"&gt; www.hammondmfg.com &lt;/a&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="C0H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="13.462" y="0" drill="0.003175"/>
+<hole x="-13.462" y="0" drill="0.003175"/>
+<wire x1="-17.145" y1="0" x2="-12.7" y2="-4.445" width="0.254" layer="21" curve="90"/>
+<wire x1="-12.7" y1="-4.445" x2="-10.795" y2="-4.445" width="0.254" layer="21"/>
+<wire x1="-10.795" y1="-4.445" x2="-8.763" y2="-4.445" width="0.254" layer="21"/>
+<wire x1="-8.763" y1="-4.445" x2="8.763" y2="-4.445" width="0.254" layer="21"/>
+<wire x1="8.763" y1="-4.445" x2="10.795" y2="-4.445" width="0.254" layer="21"/>
+<wire x1="10.795" y1="-4.445" x2="12.7" y2="-4.445" width="0.254" layer="21"/>
+<wire x1="12.7" y1="-4.445" x2="17.145" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="17.145" y1="0" x2="12.7" y2="4.445" width="0.254" layer="21" curve="90"/>
+<wire x1="12.7" y1="4.445" x2="10.795" y2="4.445" width="0.254" layer="21"/>
+<wire x1="10.795" y1="4.445" x2="8.763" y2="4.445" width="0.254" layer="21"/>
+<wire x1="8.763" y1="4.445" x2="-8.763" y2="4.445" width="0.254" layer="21"/>
+<wire x1="-8.763" y1="4.445" x2="-10.795" y2="4.445" width="0.254" layer="21"/>
+<wire x1="-10.795" y1="4.445" x2="-12.7" y2="4.445" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="4.445" x2="-17.145" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="6.223" y1="-8.763" x2="-6.223" y2="-8.763" width="0.254" layer="21"/>
+<wire x1="-6.223" y1="-8.763" x2="-8.763" y2="-6.223" width="0.254" layer="21" curve="-90"/>
+<wire x1="-8.763" y1="-6.223" x2="-8.763" y2="-4.445" width="0.254" layer="21"/>
+<wire x1="-8.763" y1="4.445" x2="-8.763" y2="6.223" width="0.254" layer="21"/>
+<wire x1="-8.763" y1="6.223" x2="-6.223" y2="8.763" width="0.254" layer="21" curve="-90"/>
+<wire x1="-6.223" y1="8.763" x2="6.223" y2="8.763" width="0.254" layer="21"/>
+<wire x1="6.223" y1="8.763" x2="8.763" y2="6.223" width="0.254" layer="21" curve="-90"/>
+<wire x1="8.763" y1="6.223" x2="8.763" y2="4.445" width="0.254" layer="21"/>
+<wire x1="8.763" y1="-4.445" x2="8.763" y2="-6.223" width="0.254" layer="21"/>
+<wire x1="8.763" y1="-6.223" x2="6.223" y2="-8.763" width="0.254" layer="21" curve="-90"/>
+<pad name="BLK@1" x="-3.81" y="-11.43" drill="1" diameter="1.6"/>
+<pad name="BLK@2" x="3.81" y="-11.43" drill="1" diameter="1.6"/>
+<pad name="GRN@1" x="-6.35" y="11.43" drill="1" diameter="1.6"/>
+<pad name="GRN@2" x="6.35" y="11.43" drill="1" diameter="1.6"/>
+<pad name="GRN/YEL" x="0" y="11.43" drill="1" diameter="1.6"/>
+<text x="-14.9225" y="-10.16" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-10.795" y1="4.445" x2="-10.795" y2="-4.445" width="0.254" layer="21"/>
+<wire x1="10.795" y1="4.445" x2="10.795" y2="-4.445" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="-11.43" x2="-3.81" y2="-11.1895375" width="0.4064" layer="51"/>
+<wire x1="-3.81" y1="-11.1895375" x2="-2.8575" y2="-8.89" width="0.4064" layer="51" curve="-45"/>
+<wire x1="3.81" y1="-11.43" x2="3.81" y2="-10.795" width="0.4064" layer="51"/>
+<wire x1="3.81" y1="-10.795" x2="3.81" y2="-10.423025" width="0.4064" layer="51"/>
+<wire x1="3.81" y1="-10.423025" x2="3.175" y2="-8.89" width="0.4064" layer="51" curve="45"/>
+<wire x1="-6.35" y1="11.43" x2="-6.35" y2="10.795" width="0.4064" layer="51"/>
+<wire x1="-6.35" y1="10.795" x2="-5.67648125" y2="9.16898125" width="0.4064" layer="51" curve="45"/>
+<wire x1="-5.67648125" y1="9.16898125" x2="-5.3975" y2="8.89" width="0.4064" layer="51"/>
+<wire x1="0" y1="11.43" x2="0" y2="10.16" width="0.4064" layer="51"/>
+<wire x1="0" y1="10.16" x2="0" y2="9.6565125" width="0.4064" layer="51"/>
+<wire x1="0" y1="9.6565125" x2="-0.3175" y2="8.89" width="0.4064" layer="51" curve="-45"/>
+<wire x1="6.35" y1="11.43" x2="6.35" y2="10.4775" width="0.4064" layer="51"/>
+<wire x1="6.35" y1="10.4775" x2="5.9009875" y2="9.3934875" width="0.4064" layer="51" curve="-45"/>
+<wire x1="5.9009875" y1="9.3934875" x2="5.3975" y2="8.89" width="0.4064" layer="51"/>
+</package>
+<package name="C1H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="17.012" y="0" drill="0.003175"/>
+<hole x="-17.037" y="0" drill="0.003175"/>
+<wire x1="-20.72" y1="0" x2="-16.275" y2="-4.445" width="0.254" layer="21" curve="90"/>
+<wire x1="-16.275" y1="-4.445" x2="-14.0525" y2="-4.445" width="0.254" layer="21"/>
+<wire x1="-14.0525" y1="-4.445" x2="-11.038" y2="-4.42" width="0.254" layer="21"/>
+<wire x1="-11.038" y1="-4.42" x2="11.113" y2="-4.445" width="0.254" layer="21"/>
+<wire x1="11.113" y1="-4.445" x2="14.0275" y2="-4.445" width="0.254" layer="21"/>
+<wire x1="14.0275" y1="-4.445" x2="16.25" y2="-4.445" width="0.254" layer="21"/>
+<wire x1="16.25" y1="-4.445" x2="20.695" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="20.695" y1="0" x2="16.25" y2="4.445" width="0.254" layer="21" curve="90"/>
+<wire x1="16.25" y1="4.445" x2="14.0275" y2="4.445" width="0.254" layer="21"/>
+<wire x1="14.0275" y1="4.445" x2="11.113" y2="4.445" width="0.254" layer="21"/>
+<wire x1="11.113" y1="4.445" x2="-11.038" y2="4.47" width="0.254" layer="21"/>
+<wire x1="-11.038" y1="4.47" x2="-14.0525" y2="4.445" width="0.254" layer="21"/>
+<wire x1="-14.0525" y1="4.445" x2="-16.275" y2="4.445" width="0.254" layer="21"/>
+<wire x1="-16.275" y1="4.445" x2="-20.72" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="8.573" y1="-11.038" x2="-8.498" y2="-11.013" width="0.254" layer="21"/>
+<wire x1="-8.498" y1="-11.013" x2="-11.038" y2="-8.473" width="0.254" layer="21" curve="-90"/>
+<wire x1="-11.038" y1="-8.473" x2="-11.038" y2="-4.42" width="0.254" layer="21"/>
+<wire x1="-11.038" y1="4.47" x2="-11.038" y2="8.498" width="0.254" layer="21"/>
+<wire x1="-11.038" y1="8.498" x2="-8.498" y2="11.038" width="0.254" layer="21" curve="-90"/>
+<wire x1="-8.498" y1="11.038" x2="8.573" y2="11.013" width="0.254" layer="21"/>
+<wire x1="8.573" y1="11.013" x2="11.113" y2="8.473" width="0.254" layer="21" curve="-90"/>
+<wire x1="11.113" y1="8.473" x2="11.113" y2="4.445" width="0.254" layer="21"/>
+<wire x1="11.113" y1="-4.445" x2="11.113" y2="-8.498" width="0.254" layer="21"/>
+<wire x1="11.113" y1="-8.498" x2="8.573" y2="-11.038" width="0.254" layer="21" curve="-90"/>
+<pad name="BLK@1" x="-3.81" y="-13.705" drill="1" diameter="1.6"/>
+<pad name="BLK@2" x="3.81" y="-13.705" drill="1" diameter="1.6"/>
+<pad name="GRN@1" x="-6.35" y="13.68" drill="1" diameter="1.6"/>
+<pad name="GRN@2" x="6.35" y="13.68" drill="1" diameter="1.6"/>
+<pad name="GRN/YEL" x="0" y="13.68" drill="1" diameter="1.6"/>
+<text x="-14.9225" y="-12.435" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.625" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-14.0525" y1="4.445" x2="-14.0525" y2="-4.445" width="0.254" layer="21"/>
+<wire x1="14.0275" y1="4.445" x2="14.0275" y2="-4.445" width="0.254" layer="21"/>
+<wire x1="-6.35" y1="13.6525" x2="-6.35" y2="13.0175" width="0.4064" layer="51"/>
+<wire x1="-6.35" y1="13.0175" x2="-6.35" y2="11.8790125" width="0.4064" layer="51"/>
+<wire x1="-6.35" y1="11.8790125" x2="-6.0325" y2="11.1125" width="0.4064" layer="51" curve="45"/>
+<wire x1="0" y1="13.6525" x2="0" y2="12.065" width="0.4064" layer="51"/>
+<wire x1="0" y1="12.065" x2="0" y2="11.8790125" width="0.4064" layer="51"/>
+<wire x1="0" y1="11.8790125" x2="-0.3175" y2="11.1125" width="0.4064" layer="51" curve="-45"/>
+<wire x1="6.35" y1="13.6525" x2="6.35" y2="13.0175" width="0.4064" layer="51"/>
+<wire x1="6.35" y1="13.0175" x2="6.35" y2="12.645525" width="0.4064" layer="51"/>
+<wire x1="6.35" y1="12.645525" x2="5.715" y2="11.1125" width="0.4064" layer="51" curve="-45"/>
+<wire x1="-3.81" y1="-13.6525" x2="-3.81" y2="-12.7" width="0.4064" layer="51"/>
+<wire x1="-3.81" y1="-12.7" x2="-3.81" y2="-12.645525" width="0.4064" layer="51"/>
+<wire x1="-3.81" y1="-12.645525" x2="-4.445" y2="-11.1125" width="0.4064" layer="51" curve="45"/>
+<wire x1="3.81" y1="-13.6525" x2="3.81" y2="-13.0175" width="0.4064" layer="51"/>
+<wire x1="3.81" y1="-13.0175" x2="4.7625" y2="-11.1125" width="0.4064" layer="51" curve="-53.130102"/>
+</package>
+<package name="C2H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="22.225" y="0" drill="4.7498"/>
+<hole x="-22.225" y="0" drill="4.7498"/>
+<wire x1="-26.095" y1="0" x2="-20.38" y2="-5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="-20.38" y1="-5.715" x2="-18.1575" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-18.1575" y1="-5.715" x2="-14.986" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-14.986" y1="-5.715" x2="14.986" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="14.986" y1="-5.715" x2="18.1075" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="18.1075" y1="-5.715" x2="20.33" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="20.33" y1="-5.715" x2="26.045" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="26.045" y1="0" x2="20.33" y2="5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="20.33" y1="5.715" x2="18.1075" y2="5.715" width="0.254" layer="21"/>
+<wire x1="18.1075" y1="5.715" x2="14.986" y2="5.715" width="0.254" layer="21"/>
+<wire x1="14.986" y1="5.715" x2="-14.986" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-14.986" y1="5.715" x2="-18.1575" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-18.1575" y1="5.715" x2="-20.38" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-20.38" y1="5.715" x2="-26.095" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="14.986" y1="-5.715" x2="14.986" y2="-10.036" width="0.254" layer="21"/>
+<wire x1="14.986" y1="-10.036" x2="9.271" y2="-15.751" width="0.254" layer="21" curve="-90"/>
+<wire x1="9.271" y1="-15.751" x2="-9.271" y2="-15.751" width="0.254" layer="21"/>
+<wire x1="-9.271" y1="-15.751" x2="-14.986" y2="-10.036" width="0.254" layer="21" curve="-90"/>
+<wire x1="-14.986" y1="-10.036" x2="-14.986" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-14.986" y1="5.715" x2="-14.986" y2="9.986" width="0.254" layer="21"/>
+<wire x1="-14.986" y1="9.986" x2="-9.271" y2="15.701" width="0.254" layer="21" curve="-90"/>
+<wire x1="-9.271" y1="15.701" x2="9.271" y2="15.701" width="0.254" layer="21"/>
+<wire x1="9.271" y1="15.701" x2="14.986" y2="9.986" width="0.254" layer="21" curve="-90"/>
+<wire x1="14.986" y1="9.986" x2="14.986" y2="5.715" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-18.545" drill="1" diameter="1.6"/>
+<pad name="BLK@2" x="7.62" y="-18.545" drill="1" diameter="1.6"/>
+<pad name="GRN@1" x="-10.16" y="18.495" drill="1" diameter="1.6"/>
+<pad name="GRN@2" x="10.16" y="18.415" drill="1" diameter="1.6"/>
+<pad name="GRN/YEL" x="0" y="18.415" drill="1" diameter="1.6"/>
+<text x="-19.05" y="-18.545" size="1.27" layer="25">&gt;NAME</text>
+<text x="-14" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-18.1575" y1="5.715" x2="-18.1575" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="18.1075" y1="5.715" x2="18.1075" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-10.16" y1="18.415" x2="-9.2075" y2="17.78" width="0.4064" layer="51"/>
+<wire x1="-9.2075" y1="17.78" x2="-7.9375" y2="15.875" width="0.4064" layer="51" curve="-45.23973"/>
+<wire x1="0" y1="18.415" x2="0" y2="17.4625" width="0.4064" layer="51"/>
+<wire x1="0" y1="17.4625" x2="-0.3175" y2="15.875" width="0.4064" layer="51" curve="-22.619865"/>
+<wire x1="10.16" y1="18.415" x2="9.2075" y2="17.4625" width="0.4064" layer="51"/>
+<wire x1="9.2075" y1="17.4625" x2="8.255" y2="15.875" width="0.4064" layer="51" curve="28.072487"/>
+<wire x1="-7.62" y1="-18.415" x2="-7.62" y2="-17.78" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-17.78" x2="-6.6675" y2="-15.875" width="0.4064" layer="51" curve="-53.130102"/>
+<wire x1="7.62" y1="-18.415" x2="7.62" y2="-17.4625" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-17.4625" x2="6.35" y2="-15.875" width="0.4064" layer="51" curve="77.319617"/>
+</package>
+<package name="C3H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="22.225" y="0" drill="4.7498"/>
+<hole x="-22.225" y="0" drill="4.7498"/>
+<wire x1="-26.095" y1="0" x2="-20.38" y2="-5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="-20.38" y1="-5.715" x2="-18.1575" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-18.1575" y1="-5.715" x2="-14.986" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-14.986" y1="-5.715" x2="14.986" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="14.986" y1="-5.715" x2="18.1075" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="18.1075" y1="-5.715" x2="20.33" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="20.33" y1="-5.715" x2="26.045" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="26.045" y1="0" x2="20.33" y2="5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="20.33" y1="5.715" x2="18.1075" y2="5.715" width="0.254" layer="21"/>
+<wire x1="18.1075" y1="5.715" x2="14.986" y2="5.715" width="0.254" layer="21"/>
+<wire x1="14.986" y1="5.715" x2="-14.986" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-14.986" y1="5.715" x2="-18.1575" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-18.1575" y1="5.715" x2="-20.38" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-20.38" y1="5.715" x2="-26.095" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="14.986" y1="-5.715" x2="14.986" y2="-11.661" width="0.254" layer="21"/>
+<wire x1="14.986" y1="-11.661" x2="9.271" y2="-17.376" width="0.254" layer="21" curve="-90"/>
+<wire x1="9.271" y1="-17.376" x2="-9.271" y2="-17.376" width="0.254" layer="21"/>
+<wire x1="-9.271" y1="-17.376" x2="-14.986" y2="-11.661" width="0.254" layer="21" curve="-90"/>
+<wire x1="-14.986" y1="-11.661" x2="-14.986" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-14.986" y1="5.715" x2="-14.986" y2="11.711" width="0.254" layer="21"/>
+<wire x1="-14.986" y1="11.711" x2="-9.271" y2="17.426" width="0.254" layer="21" curve="-90"/>
+<wire x1="-9.271" y1="17.426" x2="9.271" y2="17.426" width="0.254" layer="21"/>
+<wire x1="9.271" y1="17.426" x2="14.986" y2="11.711" width="0.254" layer="21" curve="-90"/>
+<wire x1="14.986" y1="11.711" x2="14.986" y2="5.715" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-20.17" drill="1" diameter="1.6"/>
+<pad name="BLK@2" x="7.62" y="-20.17" drill="1" diameter="1.6"/>
+<pad name="GRN@1" x="-12.7" y="20.22" drill="1" diameter="1.6"/>
+<pad name="GRN@2" x="12.7" y="20.22" drill="1" diameter="1.6"/>
+<pad name="GRN/YEL" x="0" y="20.22" drill="1" diameter="1.6"/>
+<text x="-19.05" y="-20.17" size="1.27" layer="25">&gt;NAME</text>
+<text x="-14" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-18.1575" y1="5.715" x2="-18.1575" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="18.1075" y1="5.715" x2="18.1075" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="20.32" x2="-12.065" y2="20.0025" width="0.4064" layer="51"/>
+<wire x1="-12.065" y1="20.0025" x2="-9.525" y2="17.4625" width="0.4064" layer="51" curve="-36.869898"/>
+<wire x1="0" y1="20.32" x2="0" y2="19.3675" width="0.4064" layer="51"/>
+<wire x1="0" y1="19.3675" x2="-0.635" y2="17.4625" width="0.4064" layer="51" curve="-36.869898"/>
+<wire x1="12.7" y1="20.32" x2="11.43" y2="19.3675" width="0.4064" layer="51"/>
+<wire x1="11.43" y1="19.3675" x2="7.9375" y2="17.4625" width="0.4064" layer="51" curve="-16.518877"/>
+<wire x1="-7.62" y1="-20.0025" x2="-7.62" y2="-19.685" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-19.685" x2="-6.6675" y2="-17.4625" width="0.4064" layer="51" curve="-46.397195"/>
+<wire x1="7.62" y1="-20.0025" x2="7.62" y2="-19.3675" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-19.3675" x2="6.6675" y2="-17.4625" width="0.4064" layer="51" curve="53.130102"/>
+</package>
+<package name="C4H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="25.4" y="0" drill="4.7498"/>
+<hole x="-25.4" y="0" drill="4.7498"/>
+<wire x1="-30.22" y1="0" x2="-24.505" y2="-5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="-24.505" y1="-5.715" x2="-21.0125" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-21.0125" y1="-5.715" x2="-17.536" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-17.536" y1="-5.715" x2="17.536" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="17.536" y1="-5.715" x2="21.0125" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="21.0125" y1="-5.715" x2="24.505" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="24.505" y1="-5.715" x2="30.22" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="30.22" y1="0" x2="24.505" y2="5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="24.505" y1="5.715" x2="21.0125" y2="5.715" width="0.254" layer="21"/>
+<wire x1="21.0125" y1="5.715" x2="17.536" y2="5.715" width="0.254" layer="21"/>
+<wire x1="17.536" y1="5.715" x2="-17.536" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-17.536" y1="5.715" x2="-21.0125" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-21.0125" y1="5.715" x2="-24.505" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-24.505" y1="5.715" x2="-30.22" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="17.536" y1="-5.715" x2="17.536" y2="-11.661" width="0.254" layer="21"/>
+<wire x1="17.536" y1="-11.661" x2="11.821" y2="-17.376" width="0.254" layer="21" curve="-90"/>
+<wire x1="11.821" y1="-17.376" x2="-11.821" y2="-17.376" width="0.254" layer="21"/>
+<wire x1="-11.821" y1="-17.376" x2="-17.536" y2="-11.661" width="0.254" layer="21" curve="-90"/>
+<wire x1="-17.536" y1="-11.661" x2="-17.536" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-17.536" y1="5.715" x2="-17.536" y2="11.711" width="0.254" layer="21"/>
+<wire x1="-17.536" y1="11.711" x2="-11.821" y2="17.426" width="0.254" layer="21" curve="-90"/>
+<wire x1="-11.821" y1="17.426" x2="11.821" y2="17.426" width="0.254" layer="21"/>
+<wire x1="11.821" y1="17.426" x2="17.536" y2="11.711" width="0.254" layer="21" curve="-90"/>
+<wire x1="17.536" y1="11.711" x2="17.536" y2="5.715" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-20.17" drill="1" diameter="1.6"/>
+<pad name="BLK@2" x="7.62" y="-20.17" drill="1" diameter="1.6"/>
+<pad name="GRN@1" x="-12.7" y="20.22" drill="1" diameter="1.6"/>
+<pad name="GRN@2" x="12.7" y="20.22" drill="1" diameter="1.6"/>
+<pad name="GRN/YEL" x="0" y="20.22" drill="1" diameter="1.6"/>
+<text x="-19.05" y="-20.17" size="1.27" layer="25">&gt;NAME</text>
+<text x="-16.55" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-21.0125" y1="5.715" x2="-21.0125" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="21.0125" y1="5.715" x2="21.0125" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="20.32" x2="-12.065" y2="20.0025" width="0.4064" layer="51"/>
+<wire x1="-12.065" y1="20.0025" x2="-9.2075" y2="17.4625" width="0.4064" layer="51" curve="-30.136969"/>
+<wire x1="0" y1="20.32" x2="0" y2="19.685" width="0.4064" layer="51"/>
+<wire x1="0" y1="19.685" x2="-0.3175" y2="17.4625" width="0.4064" layer="51" curve="-16.260205"/>
+<wire x1="12.7" y1="20.32" x2="11.1125" y2="19.3675" width="0.4064" layer="51"/>
+<wire x1="11.1125" y1="19.3675" x2="9.2075" y2="17.4625" width="0.4064" layer="51" curve="28.072487"/>
+<wire x1="-7.62" y1="-20.0025" x2="-7.62" y2="-19.3675" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-19.3675" x2="-6.6675" y2="-17.4625" width="0.4064" layer="51" curve="-53.130102"/>
+<wire x1="7.62" y1="-20.0025" x2="7.62" y2="-19.3675" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-19.3675" x2="6.6675" y2="-17.4625" width="0.4064" layer="51" curve="53.130102"/>
+</package>
+<package name="C5H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="25.4" y="0" drill="4.7498"/>
+<hole x="-25.4" y="0" drill="4.7498"/>
+<wire x1="-30.22" y1="0" x2="-24.505" y2="-5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="-24.505" y1="-5.715" x2="-21.0125" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-21.0125" y1="-5.715" x2="-17.536" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-17.536" y1="-5.715" x2="17.536" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="17.536" y1="-5.715" x2="21.0125" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="21.0125" y1="-5.715" x2="24.505" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="24.505" y1="-5.715" x2="30.22" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="30.22" y1="0" x2="24.505" y2="5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="24.505" y1="5.715" x2="21.0125" y2="5.715" width="0.254" layer="21"/>
+<wire x1="21.0125" y1="5.715" x2="17.536" y2="5.715" width="0.254" layer="21"/>
+<wire x1="17.536" y1="5.715" x2="-17.536" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-17.536" y1="5.715" x2="-21.0125" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-21.0125" y1="5.715" x2="-24.505" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-24.505" y1="5.715" x2="-30.22" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="17.536" y1="-5.715" x2="17.536" y2="-13.211" width="0.254" layer="21"/>
+<wire x1="17.536" y1="-13.211" x2="11.821" y2="-18.926" width="0.254" layer="21" curve="-90"/>
+<wire x1="11.821" y1="-18.926" x2="-11.821" y2="-18.926" width="0.254" layer="21"/>
+<wire x1="-11.821" y1="-18.926" x2="-17.536" y2="-13.211" width="0.254" layer="21" curve="-90"/>
+<wire x1="-17.536" y1="-13.211" x2="-17.536" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-17.536" y1="5.715" x2="-17.536" y2="13.211" width="0.254" layer="21"/>
+<wire x1="-17.536" y1="13.211" x2="-11.821" y2="18.926" width="0.254" layer="21" curve="-90"/>
+<wire x1="-11.821" y1="18.926" x2="11.821" y2="18.926" width="0.254" layer="21"/>
+<wire x1="11.821" y1="18.926" x2="17.536" y2="13.211" width="0.254" layer="21" curve="-90"/>
+<wire x1="17.536" y1="13.211" x2="17.536" y2="5.715" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-21.72" drill="1" diameter="1.6"/>
+<pad name="BLK@2" x="7.62" y="-21.72" drill="1" diameter="1.6"/>
+<pad name="GRN@1" x="-12.7" y="21.72" drill="1" diameter="1.6"/>
+<pad name="GRN@2" x="12.7" y="21.72" drill="1" diameter="1.6"/>
+<pad name="GRN/YEL" x="0" y="21.72" drill="1" diameter="1.6"/>
+<text x="-19.05" y="-21.72" size="1.27" layer="25">&gt;NAME</text>
+<text x="-16.55" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-21.0125" y1="5.715" x2="-21.0125" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="21.0125" y1="5.715" x2="21.0125" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="21.59" x2="-11.1125" y2="20.955" width="0.4064" layer="51"/>
+<wire x1="-11.1125" y1="20.955" x2="-9.2075" y2="19.05" width="0.4064" layer="51" curve="-46.397181"/>
+<wire x1="0" y1="21.59" x2="0" y2="20.6375" width="0.4064" layer="51"/>
+<wire x1="0" y1="20.6375" x2="-0.635" y2="19.05" width="0.4064" layer="51" curve="-43.602819"/>
+<wire x1="12.7" y1="21.59" x2="10.4775" y2="20.32" width="0.4064" layer="51"/>
+<wire x1="10.4775" y1="20.32" x2="8.89" y2="19.05" width="0.4064" layer="51" curve="17.829854"/>
+<wire x1="-7.62" y1="-21.59" x2="-7.62" y2="-20.955" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-20.955" x2="-6.6675" y2="-19.05" width="0.4064" layer="51" curve="-53.130102"/>
+<wire x1="7.62" y1="-21.59" x2="7.62" y2="-20.955" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-20.955" x2="6.35" y2="-19.05" width="0.4064" layer="51" curve="67.380135"/>
+</package>
+<package name="C6H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="30.226" y="0" drill="4.7498"/>
+<hole x="-30.226" y="0" drill="4.7498"/>
+<wire x1="-35.695" y1="0" x2="-29.98" y2="-5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="-29.98" y1="-5.715" x2="-26.4875" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-26.4875" y1="-5.715" x2="-19.061" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-19.061" y1="-5.715" x2="19.036" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="19.036" y1="-5.715" x2="26.4625" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="26.4625" y1="-5.715" x2="29.955" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="29.955" y1="-5.715" x2="35.67" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="35.67" y1="0" x2="29.955" y2="5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="29.955" y1="5.715" x2="26.4625" y2="5.715" width="0.254" layer="21"/>
+<wire x1="26.4625" y1="5.715" x2="19.036" y2="5.715" width="0.254" layer="21"/>
+<wire x1="19.036" y1="5.715" x2="-19.061" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-19.061" y1="5.715" x2="-26.4875" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-26.4875" y1="5.715" x2="-29.98" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-29.98" y1="5.715" x2="-35.695" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="19.036" y1="-5.715" x2="19.036" y2="-13.211" width="0.254" layer="21"/>
+<wire x1="19.036" y1="-13.211" x2="13.321" y2="-18.926" width="0.254" layer="21" curve="-90"/>
+<wire x1="13.321" y1="-18.926" x2="-13.346" y2="-18.926" width="0.254" layer="21"/>
+<wire x1="-13.346" y1="-18.926" x2="-19.061" y2="-13.211" width="0.254" layer="21" curve="-90"/>
+<wire x1="-19.061" y1="-13.211" x2="-19.061" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-19.061" y1="5.715" x2="-19.061" y2="13.211" width="0.254" layer="21"/>
+<wire x1="-19.061" y1="13.211" x2="-13.346" y2="18.926" width="0.254" layer="21" curve="-90"/>
+<wire x1="-13.346" y1="18.926" x2="13.321" y2="18.926" width="0.254" layer="21"/>
+<wire x1="13.321" y1="18.926" x2="19.036" y2="13.211" width="0.254" layer="21" curve="-90"/>
+<wire x1="19.036" y1="13.211" x2="19.036" y2="5.715" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-21.72" drill="1" diameter="1.6"/>
+<pad name="BLK@2" x="7.62" y="-21.72" drill="1" diameter="1.6"/>
+<pad name="GRN@1" x="-12.7" y="21.72" drill="1" diameter="1.6"/>
+<pad name="GRN@2" x="12.7" y="21.72" drill="1" diameter="1.6"/>
+<pad name="GRN/YEL" x="0" y="21.72" drill="1" diameter="1.6"/>
+<text x="-19.05" y="-21.72" size="1.27" layer="25">&gt;NAME</text>
+<text x="-18.075" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-26.4875" y1="5.715" x2="-26.4875" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="26.4625" y1="5.715" x2="26.4625" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="21.59" x2="-11.43" y2="20.955" width="0.4064" layer="51"/>
+<wire x1="-11.43" y1="20.955" x2="-8.89" y2="19.05" width="0.4064" layer="51" curve="-20.609693"/>
+<wire x1="0" y1="21.9075" x2="0" y2="21.2725" width="0.4064" layer="51"/>
+<wire x1="0" y1="21.2725" x2="-0.9525" y2="19.05" width="0.4064" layer="51" curve="-46.397195"/>
+<wire x1="12.7" y1="21.59" x2="11.43" y2="20.955" width="0.4064" layer="51"/>
+<wire x1="11.43" y1="20.955" x2="8.5725" y2="19.05" width="0.4064" layer="51" curve="14.250033"/>
+<wire x1="-7.62" y1="-21.59" x2="-7.62" y2="-20.955" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-20.955" x2="-6.985" y2="-19.05" width="0.4064" layer="51" curve="-36.869898"/>
+<wire x1="7.62" y1="-21.59" x2="7.62" y2="-20.955" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-20.955" x2="6.35" y2="-19.05" width="0.4064" layer="51" curve="67.380135"/>
+</package>
+<package name="C7H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="30.226" y="0" drill="4.7498"/>
+<hole x="-30.226" y="0" drill="4.7498"/>
+<wire x1="-35.695" y1="0" x2="-29.98" y2="-5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="-29.98" y1="-5.715" x2="-26.4875" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-26.4875" y1="-5.715" x2="-20.711" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-20.711" y1="-5.715" x2="20.686" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="20.686" y1="-5.715" x2="26.4625" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="26.4625" y1="-5.715" x2="29.955" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="29.955" y1="-5.715" x2="35.67" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="35.67" y1="0" x2="29.955" y2="5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="29.955" y1="5.715" x2="26.4625" y2="5.715" width="0.254" layer="21"/>
+<wire x1="26.4625" y1="5.715" x2="20.686" y2="5.715" width="0.254" layer="21"/>
+<wire x1="20.686" y1="5.715" x2="-20.711" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-20.711" y1="5.715" x2="-26.4875" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-26.4875" y1="5.715" x2="-29.98" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-29.98" y1="5.715" x2="-35.695" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="20.686" y1="-5.715" x2="20.686" y2="-14.986" width="0.254" layer="21"/>
+<wire x1="20.686" y1="-14.986" x2="14.971" y2="-20.701" width="0.254" layer="21" curve="-90"/>
+<wire x1="14.971" y1="-20.701" x2="-14.996" y2="-20.701" width="0.254" layer="21"/>
+<wire x1="-14.996" y1="-20.701" x2="-20.711" y2="-14.986" width="0.254" layer="21" curve="-90"/>
+<wire x1="-20.711" y1="-14.986" x2="-20.711" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-20.711" y1="5.715" x2="-20.711" y2="14.986" width="0.254" layer="21"/>
+<wire x1="-20.711" y1="14.986" x2="-14.996" y2="20.701" width="0.254" layer="21" curve="-90"/>
+<wire x1="-14.996" y1="20.701" x2="14.971" y2="20.701" width="0.254" layer="21"/>
+<wire x1="14.971" y1="20.701" x2="20.686" y2="14.986" width="0.254" layer="21" curve="-90"/>
+<wire x1="20.686" y1="14.986" x2="20.686" y2="5.715" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-23.495" drill="1.4" diameter="2.2"/>
+<pad name="BLK@2" x="7.62" y="-23.495" drill="1.4" diameter="2.2"/>
+<pad name="GRN@1" x="-12.7" y="23.495" drill="1.4" diameter="2.2"/>
+<pad name="GRN@2" x="12.7" y="23.495" drill="1.4" diameter="2.2"/>
+<pad name="GRN/YEL" x="0" y="23.495" drill="1.4" diameter="2.2"/>
+<text x="-20.7" y="-23.495" size="1.27" layer="25">&gt;NAME</text>
+<text x="-19.725" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-26.4875" y1="5.715" x2="-26.4875" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="26.4625" y1="5.715" x2="26.4625" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="23.495" x2="-11.7475" y2="23.1775" width="0.4064" layer="51"/>
+<wire x1="-11.7475" y1="23.1775" x2="-9.525" y2="20.955" width="0.4064" layer="51" curve="-53.130102"/>
+<wire x1="0" y1="23.495" x2="0" y2="22.5425" width="0.4064" layer="51"/>
+<wire x1="0" y1="22.5425" x2="-0.3175" y2="20.6375" width="0.4064" layer="51" curve="-18.924644"/>
+<wire x1="12.7" y1="23.495" x2="10.795" y2="22.5425" width="0.4064" layer="51"/>
+<wire x1="10.795" y1="22.5425" x2="8.89" y2="20.6375" width="0.4064" layer="51" curve="36.869898"/>
+<wire x1="-7.62" y1="-23.1775" x2="-7.62" y2="-22.86" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-22.86" x2="-6.6675" y2="-20.955" width="0.4064" layer="51" curve="-53.130102"/>
+<wire x1="7.62" y1="-23.495" x2="7.62" y2="-22.5425" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-22.5425" x2="6.6675" y2="-20.955" width="0.4064" layer="51" curve="61.927542"/>
+</package>
+<package name="C8H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="35.687" y="0" drill="4.7498"/>
+<hole x="-35.687" y="0" drill="4.7498"/>
+<wire x1="-41.295" y1="0" x2="-35.58" y2="-5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="-35.58" y1="-5.715" x2="-29.5475" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-29.5475" y1="-5.715" x2="-20.711" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-20.711" y1="-5.715" x2="20.686" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="20.686" y1="-5.715" x2="29.5225" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="29.5225" y1="-5.715" x2="35.555" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="35.555" y1="-5.715" x2="41.27" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="41.27" y1="0" x2="35.555" y2="5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="35.555" y1="5.715" x2="29.5225" y2="5.715" width="0.254" layer="21"/>
+<wire x1="29.5225" y1="5.715" x2="20.686" y2="5.715" width="0.254" layer="21"/>
+<wire x1="20.686" y1="5.715" x2="-20.711" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-20.711" y1="5.715" x2="-29.5475" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-29.5475" y1="5.715" x2="-35.58" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-35.58" y1="5.715" x2="-41.295" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="20.686" y1="-5.715" x2="20.686" y2="-14.986" width="0.254" layer="21"/>
+<wire x1="20.686" y1="-14.986" x2="14.971" y2="-20.701" width="0.254" layer="21" curve="-90"/>
+<wire x1="14.971" y1="-20.701" x2="-14.996" y2="-20.701" width="0.254" layer="21"/>
+<wire x1="-14.996" y1="-20.701" x2="-20.711" y2="-14.986" width="0.254" layer="21" curve="-90"/>
+<wire x1="-20.711" y1="-14.986" x2="-20.711" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-20.711" y1="5.715" x2="-20.711" y2="14.986" width="0.254" layer="21"/>
+<wire x1="-20.711" y1="14.986" x2="-14.996" y2="20.701" width="0.254" layer="21" curve="-90"/>
+<wire x1="-14.996" y1="20.701" x2="14.971" y2="20.701" width="0.254" layer="21"/>
+<wire x1="14.971" y1="20.701" x2="20.686" y2="14.986" width="0.254" layer="21" curve="-90"/>
+<wire x1="20.686" y1="14.986" x2="20.686" y2="5.715" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-23.495" drill="1.4" diameter="2.2"/>
+<pad name="BLK@2" x="7.62" y="-23.495" drill="1.4" diameter="2.2"/>
+<pad name="GRN@1" x="-12.7" y="23.495" drill="1.4" diameter="2.2"/>
+<pad name="GRN@2" x="12.7" y="23.495" drill="1.4" diameter="2.2"/>
+<pad name="GRN/YEL" x="0" y="23.495" drill="1.4" diameter="2.2"/>
+<text x="-20.7" y="-23.495" size="1.27" layer="25">&gt;NAME</text>
+<text x="-19.725" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-29.5475" y1="5.715" x2="-29.5475" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="29.5225" y1="5.715" x2="29.5225" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="23.495" x2="-11.43" y2="22.86" width="0.4064" layer="51"/>
+<wire x1="-11.43" y1="22.86" x2="-8.89" y2="20.6375" width="0.4064" layer="51" curve="-29.241758"/>
+<wire x1="0" y1="23.495" x2="0" y2="23.1775" width="0.4064" layer="51"/>
+<wire x1="0" y1="23.1775" x2="-0.9525" y2="20.6375" width="0.4064" layer="51" curve="-41.112101"/>
+<wire x1="12.7" y1="23.495" x2="10.795" y2="22.86" width="0.4064" layer="51"/>
+<wire x1="10.795" y1="22.86" x2="8.255" y2="20.6375" width="0.4064" layer="51" curve="45.501974"/>
+<wire x1="-7.62" y1="-23.495" x2="-7.62" y2="-23.1775" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-23.1775" x2="-6.6675" y2="-20.6375" width="0.4064" layer="51" curve="-41.112101"/>
+<wire x1="7.62" y1="-23.495" x2="7.62" y2="-22.86" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-22.86" x2="6.35" y2="-20.6375" width="0.4064" layer="51" curve="59.489763"/>
+</package>
+<package name="C9H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="35.687" y="0" drill="4.7498"/>
+<hole x="-35.687" y="0" drill="4.7498"/>
+<wire x1="-41.295" y1="0" x2="-35.58" y2="-5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="-35.58" y1="-5.715" x2="-29.5475" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-29.5475" y1="-5.715" x2="-22.236" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-22.236" y1="-5.715" x2="22.211" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="22.211" y1="-5.715" x2="29.5225" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="29.5225" y1="-5.715" x2="35.555" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="35.555" y1="-5.715" x2="41.27" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="41.27" y1="0" x2="35.555" y2="5.715" width="0.254" layer="21" curve="90"/>
+<wire x1="35.555" y1="5.715" x2="29.5225" y2="5.715" width="0.254" layer="21"/>
+<wire x1="29.5225" y1="5.715" x2="22.211" y2="5.715" width="0.254" layer="21"/>
+<wire x1="22.211" y1="5.715" x2="-22.236" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-22.236" y1="5.715" x2="-29.5475" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-29.5475" y1="5.715" x2="-35.58" y2="5.715" width="0.254" layer="21"/>
+<wire x1="-35.58" y1="5.715" x2="-41.295" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="22.211" y1="-5.715" x2="22.211" y2="-16.511" width="0.254" layer="21"/>
+<wire x1="22.211" y1="-16.511" x2="16.496" y2="-22.226" width="0.254" layer="21" curve="-90"/>
+<wire x1="16.496" y1="-22.226" x2="-16.521" y2="-22.226" width="0.254" layer="21"/>
+<wire x1="-16.521" y1="-22.226" x2="-22.236" y2="-16.511" width="0.254" layer="21" curve="-90"/>
+<wire x1="-22.236" y1="-16.511" x2="-22.236" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-22.236" y1="5.715" x2="-22.236" y2="16.511" width="0.254" layer="21"/>
+<wire x1="-22.236" y1="16.511" x2="-16.521" y2="22.226" width="0.254" layer="21" curve="-90"/>
+<wire x1="-16.521" y1="22.226" x2="16.496" y2="22.226" width="0.254" layer="21"/>
+<wire x1="16.496" y1="22.226" x2="22.211" y2="16.511" width="0.254" layer="21" curve="-90"/>
+<wire x1="22.211" y1="16.511" x2="22.211" y2="5.715" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-25.02" drill="1.4" diameter="2.2"/>
+<pad name="BLK@2" x="7.62" y="-25.02" drill="1.4" diameter="2.2"/>
+<pad name="GRN@1" x="-12.7" y="25.02" drill="1.4" diameter="2.2"/>
+<pad name="GRN@2" x="12.7" y="25.02" drill="1.4" diameter="2.2"/>
+<pad name="GRN/YEL" x="0" y="25.02" drill="1.4" diameter="2.2"/>
+<text x="-20.7" y="-25.02" size="1.27" layer="25">&gt;NAME</text>
+<text x="-21.25" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-29.5475" y1="5.715" x2="-29.5475" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="29.5225" y1="5.715" x2="29.5225" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="25.0825" x2="-11.7475" y2="24.765" width="0.4064" layer="51"/>
+<wire x1="-11.7475" y1="24.765" x2="-9.2075" y2="22.225" width="0.4064" layer="51" curve="-53.130102"/>
+<wire x1="0" y1="25.0825" x2="0" y2="24.4475" width="0.4064" layer="51"/>
+<wire x1="0" y1="24.4475" x2="-1.27" y2="22.225" width="0.4064" layer="51" curve="-59.489763"/>
+<wire x1="12.7" y1="25.0825" x2="10.795" y2="24.4475" width="0.4064" layer="51"/>
+<wire x1="10.795" y1="24.4475" x2="7.9375" y2="22.225" width="0.4064" layer="51" curve="38.880091"/>
+<wire x1="-7.62" y1="-24.765" x2="-7.62" y2="-24.4475" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-24.4475" x2="-6.6675" y2="-22.225" width="0.4064" layer="51" curve="-46.397195"/>
+<wire x1="7.62" y1="-25.0825" x2="7.62" y2="-24.4475" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-24.4475" x2="6.0325" y2="-22.225" width="0.4064" layer="51" curve="71.075356"/>
+</package>
+<package name="C10H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="35.687" y="0" drill="4.7498"/>
+<hole x="-35.687" y="0" drill="4.7498"/>
+<wire x1="-41.295" y1="0" x2="-33.04" y2="-8.255" width="0.254" layer="21" curve="90"/>
+<wire x1="-33.04" y1="-8.255" x2="-29.5475" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-29.5475" y1="-8.255" x2="-22.236" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-22.236" y1="-8.255" x2="22.211" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="22.211" y1="-8.255" x2="29.5225" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="29.5225" y1="-8.255" x2="33.015" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="33.015" y1="-8.255" x2="41.27" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="41.27" y1="0" x2="33.015" y2="8.255" width="0.254" layer="21" curve="90"/>
+<wire x1="33.015" y1="8.255" x2="29.5225" y2="8.255" width="0.254" layer="21"/>
+<wire x1="29.5225" y1="8.255" x2="22.211" y2="8.255" width="0.254" layer="21"/>
+<wire x1="22.211" y1="8.255" x2="-22.236" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-22.236" y1="8.255" x2="-29.5475" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-29.5475" y1="8.255" x2="-33.04" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-33.04" y1="8.255" x2="-41.295" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="22.211" y1="-8.255" x2="22.211" y2="-19.686" width="0.254" layer="21"/>
+<wire x1="22.211" y1="-19.686" x2="16.496" y2="-25.401" width="0.254" layer="21" curve="-90"/>
+<wire x1="16.496" y1="-25.401" x2="-16.521" y2="-25.401" width="0.254" layer="21"/>
+<wire x1="-16.521" y1="-25.401" x2="-22.236" y2="-19.686" width="0.254" layer="21" curve="-90"/>
+<wire x1="-22.236" y1="-19.686" x2="-22.236" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-22.236" y1="8.255" x2="-22.236" y2="19.686" width="0.254" layer="21"/>
+<wire x1="-22.236" y1="19.686" x2="-16.521" y2="25.401" width="0.254" layer="21" curve="-90"/>
+<wire x1="-16.521" y1="25.401" x2="16.496" y2="25.401" width="0.254" layer="21"/>
+<wire x1="16.496" y1="25.401" x2="22.211" y2="19.686" width="0.254" layer="21" curve="-90"/>
+<wire x1="22.211" y1="19.686" x2="22.211" y2="8.255" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-28.195" drill="1.4" diameter="2.2"/>
+<pad name="BLK@2" x="7.62" y="-28.195" drill="1.4" diameter="2.2"/>
+<pad name="GRN@1" x="-12.7" y="28.195" drill="1.4" diameter="2.2"/>
+<pad name="GRN@2" x="12.7" y="28.195" drill="1.4" diameter="2.2"/>
+<pad name="GRN/YEL" x="0" y="28.195" drill="1.4" diameter="2.2"/>
+<text x="-20.7" y="-28.195" size="1.27" layer="25">&gt;NAME</text>
+<text x="-21.25" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-29.5475" y1="8.255" x2="-29.5475" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="29.5225" y1="8.255" x2="29.5225" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="28.2575" x2="-11.7475" y2="27.6225" width="0.4064" layer="51"/>
+<wire x1="-11.7475" y1="27.6225" x2="-10.16" y2="25.4" width="0.4064" layer="51" curve="-41.544495"/>
+<wire x1="0" y1="28.2575" x2="0" y2="27.94" width="0.4064" layer="51"/>
+<wire x1="0" y1="27.94" x2="-0.635" y2="25.4" width="0.4064" layer="51" curve="-28.072487"/>
+<wire x1="12.7" y1="28.2575" x2="11.7475" y2="27.94" width="0.4064" layer="51"/>
+<wire x1="11.7475" y1="27.94" x2="9.2075" y2="25.4" width="0.4064" layer="51" curve="53.130102"/>
+<wire x1="-7.62" y1="-27.94" x2="-7.62" y2="-27.6225" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-27.6225" x2="-6.6675" y2="-25.4" width="0.4064" layer="51" curve="-46.397195"/>
+<wire x1="7.62" y1="-28.2575" x2="7.62" y2="-27.6225" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-27.6225" x2="6.0325" y2="-25.4" width="0.4064" layer="51" curve="71.075356"/>
+</package>
+<package name="C11H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="39.751" y="0" drill="4.7498"/>
+<hole x="-39.751" y="0" drill="4.7498"/>
+<wire x1="-46.87" y1="0" x2="-38.615" y2="-8.255" width="0.254" layer="21" curve="90"/>
+<wire x1="-38.615" y1="-8.255" x2="-35.1225" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-35.1225" y1="-8.255" x2="-23.886" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-23.886" y1="-8.255" x2="23.886" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="23.886" y1="-8.255" x2="35.0975" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="35.0975" y1="-8.255" x2="38.59" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="38.59" y1="-8.255" x2="46.845" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="46.845" y1="0" x2="38.59" y2="8.255" width="0.254" layer="21" curve="90"/>
+<wire x1="38.59" y1="8.255" x2="35.0975" y2="8.255" width="0.254" layer="21"/>
+<wire x1="35.0975" y1="8.255" x2="23.886" y2="8.255" width="0.254" layer="21"/>
+<wire x1="23.886" y1="8.255" x2="-23.886" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-23.886" y1="8.255" x2="-35.1225" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-35.1225" y1="8.255" x2="-38.615" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-38.615" y1="8.255" x2="-46.87" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="23.886" y1="-8.255" x2="23.886" y2="-18.161" width="0.254" layer="21"/>
+<wire x1="23.886" y1="-18.161" x2="18.171" y2="-23.876" width="0.254" layer="21" curve="-90"/>
+<wire x1="18.171" y1="-23.876" x2="-18.171" y2="-23.876" width="0.254" layer="21"/>
+<wire x1="-18.171" y1="-23.876" x2="-23.886" y2="-18.161" width="0.254" layer="21" curve="-90"/>
+<wire x1="-23.886" y1="-18.161" x2="-23.886" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-23.886" y1="8.255" x2="-23.886" y2="18.161" width="0.254" layer="21"/>
+<wire x1="-23.886" y1="18.161" x2="-18.171" y2="23.876" width="0.254" layer="21" curve="-90"/>
+<wire x1="-18.171" y1="23.876" x2="18.171" y2="23.876" width="0.254" layer="21"/>
+<wire x1="18.171" y1="23.876" x2="23.886" y2="18.161" width="0.254" layer="21" curve="-90"/>
+<wire x1="23.886" y1="18.161" x2="23.886" y2="8.255" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-26.67" drill="1.6" diameter="2.5"/>
+<pad name="BLK@2" x="7.62" y="-26.67" drill="1.6" diameter="2.5"/>
+<pad name="GRN@1" x="-12.7" y="26.67" drill="1.6" diameter="2.5"/>
+<pad name="GRN@2" x="12.7" y="26.67" drill="1.6" diameter="2.5"/>
+<pad name="GRN/YEL" x="0" y="26.67" drill="1.6" diameter="2.5"/>
+<text x="-20.7" y="-26.67" size="1.27" layer="25">&gt;NAME</text>
+<text x="-22.9" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-35.1225" y1="8.255" x2="-35.1225" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="35.0975" y1="8.255" x2="35.0975" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="26.67" x2="-11.1125" y2="26.035" width="0.4064" layer="51"/>
+<wire x1="-11.1125" y1="26.035" x2="-8.89" y2="23.8125" width="0.4064" layer="51" curve="-46.397198"/>
+<wire x1="0" y1="26.67" x2="0" y2="26.035" width="0.4064" layer="51"/>
+<wire x1="0" y1="26.035" x2="-0.635" y2="23.8125" width="0.4064" layer="51" curve="-31.890792"/>
+<wire x1="12.7" y1="26.67" x2="10.795" y2="25.7175" width="0.4064" layer="51"/>
+<wire x1="10.795" y1="25.7175" x2="9.2075" y2="23.8125" width="0.4064" layer="51" curve="47.258728"/>
+<wire x1="-7.62" y1="-26.67" x2="-7.62" y2="-26.035" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-26.035" x2="-6.35" y2="-23.8125" width="0.4064" layer="51" curve="-59.489763"/>
+<wire x1="7.62" y1="-26.67" x2="7.62" y2="-26.035" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-26.035" x2="6.0325" y2="-23.8125" width="0.4064" layer="51" curve="71.075356"/>
+</package>
+<package name="C12H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="39.751" y="0" drill="4.7498"/>
+<hole x="-39.751" y="0" drill="4.7498"/>
+<wire x1="-46.87" y1="0" x2="-38.615" y2="-8.255" width="0.254" layer="21" curve="90"/>
+<wire x1="-38.615" y1="-8.255" x2="-35.1225" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-35.1225" y1="-8.255" x2="-25.411" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-25.411" y1="-8.255" x2="25.386" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="25.386" y1="-8.255" x2="35.0975" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="35.0975" y1="-8.255" x2="38.59" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="38.59" y1="-8.255" x2="46.845" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="46.845" y1="0" x2="38.59" y2="8.255" width="0.254" layer="21" curve="90"/>
+<wire x1="38.59" y1="8.255" x2="35.0975" y2="8.255" width="0.254" layer="21"/>
+<wire x1="35.0975" y1="8.255" x2="25.386" y2="8.255" width="0.254" layer="21"/>
+<wire x1="25.386" y1="8.255" x2="-25.411" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-25.411" y1="8.255" x2="-35.1225" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-35.1225" y1="8.255" x2="-38.615" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-38.615" y1="8.255" x2="-46.87" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="25.386" y1="-8.255" x2="25.386" y2="-19.686" width="0.254" layer="21"/>
+<wire x1="25.386" y1="-19.686" x2="19.671" y2="-25.401" width="0.254" layer="21" curve="-90"/>
+<wire x1="19.671" y1="-25.401" x2="-19.696" y2="-25.401" width="0.254" layer="21"/>
+<wire x1="-19.696" y1="-25.401" x2="-25.411" y2="-19.686" width="0.254" layer="21" curve="-90"/>
+<wire x1="-25.411" y1="-19.686" x2="-25.411" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-25.411" y1="8.255" x2="-25.411" y2="19.686" width="0.254" layer="21"/>
+<wire x1="-25.411" y1="19.686" x2="-19.696" y2="25.401" width="0.254" layer="21" curve="-90"/>
+<wire x1="-19.696" y1="25.401" x2="19.671" y2="25.401" width="0.254" layer="21"/>
+<wire x1="19.671" y1="25.401" x2="25.386" y2="19.686" width="0.254" layer="21" curve="-90"/>
+<wire x1="25.386" y1="19.686" x2="25.386" y2="8.255" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-28.195" drill="1.6" diameter="2.5"/>
+<pad name="BLK@2" x="7.62" y="-28.195" drill="1.6" diameter="2.5"/>
+<pad name="GRN@1" x="-12.7" y="28.195" drill="1.6" diameter="2.5"/>
+<pad name="GRN@2" x="12.7" y="28.195" drill="1.6" diameter="2.5"/>
+<pad name="GRN/YEL" x="0" y="28.195" drill="1.6" diameter="2.5"/>
+<text x="-20.7" y="-28.195" size="1.27" layer="25">&gt;NAME</text>
+<text x="-24.425" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-35.1225" y1="8.255" x2="-35.1225" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="35.0975" y1="8.255" x2="35.0975" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="28.2575" x2="-11.43" y2="27.94" width="0.4064" layer="51"/>
+<wire x1="-11.43" y1="27.94" x2="-8.5725" y2="25.4" width="0.4064" layer="51" curve="-55.194573"/>
+<wire x1="0" y1="28.2575" x2="0" y2="27.94" width="0.4064" layer="51"/>
+<wire x1="0" y1="27.94" x2="-0.635" y2="25.4" width="0.4064" layer="51" curve="-28.072487"/>
+<wire x1="12.7" y1="28.2575" x2="11.1125" y2="27.6225" width="0.4064" layer="51"/>
+<wire x1="11.1125" y1="27.6225" x2="8.89" y2="25.4" width="0.4064" layer="51" curve="46.397198"/>
+<wire x1="-7.62" y1="-27.94" x2="-7.62" y2="-27.6225" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-27.6225" x2="-6.0325" y2="-25.4" width="0.4064" layer="51" curve="-71.075356"/>
+<wire x1="7.62" y1="-27.94" x2="7.62" y2="-27.305" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-27.305" x2="6.35" y2="-25.4" width="0.4064" layer="51" curve="67.380135"/>
+</package>
+<package name="C13H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="39.751" y="0" drill="4.7498"/>
+<hole x="-39.751" y="0" drill="4.7498"/>
+<wire x1="-46.87" y1="0" x2="-38.615" y2="-8.255" width="0.254" layer="21" curve="90"/>
+<wire x1="-38.615" y1="-8.255" x2="-35.1225" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-35.1225" y1="-8.255" x2="-27.062" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-27.062" y1="-8.255" x2="27.037" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="27.037" y1="-8.255" x2="35.0975" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="35.0975" y1="-8.255" x2="38.59" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="38.59" y1="-8.255" x2="46.845" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="46.845" y1="0" x2="38.59" y2="8.255" width="0.254" layer="21" curve="90"/>
+<wire x1="38.59" y1="8.255" x2="35.0975" y2="8.255" width="0.254" layer="21"/>
+<wire x1="35.0975" y1="8.255" x2="27.037" y2="8.255" width="0.254" layer="21"/>
+<wire x1="27.037" y1="8.255" x2="-27.062" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-27.062" y1="8.255" x2="-35.1225" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-35.1225" y1="8.255" x2="-38.615" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-38.615" y1="8.255" x2="-46.87" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="27.037" y1="-8.255" x2="27.037" y2="-21.337" width="0.254" layer="21"/>
+<wire x1="27.037" y1="-21.337" x2="21.322" y2="-27.052" width="0.254" layer="21" curve="-90"/>
+<wire x1="21.322" y1="-27.052" x2="-21.347" y2="-27.052" width="0.254" layer="21"/>
+<wire x1="-21.347" y1="-27.052" x2="-27.062" y2="-21.337" width="0.254" layer="21" curve="-90"/>
+<wire x1="-27.062" y1="-21.337" x2="-27.062" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-27.062" y1="8.255" x2="-27.062" y2="21.337" width="0.254" layer="21"/>
+<wire x1="-27.062" y1="21.337" x2="-21.347" y2="27.052" width="0.254" layer="21" curve="-90"/>
+<wire x1="-21.347" y1="27.052" x2="21.322" y2="27.052" width="0.254" layer="21"/>
+<wire x1="21.322" y1="27.052" x2="27.037" y2="21.337" width="0.254" layer="21" curve="-90"/>
+<wire x1="27.037" y1="21.337" x2="27.037" y2="8.255" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-29.846" drill="1.6" diameter="2.5"/>
+<pad name="BLK@2" x="7.62" y="-29.846" drill="1.6" diameter="2.5"/>
+<pad name="GRN@1" x="-12.7" y="29.846" drill="1.6" diameter="2.5"/>
+<pad name="GRN@2" x="12.7" y="29.846" drill="1.6" diameter="2.5"/>
+<pad name="GRN/YEL" x="0" y="29.846" drill="1.6" diameter="2.5"/>
+<text x="-20.7" y="-29.846" size="1.27" layer="25">&gt;NAME</text>
+<text x="-26.076" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-35.1225" y1="8.255" x2="-35.1225" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="35.0975" y1="8.255" x2="35.0975" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="29.845" x2="-11.7475" y2="29.5275" width="0.4064" layer="51"/>
+<wire x1="-11.7475" y1="29.5275" x2="-9.2075" y2="27.305" width="0.4064" layer="51" curve="-45.501974"/>
+<wire x1="0" y1="29.845" x2="0" y2="29.21" width="0.4064" layer="51"/>
+<wire x1="0" y1="29.21" x2="-0.9525" y2="27.305" width="0.4064" layer="51" curve="-53.130102"/>
+<wire x1="12.7" y1="29.845" x2="11.1125" y2="29.5275" width="0.4064" layer="51"/>
+<wire x1="11.1125" y1="29.5275" x2="8.5725" y2="27.305" width="0.4064" layer="51" curve="59.75208"/>
+<wire x1="-7.62" y1="-29.845" x2="-7.62" y2="-29.5275" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-29.5275" x2="-6.35" y2="-26.9875" width="0.4064" layer="51" curve="-53.130102"/>
+<wire x1="7.62" y1="-29.845" x2="7.62" y2="-29.21" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-29.21" x2="6.0325" y2="-26.9875" width="0.4064" layer="51" curve="71.075356"/>
+</package>
+<package name="C14H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="45.212" y="0" drill="4.7498"/>
+<hole x="-45.212" y="0" drill="4.7498"/>
+<wire x1="-51.17" y1="0" x2="-42.915" y2="-8.255" width="0.254" layer="21" curve="90"/>
+<wire x1="-42.915" y1="-8.255" x2="-39.4225" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-39.4225" y1="-8.255" x2="-28.459" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-28.459" y1="-8.255" x2="28.434" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="28.434" y1="-8.255" x2="39.4475" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="39.4475" y1="-8.255" x2="42.94" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="42.94" y1="-8.255" x2="51.195" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="51.195" y1="0" x2="42.94" y2="8.255" width="0.254" layer="21" curve="90"/>
+<wire x1="42.94" y1="8.255" x2="39.4475" y2="8.255" width="0.254" layer="21"/>
+<wire x1="39.4475" y1="8.255" x2="28.434" y2="8.255" width="0.254" layer="21"/>
+<wire x1="28.434" y1="8.255" x2="-28.459" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-28.459" y1="8.255" x2="-39.4225" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-39.4225" y1="8.255" x2="-42.915" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-42.915" y1="8.255" x2="-51.17" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="28.434" y1="-8.255" x2="28.434" y2="-22.734" width="0.254" layer="21"/>
+<wire x1="28.434" y1="-22.734" x2="22.719" y2="-28.449" width="0.254" layer="21" curve="-90"/>
+<wire x1="22.719" y1="-28.449" x2="-22.744" y2="-28.449" width="0.254" layer="21"/>
+<wire x1="-22.744" y1="-28.449" x2="-28.459" y2="-22.734" width="0.254" layer="21" curve="-90"/>
+<wire x1="-28.459" y1="-22.734" x2="-28.459" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-28.459" y1="8.255" x2="-28.459" y2="22.734" width="0.254" layer="21"/>
+<wire x1="-28.459" y1="22.734" x2="-22.744" y2="28.449" width="0.254" layer="21" curve="-90"/>
+<wire x1="-22.744" y1="28.449" x2="22.719" y2="28.449" width="0.254" layer="21"/>
+<wire x1="22.719" y1="28.449" x2="28.434" y2="22.734" width="0.254" layer="21" curve="-90"/>
+<wire x1="28.434" y1="22.734" x2="28.434" y2="8.255" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-31.243" drill="1.6" diameter="2.5"/>
+<pad name="BLK@2" x="7.62" y="-31.243" drill="1.6" diameter="2.5"/>
+<pad name="GRN@1" x="-12.7" y="31.243" drill="1.6" diameter="2.5"/>
+<pad name="GRN@2" x="12.7" y="31.243" drill="1.6" diameter="2.5"/>
+<pad name="GRN/YEL" x="0" y="31.243" drill="1.6" diameter="2.5"/>
+<text x="-20.7" y="-31.243" size="1.27" layer="25">&gt;NAME</text>
+<text x="-27.473" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-39.4225" y1="8.255" x2="-39.4225" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="39.4475" y1="8.255" x2="39.4475" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="31.115" x2="-11.43" y2="30.7975" width="0.4064" layer="51"/>
+<wire x1="-11.43" y1="30.7975" x2="-9.2075" y2="28.575" width="0.4064" layer="51" curve="-61.927442"/>
+<wire x1="0" y1="31.115" x2="0" y2="30.7975" width="0.4064" layer="51"/>
+<wire x1="0" y1="30.7975" x2="-0.635" y2="28.575" width="0.4064" layer="51" curve="-31.890792"/>
+<wire x1="12.7" y1="31.4325" x2="11.43" y2="30.7975" width="0.4064" layer="51"/>
+<wire x1="11.43" y1="30.7975" x2="9.525" y2="28.575" width="0.4064" layer="51" curve="45.667308"/>
+<wire x1="-7.62" y1="-31.115" x2="-7.62" y2="-30.48" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-30.48" x2="-6.985" y2="-28.575" width="0.4064" layer="51" curve="-36.869898"/>
+<wire x1="7.62" y1="-31.4325" x2="7.62" y2="-30.7975" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-30.7975" x2="6.35" y2="-28.575" width="0.4064" layer="51" curve="59.489763"/>
+</package>
+<package name="C15H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="45.212" y="0" drill="4.7498"/>
+<hole x="-45.212" y="0" drill="4.7498"/>
+<wire x1="-51.17" y1="0" x2="-42.915" y2="-8.255" width="0.254" layer="21" curve="90"/>
+<wire x1="-42.915" y1="-8.255" x2="-39.4225" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-39.4225" y1="-8.255" x2="-31.634" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-31.634" y1="-8.255" x2="31.609" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="31.609" y1="-8.255" x2="39.4475" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="39.4475" y1="-8.255" x2="42.94" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="42.94" y1="-8.255" x2="51.195" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="51.195" y1="0" x2="42.94" y2="8.255" width="0.254" layer="21" curve="90"/>
+<wire x1="42.94" y1="8.255" x2="39.4475" y2="8.255" width="0.254" layer="21"/>
+<wire x1="39.4475" y1="8.255" x2="31.609" y2="8.255" width="0.254" layer="21"/>
+<wire x1="31.609" y1="8.255" x2="-31.634" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-31.634" y1="8.255" x2="-39.4225" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-39.4225" y1="8.255" x2="-42.915" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-42.915" y1="8.255" x2="-51.17" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="31.609" y1="-8.255" x2="31.609" y2="-25.909" width="0.254" layer="21"/>
+<wire x1="31.609" y1="-25.909" x2="25.894" y2="-31.624" width="0.254" layer="21" curve="-90"/>
+<wire x1="25.894" y1="-31.624" x2="-25.919" y2="-31.624" width="0.254" layer="21"/>
+<wire x1="-25.919" y1="-31.624" x2="-31.634" y2="-25.909" width="0.254" layer="21" curve="-90"/>
+<wire x1="-31.634" y1="-25.909" x2="-31.634" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-31.634" y1="8.255" x2="-31.634" y2="25.909" width="0.254" layer="21"/>
+<wire x1="-31.634" y1="25.909" x2="-25.919" y2="31.624" width="0.254" layer="21" curve="-90"/>
+<wire x1="-25.919" y1="31.624" x2="25.894" y2="31.624" width="0.254" layer="21"/>
+<wire x1="25.894" y1="31.624" x2="31.609" y2="25.909" width="0.254" layer="21" curve="-90"/>
+<wire x1="31.609" y1="25.909" x2="31.609" y2="8.255" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-34.418" drill="1.6" diameter="2.5"/>
+<pad name="BLK@2" x="7.62" y="-34.418" drill="1.6" diameter="2.5"/>
+<pad name="GRN@1" x="-12.7" y="34.418" drill="1.6" diameter="2.5"/>
+<pad name="GRN@2" x="12.7" y="34.418" drill="1.6" diameter="2.5"/>
+<pad name="GRN/YEL" x="0" y="34.418" drill="1.6" diameter="2.5"/>
+<text x="-20.7" y="-34.418" size="1.27" layer="25">&gt;NAME</text>
+<text x="-30.648" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-39.4225" y1="8.255" x2="-39.4225" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="39.4475" y1="8.255" x2="39.4475" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="34.6075" x2="-11.1125" y2="33.9725" width="0.4064" layer="51"/>
+<wire x1="-11.1125" y1="33.9725" x2="-8.5725" y2="31.75" width="0.4064" layer="51" curve="-38.769001"/>
+<wire x1="0" y1="34.6075" x2="0" y2="34.29" width="0.4064" layer="51"/>
+<wire x1="0" y1="34.29" x2="-0.9525" y2="31.75" width="0.4064" layer="51" curve="-41.112101"/>
+<wire x1="12.7" y1="34.6075" x2="11.1125" y2="33.9725" width="0.4064" layer="51"/>
+<wire x1="11.1125" y1="33.9725" x2="8.5725" y2="31.75" width="0.4064" layer="51" curve="38.769001"/>
+<wire x1="-7.62" y1="-34.29" x2="-7.62" y2="-33.9725" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-33.9725" x2="-6.35" y2="-31.75" width="0.4064" layer="51" curve="-59.489763"/>
+<wire x1="7.62" y1="-34.29" x2="7.62" y2="-33.9725" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-33.9725" x2="6.35" y2="-31.75" width="0.4064" layer="51" curve="59.489763"/>
+</package>
+<package name="C16H">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="50.8" y="0" drill="5.1562"/>
+<hole x="-50.8" y="0" drill="5.1562"/>
+<wire x1="-57.145" y1="0" x2="-48.89" y2="-8.255" width="0.254" layer="21" curve="90"/>
+<wire x1="-48.89" y1="-8.255" x2="-45.3975" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-45.3975" y1="-8.255" x2="-31.634" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-31.634" y1="-8.255" x2="31.609" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="31.609" y1="-8.255" x2="45.4225" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="45.4225" y1="-8.255" x2="48.915" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="48.915" y1="-8.255" x2="57.17" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="57.17" y1="0" x2="48.915" y2="8.255" width="0.254" layer="21" curve="90"/>
+<wire x1="48.915" y1="8.255" x2="45.4225" y2="8.255" width="0.254" layer="21"/>
+<wire x1="45.4225" y1="8.255" x2="31.609" y2="8.255" width="0.254" layer="21"/>
+<wire x1="31.609" y1="8.255" x2="-31.634" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-31.634" y1="8.255" x2="-45.3975" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-45.3975" y1="8.255" x2="-48.89" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-48.89" y1="8.255" x2="-57.145" y2="0" width="0.254" layer="21" curve="90"/>
+<wire x1="31.609" y1="-8.255" x2="31.609" y2="-25.909" width="0.254" layer="21"/>
+<wire x1="31.609" y1="-25.909" x2="25.894" y2="-31.624" width="0.254" layer="21" curve="-90"/>
+<wire x1="25.894" y1="-31.624" x2="-25.919" y2="-31.624" width="0.254" layer="21"/>
+<wire x1="-25.919" y1="-31.624" x2="-31.634" y2="-25.909" width="0.254" layer="21" curve="-90"/>
+<wire x1="-31.634" y1="-25.909" x2="-31.634" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-31.634" y1="8.255" x2="-31.634" y2="25.909" width="0.254" layer="21"/>
+<wire x1="-31.634" y1="25.909" x2="-25.919" y2="31.624" width="0.254" layer="21" curve="-90"/>
+<wire x1="-25.919" y1="31.624" x2="25.894" y2="31.624" width="0.254" layer="21"/>
+<wire x1="25.894" y1="31.624" x2="31.609" y2="25.909" width="0.254" layer="21" curve="-90"/>
+<wire x1="31.609" y1="25.909" x2="31.609" y2="8.255" width="0.254" layer="21"/>
+<pad name="BLK@1" x="-7.62" y="-34.418" drill="1.6" diameter="2.5"/>
+<pad name="BLK@2" x="7.62" y="-34.418" drill="1.6" diameter="2.5"/>
+<pad name="GRN@1" x="-12.7" y="34.418" drill="1.6" diameter="2.5"/>
+<pad name="GRN@2" x="12.7" y="34.418" drill="1.6" diameter="2.5"/>
+<pad name="GRN/YEL" x="0" y="34.418" drill="1.6" diameter="2.5"/>
+<text x="-20.7" y="-34.418" size="1.27" layer="25">&gt;NAME</text>
+<text x="-30.648" y="-2.515" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-45.3975" y1="8.255" x2="-45.3975" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="45.4225" y1="8.255" x2="45.4225" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="34.29" x2="-11.43" y2="33.9725" width="0.4064" layer="51"/>
+<wire x1="-11.43" y1="33.9725" x2="-8.89" y2="31.75" width="0.4064" layer="51" curve="-54.299363"/>
+<wire x1="0" y1="34.6075" x2="0" y2="33.9725" width="0.4064" layer="51"/>
+<wire x1="0" y1="33.9725" x2="-0.9525" y2="31.75" width="0.4064" layer="51" curve="-46.397195"/>
+<wire x1="12.7" y1="34.6075" x2="10.795" y2="33.9725" width="0.4064" layer="51"/>
+<wire x1="10.795" y1="33.9725" x2="7.9375" y2="31.75" width="0.4064" layer="51" curve="38.880091"/>
+<wire x1="-7.62" y1="-34.29" x2="-7.62" y2="-33.9725" width="0.4064" layer="51"/>
+<wire x1="-7.62" y1="-33.9725" x2="-6.35" y2="-31.75" width="0.4064" layer="51" curve="-59.489763"/>
+<wire x1="7.62" y1="-34.29" x2="7.62" y2="-33.9725" width="0.4064" layer="51"/>
+<wire x1="7.62" y1="-33.9725" x2="6.0325" y2="-31.75" width="0.4064" layer="51" curve="71.075356"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TRAFO_P1S2">
+<wire x1="-0.508" y1="5.08" x2="-0.508" y2="-5.08" width="0.254" layer="94"/>
+<text x="-3.81" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-8.89" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="BLK@1" x="-7.62" y="5.08" visible="off" length="middle" direction="pas"/>
+<pin name="BLK@2" x="-7.62" y="-5.08" visible="off" length="middle" direction="pas"/>
+<pin name="GRN@1" x="7.62" y="5.08" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="GRN/YEL" x="7.62" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="GRN@2" x="7.62" y="-5.08" visible="off" length="middle" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0.508" y1="5.08" x2="0.508" y2="-5.08" width="0.254" layer="94"/>
+<text x="-6.731" y="5.461" size="1.016" layer="94">Blk</text>
+<text x="-6.731" y="-4.699" size="1.016" layer="94">Blk</text>
+<text x="4.572" y="5.461" size="1.016" layer="94">Grn</text>
+<text x="4.572" y="-4.699" size="1.016" layer="94">Grn</text>
+<text x="2.921" y="0.381" size="1.016" layer="94">Grn/Yel</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="166" prefix="TR">
+<description>&lt;b&gt;OPEN STYLE FILAMENT &amp; L.V. RECTIFIER USE TRANSFORMERS&lt;/b&gt;&lt;p&gt;
+Economical single primnary 115VAC, 60 Hz or 117 VAC 50/60 Hz&lt;br&gt;
+Source: &lt;a href="http://www.hammondmfg.com/166.htm"&gt; Data sheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TRAFO_P1S2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="F2" package="C2H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G2" package="C2H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="J2" package="C3H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="K2" package="C4H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L2" package="C6H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M2" package="C6H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Q2" package="C8H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S2" package="C12H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F5" package="C2H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G5" package="C3H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="J5" package="C5H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L5" package="C7H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MS" package="C9H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R5" package="C12H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RS" package="C16H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S5" package="C13H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="U5" package="C14H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V5" package="C16H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E6" package="C2H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F6" package="C3H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G6" package="C4H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="J6" package="C6H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="K6" package="C6H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="K6B" package="C6H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L6" package="C7H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M6" package="C10H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="N6" package="C9H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Q6" package="C12H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S6" package="C14H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G7" package="C5H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="U7" package="C16H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G8" package="C4H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="J8" package="C6H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L8" package="C8H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M8" package="C9H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="N8" package="C10H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G9" package="C4H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F10" package="C3H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G10" package="C5H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="J10" package="C7H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L10" package="C9H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M10" package="C10H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="N10" package="C12H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="P10" package="C13H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R10" package="C15H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S10" package="C16H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="P11" package="C13H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S11" package="C16H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C12" package="C2H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E12" package="C3H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F12B" package="C4H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F12C" package="C4H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="GD12" package="C7H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JA12" package="C7H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="K12" package="C8H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JB12" package="C9H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LA12" package="C9H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="N12B" package="C12H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F12" package="C4H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G12" package="C6H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="J12" package="C7H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="K12B" package="C10H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L12B" package="C10H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L12" package="C10H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M12" package="C13H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="N12" package="C13H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Q12" package="C14H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R12" package="C16H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E14" package="C3H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G14" package="C6H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="J14" package="C7H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L14" package="C10H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Q14" package="C15H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F16" package="C4H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G16" package="C6H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="J16" package="C8H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L16" package="C10H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M16" package="C13H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B18" package="C2H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E18" package="C5H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="K18" package="C9H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M18" package="C13H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="P18" package="C15H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D20" package="C3H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E20" package="C3H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F20" package="C5H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G20" package="C7H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="J20" package="C9H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L20" package="C11H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L22" package="C13H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="A24" package="C2H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C24" package="C3H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EA24" package="C5H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B24" package="C7H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="GD24B" package="C9H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="J24" package="C10H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JB24" package="C9H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L24" package="C13H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M24" package="C14H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="N24" package="C16H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D25" package="C3H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E25" package="C4H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F25" package="C6H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G25" package="C7H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="J25" package="C9H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="J25B" package="C10H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="K25" package="C11H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L25" package="C13H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M25" package="C14H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L25B" package="C14H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F28" package="C6H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G28" package="C7H">
+<connects>
+<connect gate="G$1" pin="BLK@1" pad="BLK@1"/>
+<connect gate="G$1" pin="BLK@2" pad="BLK@2"/>
+<connect gate="G$1" pin="GRN/YEL" pad="GRN/YEL"/>
+<connect gate="G$1" pin="GRN@1" pad="GRN@1"/>
+<connect gate="G$1" pin="GRN@2" pad="GRN@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
