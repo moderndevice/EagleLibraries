@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -36,7 +36,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -26348,19 +26348,6 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <smd name="P$22" x="-0.25" y="2.05" dx="0.9" dy="0.35" layer="1" rot="R90"/>
 <smd name="P$23" x="-0.75" y="2.05" dx="0.9" dy="0.35" layer="1" rot="R90"/>
 <smd name="P$24" x="-1.25" y="2.05" dx="0.9" dy="0.35" layer="1" rot="R90"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.127" layer="39"/>
-<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="39"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.127" layer="39"/>
-<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="39"/>
-<wire x1="-2" y1="1.6" x2="-2" y2="2" width="0.127" layer="21"/>
-<wire x1="-2" y1="2" x2="-1.6" y2="2" width="0.127" layer="21"/>
-<wire x1="1.6" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="2" x2="2" y2="1.6" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2" y1="-2" x2="-2" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="1.6" y1="-2" x2="2" y2="-2" width="0.127" layer="21"/>
-<wire x1="2" y1="-2" x2="2" y2="-1.6" width="0.127" layer="21"/>
-<circle x="-2.4" y="1.8" radius="0.1" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -29884,9 +29871,9 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <pin name="CPOUT" x="22.86" y="2.54" visible="pin" length="middle" rot="R180"/>
 <pin name="FSYNC" x="22.86" y="7.62" visible="pin" length="middle" rot="R180"/>
 <pin name="RSV19" x="22.86" y="15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="VDD" x="-7.62" y="35.56" visible="pin" length="middle" rot="R270"/>
-<pin name="REGOUT" x="2.54" y="35.56" visible="pin" length="middle" rot="R270"/>
-<pin name="VLOGIC" x="-2.54" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="P$14" x="-7.62" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="P$15" x="0" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="P$16" x="7.62" y="35.56" visible="pin" length="middle" rot="R270"/>
 <wire x1="12.7" y1="-25.4" x2="-17.78" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-25.4" x2="-17.78" y2="30.48" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="30.48" x2="17.78" y2="30.48" width="0.254" layer="94"/>
@@ -40828,36 +40815,6 @@ Source: www.atmel.com .. doc2503.pdf</description>
 <connect gate="G$1" pin="VDD" pad="P$14"/>
 <connect gate="G$1" pin="VDD2" pad="P$15"/>
 <connect gate="G$1" pin="VDD_IO" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ITG3050_GYRO">
-<gates>
-<gate name="G$1" symbol="ITG3050_GYRO" x="0" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="ITG-3050">
-<connects>
-<connect gate="G$1" pin="AD0" pad="P$9"/>
-<connect gate="G$1" pin="AUX_CL" pad="P$7"/>
-<connect gate="G$1" pin="AUX_DA" pad="P$6"/>
-<connect gate="G$1" pin="CLK_IN" pad="P$1"/>
-<connect gate="G$1" pin="CLK_OUT" pad="P$22"/>
-<connect gate="G$1" pin="CPOUT" pad="P$20"/>
-<connect gate="G$1" pin="FSYNC" pad="P$11"/>
-<connect gate="G$1" pin="GND" pad="P$18"/>
-<connect gate="G$1" pin="INT" pad="P$12"/>
-<connect gate="G$1" pin="REGOUT" pad="P$10"/>
-<connect gate="G$1" pin="RSV19" pad="P$19"/>
-<connect gate="G$1" pin="RSV21" pad="P$21"/>
-<connect gate="G$1" pin="SCL" pad="P$23"/>
-<connect gate="G$1" pin="SDA" pad="P$24"/>
-<connect gate="G$1" pin="VDD" pad="P$13"/>
-<connect gate="G$1" pin="VLOGIC" pad="P$8"/>
 </connects>
 <technologies>
 <technology name=""/>
