@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -381,8 +381,8 @@
 <pad name="P$3" x="2.5" y="-7" drill="1.2" shape="square"/>
 <pad name="SHEILD" x="-4.5" y="0" drill="2.2" shape="square"/>
 <pad name="SHEILD2" x="4.5" y="0" drill="2.2" shape="square"/>
-<hole x="0" y="3.5" drill="1.7"/>
-<hole x="0" y="-4" drill="1.7"/>
+<hole x="0" y="3.5" drill="1.3"/>
+<hole x="0" y="-4" drill="1.3"/>
 </package>
 <package name="USB-MINIB">
 <description>Surface Mount USB Mini-B Connector</description>
@@ -30047,8 +30047,8 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <wire x1="-2.286" y1="-2.286" x2="-3.048" y2="2.032" width="0.2032" layer="94"/>
 <wire x1="-3.048" y1="2.032" x2="-3.556" y2="0" width="0.2032" layer="94"/>
 <wire x1="-3.556" y1="0" x2="-3.81" y2="0" width="0.2032" layer="94"/>
-<text x="-7.62" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
