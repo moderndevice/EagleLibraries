@@ -6,48 +6,48 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="12" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="9" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="14" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="4" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="28" fill="1" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="49" fill="1" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
@@ -34605,6 +34605,133 @@ grid 2.54 mm, diameter 6 mm</description>
 <rectangle x1="15.21968125" y1="6.38175" x2="15.40001875" y2="6.39445" layer="30"/>
 <rectangle x1="2.06248125" y1="6.39445" x2="2.16408125" y2="6.40715" layer="30"/>
 </package>
+<package name="4UCONN10017">
+<wire x1="5.85" y1="-2.5" x2="5.85" y2="-3.05" width="0.127" layer="21"/>
+<wire x1="5.85" y1="-3.05" x2="5.85" y2="-17" width="0.127" layer="21"/>
+<wire x1="5.85" y1="-17" x2="-5.85" y2="-17" width="0.127" layer="21"/>
+<wire x1="-5.85" y1="-17" x2="-5.85" y2="-3.05" width="0.127" layer="21"/>
+<smd name="1" x="3.5" y="2.7" dx="1.2" dy="2.2" layer="1"/>
+<smd name="2" x="1" y="2.7" dx="1.2" dy="2.2" layer="1"/>
+<smd name="3" x="-1" y="2.7" dx="1.2" dy="2.2" layer="1"/>
+<smd name="4" x="-3.5" y="2.7" dx="1.2" dy="2.2" layer="1"/>
+<text x="-2.54" y="-3.81" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-6.35" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<hole x="-2.25" y="0" drill="1.1"/>
+<hole x="2.25" y="0" drill="1.1"/>
+<wire x1="-5.85" y1="-3.05" x2="-5.85" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-0.5" x2="-6.25" y2="0.85" width="0.05" layer="46"/>
+<wire x1="-6.25" y1="0.85" x2="-5.85" y2="1.25" width="0.05" layer="46" curve="-90"/>
+<wire x1="-5.85" y1="1.25" x2="-5.45" y2="0.8" width="0.05" layer="46" curve="-90"/>
+<wire x1="-5.45" y1="0.8" x2="-5.45" y2="-0.85" width="0.05" layer="46"/>
+<wire x1="-5.45" y1="-0.85" x2="-5.85" y2="-1.25" width="0.05" layer="46" curve="-90"/>
+<wire x1="-5.85" y1="-1.25" x2="-6.25" y2="-0.9" width="0.05" layer="46" curve="-90"/>
+<wire x1="-6.25" y1="-0.9" x2="-6.25" y2="-0.5" width="0.05" layer="46"/>
+<wire x1="5.45" y1="-0.5" x2="5.45" y2="0.8" width="0.05" layer="46"/>
+<wire x1="5.45" y1="0.8" x2="5.85" y2="1.25" width="0.05" layer="46" curve="-90"/>
+<wire x1="5.85" y1="1.25" x2="6.25" y2="0.8" width="0.05" layer="46" curve="-90"/>
+<wire x1="6.25" y1="0.8" x2="6.25" y2="-0.85" width="0.05" layer="46"/>
+<wire x1="6.25" y1="-0.85" x2="5.85" y2="-1.25" width="0.05" layer="46" curve="-90"/>
+<wire x1="5.85" y1="-1.25" x2="5.45" y2="-0.9" width="0.05" layer="46" curve="-90"/>
+<wire x1="5.45" y1="-0.9" x2="5.45" y2="-0.5" width="0.05" layer="46"/>
+<polygon width="0.05" layer="1">
+<vertex x="-5.85" y="2.15" curve="90"/>
+<vertex x="-7.1" y="0.95"/>
+<vertex x="-7.1" y="-0.95" curve="90"/>
+<vertex x="-5.85" y="-2.145" curve="90"/>
+<vertex x="-4.6" y="-0.95"/>
+<vertex x="-4.6" y="0.95" curve="90"/>
+</polygon>
+<polygon width="0.05" layer="1">
+<vertex x="5.85" y="2.15" curve="90"/>
+<vertex x="4.6" y="0.95"/>
+<vertex x="4.6" y="-0.95" curve="90"/>
+<vertex x="5.85" y="-2.165" curve="90"/>
+<vertex x="7.1" y="-0.95"/>
+<vertex x="7.1" y="0.95" curve="90"/>
+</polygon>
+<polygon width="0.05" layer="16">
+<vertex x="-5.85" y="2.15" curve="90"/>
+<vertex x="-7.1" y="0.95"/>
+<vertex x="-7.1" y="-0.95" curve="90"/>
+<vertex x="-5.85" y="-2.145" curve="90"/>
+<vertex x="-4.6" y="-0.95"/>
+<vertex x="-4.6" y="0.95" curve="90"/>
+</polygon>
+<polygon width="0.05" layer="16">
+<vertex x="5.85" y="2.15" curve="90"/>
+<vertex x="4.6" y="0.95"/>
+<vertex x="4.6" y="-0.95" curve="90"/>
+<vertex x="5.85" y="-2.145" curve="90"/>
+<vertex x="7.1" y="-0.95"/>
+<vertex x="7.1" y="0.95" curve="90"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-5.85" y="2.15" curve="90"/>
+<vertex x="-7.1" y="0.95"/>
+<vertex x="-7.1" y="-0.95" curve="90"/>
+<vertex x="-5.85" y="-2.145" curve="90"/>
+<vertex x="-4.6" y="-0.95"/>
+<vertex x="-4.6" y="0.95" curve="90"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="5.85" y="2.135" curve="90"/>
+<vertex x="4.6" y="0.935"/>
+<vertex x="4.6" y="-0.965" curve="90"/>
+<vertex x="5.85" y="-2.16" curve="90"/>
+<vertex x="7.1" y="-0.965"/>
+<vertex x="7.1" y="0.935" curve="90"/>
+</polygon>
+<polygon width="0.2" layer="30">
+<vertex x="-5.85" y="2.15" curve="90"/>
+<vertex x="-7.1" y="0.95"/>
+<vertex x="-7.1" y="-0.95" curve="90"/>
+<vertex x="-5.85" y="-2.145" curve="90"/>
+<vertex x="-4.6" y="-0.95"/>
+<vertex x="-4.6" y="0.95" curve="90"/>
+</polygon>
+<polygon width="0.2" layer="30">
+<vertex x="5.85" y="2.15" curve="90"/>
+<vertex x="4.6" y="0.95"/>
+<vertex x="4.6" y="-0.95" curve="90"/>
+<vertex x="5.85" y="-2.145" curve="90"/>
+<vertex x="7.1" y="-0.95"/>
+<vertex x="7.1" y="0.95" curve="90"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="-5.85" y="2.15" curve="90"/>
+<vertex x="-7.1" y="0.95"/>
+<vertex x="-7.1" y="-0.95" curve="90"/>
+<vertex x="-5.85" y="-2.145" curve="90"/>
+<vertex x="-4.6" y="-0.95"/>
+<vertex x="-4.6" y="0.95" curve="90"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="5.855" y="2.145" curve="90"/>
+<vertex x="4.605" y="0.945"/>
+<vertex x="4.605" y="-0.955" curve="90"/>
+<vertex x="5.855" y="-2.15" curve="90"/>
+<vertex x="7.105" y="-0.955"/>
+<vertex x="7.105" y="0.945" curve="90"/>
+</polygon>
+<polygon width="0.05" layer="32">
+<vertex x="-5.85" y="2.15" curve="90"/>
+<vertex x="-7.1" y="0.95"/>
+<vertex x="-7.1" y="-0.95" curve="90"/>
+<vertex x="-5.85" y="-2.145" curve="90"/>
+<vertex x="-4.6" y="-0.95"/>
+<vertex x="-4.6" y="0.95" curve="90"/>
+</polygon>
+<polygon width="0.05" layer="32">
+<vertex x="5.855" y="2.14" curve="90"/>
+<vertex x="4.605" y="0.94"/>
+<vertex x="4.605" y="-0.96" curve="90"/>
+<vertex x="5.855" y="-2.155" curve="90"/>
+<vertex x="7.105" y="-0.96"/>
+<vertex x="7.105" y="0.94" curve="90"/>
+</polygon>
+<wire x1="-4" y1="1" x2="4" y2="1" width="0.127" layer="21"/>
+<wire x1="-5.85" y1="-3.05" x2="5.85" y2="-3.05" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ATSAM2195">
@@ -38665,6 +38792,17 @@ Used for things that can directly connect to a USB port, say USB key</descriptio
 </gates>
 <devices>
 <device name="" package="MOLEX_480371000">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4UCONN10017" package="4UCONN10017">
 <connects>
 <connect gate="G$1" pin="D+" pad="3"/>
 <connect gate="G$1" pin="D-" pad="2"/>
