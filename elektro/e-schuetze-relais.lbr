@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -441,27 +441,27 @@ die Bibliothek &lt;u&gt;e-symbole.lbr&lt;/u&gt;, und starten Sie das User-Langua
 <package name="RELAIS_2-POL-UM">
 <description>Dummy</description>
 <pad name="11" x="5.08" y="2.54" drill="0.5" diameter="1" shape="square"/>
-<pad name="21" x="2.54" y="-7.62" drill="0.5" diameter="1" shape="square"/>
-<pad name="41" x="7.62" y="-7.62" drill="0.5" diameter="1" shape="square"/>
-<pad name="12" x="12.7" y="2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="12" x="2.54" y="-7.62" drill="0.5" diameter="1" shape="square"/>
+<pad name="14" x="7.62" y="-7.62" drill="0.5" diameter="1" shape="square"/>
+<pad name="21" x="12.7" y="2.54" drill="0.5" diameter="1" shape="square"/>
 <pad name="22" x="10.16" y="-7.62" drill="0.5" diameter="1" shape="square"/>
-<pad name="42" x="15.24" y="-7.62" drill="0.5" diameter="1" shape="square"/>
+<pad name="24" x="15.24" y="-7.62" drill="0.5" diameter="1" shape="square"/>
 <pad name="A1" x="-10.16" y="2.54" drill="0.5" diameter="1" shape="square"/>
 <pad name="A2" x="-10.16" y="-7.62" drill="0.5" diameter="1" shape="square"/>
 </package>
 <package name="RELAIS_4-POL-UM">
 <description>Dummy</description>
 <pad name="11" x="5.08" y="2.54" drill="0.5" diameter="1" shape="square"/>
-<pad name="21" x="2.54" y="-7.62" drill="0.5" diameter="1" shape="square"/>
-<pad name="41" x="7.62" y="-7.62" drill="0.5" diameter="1" shape="square"/>
-<pad name="12" x="12.7" y="2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="12" x="2.54" y="-7.62" drill="0.5" diameter="1" shape="square"/>
+<pad name="14" x="7.62" y="-7.62" drill="0.5" diameter="1" shape="square"/>
+<pad name="21" x="12.7" y="2.54" drill="0.5" diameter="1" shape="square"/>
 <pad name="22" x="10.16" y="-7.62" drill="0.5" diameter="1" shape="square"/>
-<pad name="42" x="15.24" y="-7.62" drill="0.5" diameter="1" shape="square"/>
-<pad name="13" x="20.32" y="2.54" drill="0.5" diameter="1" shape="square"/>
-<pad name="23" x="17.78" y="-7.62" drill="0.5" diameter="1" shape="square"/>
-<pad name="43" x="22.86" y="-7.62" drill="0.5" diameter="1" shape="square"/>
-<pad name="14" x="27.94" y="2.54" drill="0.5" diameter="1" shape="square"/>
-<pad name="24" x="25.4" y="-7.62" drill="0.5" diameter="1" shape="square"/>
+<pad name="24" x="15.24" y="-7.62" drill="0.5" diameter="1" shape="square"/>
+<pad name="31" x="20.32" y="2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="32" x="17.78" y="-7.62" drill="0.5" diameter="1" shape="square"/>
+<pad name="34" x="22.86" y="-7.62" drill="0.5" diameter="1" shape="square"/>
+<pad name="41" x="27.94" y="2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="42" x="25.4" y="-7.62" drill="0.5" diameter="1" shape="square"/>
 <pad name="44" x="30.48" y="-7.62" drill="0.5" diameter="1" shape="square"/>
 <pad name="A1" x="-10.16" y="2.54" drill="0.5" diameter="1" shape="square"/>
 <pad name="A2" x="-10.16" y="-7.62" drill="0.5" diameter="1" shape="square"/>
@@ -1775,11 +1775,11 @@ die Bibliothek &lt;u&gt;e-symbole.lbr&lt;/u&gt;, und starten Sie das User-Langua
 <device name="" package="RELAIS_2-POL-UM">
 <connects>
 <connect gate="1" pin="1" pad="11"/>
-<connect gate="1" pin="2" pad="21"/>
-<connect gate="1" pin="4" pad="41"/>
-<connect gate="2" pin="1" pad="12"/>
+<connect gate="1" pin="2" pad="12"/>
+<connect gate="1" pin="4" pad="14"/>
+<connect gate="2" pin="1" pad="21"/>
 <connect gate="2" pin="2" pad="22"/>
-<connect gate="2" pin="4" pad="42"/>
+<connect gate="2" pin="4" pad="24"/>
 <connect gate="G$1" pin="A1" pad="A1"/>
 <connect gate="G$1" pin="A2" pad="A2"/>
 </connects>
@@ -1802,16 +1802,16 @@ die Bibliothek &lt;u&gt;e-symbole.lbr&lt;/u&gt;, und starten Sie das User-Langua
 <device name="" package="RELAIS_4-POL-UM">
 <connects>
 <connect gate="1" pin="1" pad="11"/>
-<connect gate="1" pin="2" pad="21"/>
-<connect gate="1" pin="4" pad="41"/>
-<connect gate="2" pin="1" pad="12"/>
+<connect gate="1" pin="2" pad="12"/>
+<connect gate="1" pin="4" pad="14"/>
+<connect gate="2" pin="1" pad="21"/>
 <connect gate="2" pin="2" pad="22"/>
-<connect gate="2" pin="4" pad="42"/>
-<connect gate="3" pin="1" pad="13"/>
-<connect gate="3" pin="2" pad="23"/>
-<connect gate="3" pin="4" pad="43"/>
-<connect gate="4" pin="1" pad="14"/>
-<connect gate="4" pin="2" pad="24"/>
+<connect gate="2" pin="4" pad="24"/>
+<connect gate="3" pin="1" pad="31"/>
+<connect gate="3" pin="2" pad="32"/>
+<connect gate="3" pin="4" pad="34"/>
+<connect gate="4" pin="1" pad="41"/>
+<connect gate="4" pin="2" pad="42"/>
 <connect gate="4" pin="4" pad="44"/>
 <connect gate="G$1" pin="A1" pad="A1"/>
 <connect gate="G$1" pin="A2" pad="A2"/>

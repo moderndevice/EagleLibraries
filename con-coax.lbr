@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -987,15 +987,7 @@ Source: www.tycoelectronics.com .. Electronics .. ENG_CD_1775146_A2.pdf</descrip
 <text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
 <pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="GND" x="2.54" y="-2.54" visible="off" length="short" direction="pwr" rot="R180"/>
-</symbol>
-<symbol name="X-PIN">
-<text x="-1.524" y="1.778" size="1.778" layer="95">&gt;NAME</text>
-<pin name="X" x="-2.54" y="0" length="short" direction="pwr"/>
-</symbol>
-<symbol name="PIN_GND">
-<text x="-1.27" y="1.778" size="1.778" layer="95">&gt;NAME</text>
-<pin name="GND" x="-2.54" y="0" length="short" direction="pwr"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="BNC-FGND">
 <wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
@@ -1009,15 +1001,7 @@ Source: www.tycoelectronics.com .. Electronics .. ENG_CD_1775146_A2.pdf</descrip
 <text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
 <pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="GND" x="2.54" y="-2.54" visible="off" length="short" direction="pwr" rot="R180"/>
-</symbol>
-<symbol name="GND">
-<text x="-1.524" y="1.778" size="1.778" layer="95">&gt;NAME</text>
-<pin name="GND" x="-2.54" y="0" length="short" direction="pwr"/>
-</symbol>
-<symbol name="PINX">
-<text x="-1.524" y="1.524" size="1.778" layer="95">&gt;NAME</text>
-<pin name="X" x="-2.54" y="0" length="short" direction="pwr"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="BNC-MGND">
 <wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
@@ -1028,16 +1012,9 @@ Source: www.tycoelectronics.com .. Electronics .. ENG_CD_1775146_A2.pdf</descrip
 <text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
 <rectangle x1="-2.54" y1="-0.254" x2="-0.254" y2="0.254" layer="94"/>
 <pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="GND" x="2.54" y="-2.54" visible="off" length="short" direction="pwr" rot="R180"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
-<symbol name="3GND">
-<wire x1="0" y1="0" x2="0" y2="-5.08" width="0.1524" layer="94"/>
-<text x="0" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
-<pin name="GND@1" x="2.54" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
-<pin name="GND@2" x="2.54" y="-2.54" visible="off" length="short" direction="pwr" rot="R180"/>
-<pin name="GND@3" x="2.54" y="-5.08" visible="off" length="short" direction="pwr" rot="R180"/>
-</symbol>
-<symbol name="BNC-F2GND">
+<symbol name="BNC-F2">
 <wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
@@ -1046,12 +1023,10 @@ Source: www.tycoelectronics.com .. Electronics .. ENG_CD_1775146_A2.pdf</descrip
 <wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="2.54" x2="0" y2="0.508" width="0.3048" layer="94" curve="-79.611142" cap="flat"/>
 <wire x1="-2.54" y1="-2.54" x2="0" y2="-0.508" width="0.3048" layer="94" curve="79.611142" cap="flat"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 <text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
 <pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="GND@1" x="2.54" y="-2.54" visible="off" length="short" direction="pwr" rot="R180"/>
-<pin name="GND@2" x="2.54" y="-5.08" visible="off" length="short" direction="pwr" rot="R180"/>
+<pin name="GND@1" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1060,18 +1035,12 @@ Source: www.tycoelectronics.com .. Electronics .. ENG_CD_1775146_A2.pdf</descrip
 distributor Buerklin 78F2475</description>
 <gates>
 <gate name="G$1" symbol="BU-BNC" x="0" y="0"/>
-<gate name="G2" symbol="PIN_GND" x="22.86" y="0" addlevel="request"/>
-<gate name="G3" symbol="PIN_GND" x="22.86" y="-2.54" addlevel="request"/>
-<gate name="G4" symbol="PIN_GND" x="22.86" y="-5.08" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="A1944">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G2" pin="GND" pad="3"/>
-<connect gate="G3" pin="GND" pad="4"/>
-<connect gate="G4" pin="GND" pad="5"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1091,18 +1060,12 @@ Radiall&lt;p&gt;
 Spoerle</description>
 <gates>
 <gate name="G$1" symbol="BU-BNC" x="0" y="0"/>
-<gate name="G2" symbol="PIN_GND" x="27.94" y="2.54" addlevel="request"/>
-<gate name="G3" symbol="PIN_GND" x="27.94" y="0" addlevel="request"/>
-<gate name="G4" symbol="PIN_GND" x="27.94" y="-2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="R141426">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G2" pin="GND" pad="3"/>
-<connect gate="G3" pin="GND" pad="4"/>
-<connect gate="G4" pin="GND" pad="5"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1122,18 +1085,12 @@ www.macom.com&lt;p&gt;
 distributor Farnell 149-452</description>
 <gates>
 <gate name="G$1" symbol="BU-BNC" x="0" y="0"/>
-<gate name="G2" symbol="PIN_GND" x="27.94" y="2.54" addlevel="request"/>
-<gate name="G3" symbol="PIN_GND" x="27.94" y="0" addlevel="request"/>
-<gate name="G4" symbol="PIN_GND" x="27.94" y="-2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="B35N61">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G2" pin="GND" pad="3"/>
-<connect gate="G3" pin="GND" pad="4"/>
-<connect gate="G4" pin="GND" pad="5"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1152,18 +1109,12 @@ M/A COM&lt;p&gt;
 www.macom.com</description>
 <gates>
 <gate name="G$1" symbol="BU-BNC" x="0" y="0"/>
-<gate name="G2" symbol="PIN_GND" x="30.48" y="0" addlevel="request"/>
-<gate name="G3" symbol="PIN_GND" x="30.48" y="-2.54" addlevel="request"/>
-<gate name="G4" symbol="PIN_GND" x="30.48" y="-5.08" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="B35N57">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G2" pin="GND" pad="3"/>
-<connect gate="G3" pin="GND" pad="4"/>
-<connect gate="G4" pin="GND" pad="5"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1182,18 +1133,12 @@ Radiall&lt;p&gt;
 distributor RS 112-2993</description>
 <gates>
 <gate name="G1" symbol="BNC-FGND" x="0" y="0"/>
-<gate name="G2" symbol="GND" x="22.86" y="2.54" addlevel="request"/>
-<gate name="G3" symbol="GND" x="22.86" y="0" addlevel="request"/>
-<gate name="G4" symbol="GND" x="22.86" y="-2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="BU-SMB-V">
 <connects>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="2"/>
-<connect gate="G2" pin="GND" pad="3"/>
-<connect gate="G3" pin="GND" pad="4"/>
-<connect gate="G4" pin="GND" pad="5"/>
+<connect gate="G1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1212,18 +1157,12 @@ Radiall&lt;p&gt;
 distributor RS 112-3794</description>
 <gates>
 <gate name="G$1" symbol="BNC-FGND" x="-2.54" y="0"/>
-<gate name="G2" symbol="GND" x="20.32" y="2.54" addlevel="request"/>
-<gate name="G3" symbol="GND" x="20.32" y="0" addlevel="request"/>
-<gate name="G4" symbol="GND" x="20.32" y="-2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="BU-SMA-V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G2" pin="GND" pad="4"/>
-<connect gate="G3" pin="GND" pad="3"/>
-<connect gate="G4" pin="GND" pad="5"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1242,18 +1181,12 @@ Radiall&lt;p&gt;
 distributor RS 112-3003</description>
 <gates>
 <gate name="G$1" symbol="BNC-FGND" x="0" y="0"/>
-<gate name="G2" symbol="GND" x="22.86" y="2.54" addlevel="request"/>
-<gate name="G3" symbol="GND" x="22.86" y="0" addlevel="request"/>
-<gate name="G4" symbol="GND" x="22.86" y="-2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="BU-SMB-H">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G2" pin="GND" pad="3"/>
-<connect gate="G3" pin="GND" pad="4"/>
-<connect gate="G4" pin="GND" pad="5"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1273,18 +1206,12 @@ R112 426&lt;p&gt;
 distributor RS 295-5429</description>
 <gates>
 <gate name="G1" symbol="BNC-FGND" x="0" y="0"/>
-<gate name="G2" symbol="GND" x="25.4" y="2.54" addlevel="request"/>
-<gate name="G3" symbol="GND" x="25.4" y="0" addlevel="request"/>
-<gate name="G4" symbol="GND" x="25.4" y="-2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="BU-SMC-V">
 <connects>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="2"/>
-<connect gate="G2" pin="GND" pad="3"/>
-<connect gate="G3" pin="GND" pad="4"/>
-<connect gate="G4" pin="GND" pad="5"/>
+<connect gate="G1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1302,18 +1229,12 @@ distributor RS 295-5429</description>
 Radiall&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="BNC-FGND" x="0" y="0"/>
-<gate name="G2" symbol="GND" x="22.86" y="2.54" addlevel="request"/>
-<gate name="G3" symbol="GND" x="22.86" y="0" addlevel="request"/>
-<gate name="G4" symbol="GND" x="22.86" y="-2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="BU-SMA-H">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G2" pin="GND" pad="4"/>
-<connect gate="G3" pin="GND" pad="3"/>
-<connect gate="G4" pin="GND" pad="5"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1332,18 +1253,12 @@ Radiall&lt;p&gt;
 distributor RS 193-9117</description>
 <gates>
 <gate name="G1" symbol="BNC-FGND" x="0" y="0"/>
-<gate name="G2" symbol="GND" x="25.4" y="2.54" addlevel="request"/>
-<gate name="G3" symbol="GND" x="25.4" y="0" addlevel="request"/>
-<gate name="G4" symbol="GND" x="25.4" y="-2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="BU-SMA-G">
 <connects>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="2"/>
-<connect gate="G2" pin="GND" pad="3"/>
-<connect gate="G3" pin="GND" pad="4"/>
-<connect gate="G4" pin="GND" pad="5"/>
+<connect gate="G1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1362,18 +1277,12 @@ Radiall&lt;p&gt;
 distributor RS 193-8899</description>
 <gates>
 <gate name="G1" symbol="BNC-FGND" x="0" y="0"/>
-<gate name="G2" symbol="GND" x="20.32" y="2.54" addlevel="request"/>
-<gate name="G3" symbol="GND" x="20.32" y="0" addlevel="request"/>
-<gate name="G4" symbol="GND" x="20.32" y="-2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="BU-SMB-G">
 <connects>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="2"/>
-<connect gate="G2" pin="GND" pad="3"/>
-<connect gate="G3" pin="GND" pad="4"/>
-<connect gate="G4" pin="GND" pad="5"/>
+<connect gate="G1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1392,18 +1301,12 @@ Radiall&lt;p&gt;
 distributor RS 193-8861887</description>
 <gates>
 <gate name="G1" symbol="BNC-MGND" x="0" y="0"/>
-<gate name="G2" symbol="GND" x="22.86" y="2.54" addlevel="request"/>
-<gate name="G3" symbol="GND" x="22.86" y="0" addlevel="request"/>
-<gate name="G4" symbol="GND" x="22.86" y="-2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="ST-SMB-H">
 <connects>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="2"/>
-<connect gate="G2" pin="GND" pad="3"/>
-<connect gate="G3" pin="GND" pad="4"/>
-<connect gate="G4" pin="GND" pad="5"/>
+<connect gate="G1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1422,18 +1325,12 @@ Radiall&lt;p&gt;
 distributor RS 193-8855G7</description>
 <gates>
 <gate name="G1" symbol="BNC-MGND" x="0" y="0"/>
-<gate name="G2" symbol="GND" x="22.86" y="2.54" addlevel="request"/>
-<gate name="G3" symbol="GND" x="22.86" y="0" addlevel="request"/>
-<gate name="G4" symbol="GND" x="22.86" y="-2.54" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="ST-SMB-V">
 <connects>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="2"/>
-<connect gate="G2" pin="GND" pad="3"/>
-<connect gate="G3" pin="GND" pad="4"/>
-<connect gate="G4" pin="GND" pad="5"/>
+<connect gate="G1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1456,7 +1353,7 @@ Source: amp_227161.pdf</description>
 <device name="1-" package="AMP_227161">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="-0">
@@ -1488,7 +1385,7 @@ Source: amp_227161.pdf</description>
 <device name="" package="AMP_227161">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="-8">
@@ -1507,16 +1404,12 @@ Johnson Components&lt;br&gt;
 Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <gates>
 <gate name="G1" symbol="BNC-FGND" x="0" y="0"/>
-<gate name="G" symbol="3GND" x="0" y="-5.08" addlevel="request"/>
 </gates>
 <devices>
 <device name="J502-ND" package="J502-ND">
 <connects>
-<connect gate="G" pin="GND@1" pad="3"/>
-<connect gate="G" pin="GND@2" pad="4"/>
-<connect gate="G" pin="GND@3" pad="5"/>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="2"/>
+<connect gate="G1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1529,11 +1422,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </device>
 <device name="142-0701-801/806" package="J502-ND-142-0701-801/806">
 <connects>
-<connect gate="G" pin="GND@1" pad="G@2"/>
-<connect gate="G" pin="GND@2" pad="G@3"/>
-<connect gate="G" pin="GND@3" pad="G@4"/>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="G@1"/>
+<connect gate="G1" pin="2" pad="G@1 G@2 G@3 G@4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1546,11 +1436,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </device>
 <device name="142-0701-851/861" package="J502-ND-142-0701-851/861">
 <connects>
-<connect gate="G" pin="GND@1" pad="G@2"/>
-<connect gate="G" pin="GND@2" pad="G@3"/>
-<connect gate="G" pin="GND@3" pad="G@4"/>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="G@1"/>
+<connect gate="G1" pin="2" pad="G@1 G@2 G@3 G@4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1563,11 +1450,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </device>
 <device name="142-0701-871/876" package="J502-ND-142-0701-871/876">
 <connects>
-<connect gate="G" pin="GND@1" pad="G@2"/>
-<connect gate="G" pin="GND@2" pad="G@3"/>
-<connect gate="G" pin="GND@3" pad="G@4"/>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="G@1"/>
+<connect gate="G1" pin="2" pad="G@1 G@2 G@3 G@4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1580,11 +1464,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </device>
 <device name="142-0701-881/886" package="J502-ND-142-0701-881/886">
 <connects>
-<connect gate="G" pin="GND@1" pad="G@2"/>
-<connect gate="G" pin="GND@2" pad="G@3"/>
-<connect gate="G" pin="GND@3" pad="G@4"/>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="G@1"/>
+<connect gate="G1" pin="2" pad="G@1 G@2 G@3 G@4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1597,11 +1478,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </device>
 <device name="142-0711-821/826" package="J502-ND-142-0711-821/826">
 <connects>
-<connect gate="G" pin="GND@1" pad="G@2"/>
-<connect gate="G" pin="GND@2" pad="G@3"/>
-<connect gate="G" pin="GND@3" pad="G@4"/>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="G@1"/>
+<connect gate="G1" pin="2" pad="G@1 G@2 G@3 G@4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1614,11 +1492,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </device>
 <device name="142-0711-871/876" package="J502-ND-142-0711-871/876">
 <connects>
-<connect gate="G" pin="GND@1" pad="G@2"/>
-<connect gate="G" pin="GND@2" pad="G@3"/>
-<connect gate="G" pin="GND@3" pad="G@4"/>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="G@1"/>
+<connect gate="G1" pin="2" pad="G@1 G@2 G@3 G@4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1631,11 +1506,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </device>
 <device name="142-0711-881/886" package="J502-ND-142-0711-881/886">
 <connects>
-<connect gate="G" pin="GND@1" pad="G@2"/>
-<connect gate="G" pin="GND@2" pad="G@3"/>
-<connect gate="G" pin="GND@3" pad="G@4"/>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="G@1"/>
+<connect gate="G1" pin="2" pad="G@1 G@2 G@3 G@4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1648,11 +1520,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </device>
 <device name="142-0701-871/880" package="SMA-142-0701-871">
 <connects>
-<connect gate="G" pin="GND@1" pad="2@2"/>
-<connect gate="G" pin="GND@2" pad="2@3"/>
-<connect gate="G" pin="GND@3" pad="2@4"/>
 <connect gate="G1" pin="1" pad="1"/>
-<connect gate="G1" pin="GND" pad="2@1"/>
+<connect gate="G1" pin="2" pad="2@1 2@2 2@3 2@4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1671,22 +1540,12 @@ www.johnsoncomponents.com&lt;br&gt;
 Source:  http://catalog.digikey.com .. 142-0711-201, 205, 202, 206.pdf</description>
 <gates>
 <gate name="G$1" symbol="BU-BNC" x="0" y="0"/>
-<gate name="G1" symbol="PIN_GND" x="15.24" y="0" addlevel="request"/>
-<gate name="G2" symbol="PIN_GND" x="15.24" y="-2.54" addlevel="request"/>
-<gate name="G3" symbol="PIN_GND" x="15.24" y="-5.08" addlevel="request"/>
-<gate name="G4" symbol="PIN_GND" x="15.24" y="-7.62" addlevel="request"/>
-<gate name="G5" symbol="PIN_GND" x="15.24" y="-10.16" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="SMA-SMD">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2@1"/>
-<connect gate="G1" pin="GND" pad="2@2"/>
-<connect gate="G2" pin="GND" pad="2@3"/>
-<connect gate="G3" pin="GND" pad="2@4"/>
-<connect gate="G4" pin="GND" pad="2@5"/>
-<connect gate="G5" pin="GND" pad="2@6"/>
+<connect gate="G$1" pin="2" pad="2@1 2@2 2@3 2@4 2@5 2@6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1704,16 +1563,12 @@ Source:  http://catalog.digikey.com .. 142-0711-201, 205, 202, 206.pdf</descript
 Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 <gates>
 <gate name="G$1" symbol="BU-BNC" x="0" y="0"/>
-<gate name="G" symbol="3GND" x="10.16" y="0" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="LTI-SASF54GT">
 <connects>
-<connect gate="G" pin="GND@1" pad="3"/>
-<connect gate="G" pin="GND@2" pad="4"/>
-<connect gate="G" pin="GND@3" pad="5"/>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1731,22 +1586,12 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 Source: http://www.pasternack.com/Pdf/PE44121.pdf</description>
 <gates>
 <gate name="G$1" symbol="BU-BNC" x="0" y="0"/>
-<gate name="GND1" symbol="PIN_GND" x="0" y="-12.7" addlevel="request"/>
-<gate name="GND2" symbol="PIN_GND" x="0" y="-17.78" addlevel="request"/>
-<gate name="GND3" symbol="PIN_GND" x="0" y="-22.86" addlevel="request"/>
-<gate name="GND4" symbol="PIN_GND" x="0" y="-27.94" addlevel="request"/>
-<gate name="GND5" symbol="PIN_GND" x="0" y="-33.02" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="PE44121">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2@1"/>
-<connect gate="GND1" pin="GND" pad="2@2"/>
-<connect gate="GND2" pin="GND" pad="2@3"/>
-<connect gate="GND3" pin="GND" pad="2@4"/>
-<connect gate="GND4" pin="GND" pad="2@5"/>
-<connect gate="GND5" pin="GND" pad="2@6"/>
+<connect gate="G$1" pin="2" pad="2@1 2@2 2@3 2@4 2@5 2@6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1763,14 +1608,13 @@ Source: http://www.pasternack.com/Pdf/PE44121.pdf</description>
 <description>&lt;b&gt;COAX. MICROWAVE CONNECTOR O/D diam 2.1&lt;/b&gt;&lt;p&gt;
 Source: www.tycoelectronics.com .. Electronics .. ENG_CD_1775146_A2.pdf</description>
 <gates>
-<gate name="G$1" symbol="BNC-F2GND" x="0" y="0"/>
+<gate name="G$1" symbol="BNC-F2" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="MC-921">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="GND@1" pad="2@1"/>
-<connect gate="G$1" pin="GND@2" pad="2@2"/>
+<connect gate="G$1" pin="GND@1" pad="2@1 2@2"/>
 </connects>
 <technologies>
 <technology name="">

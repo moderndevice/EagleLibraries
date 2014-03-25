@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mic" altunit="mm"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="0" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -67,6 +67,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="3" fill="10" visible="yes" active="yes"/>
 </layers>
 <library>
 <description>&lt;b&gt;Electronic logos&lt;/b&gt;&lt;p&gt;</description>
@@ -15834,6 +15835,176 @@
 <vertex x="8.3654" y="10.8346" curve="104.659495"/>
 <vertex x="8.2158" y="10.7031"/>
 <vertex x="8.211" y="10.6699"/>
+</polygon>
+</package>
+<package name="C_TICK">
+<polygon width="0.07621875" layer="21">
+<vertex x="4.466490625" y="3.948196875"/>
+<vertex x="3.0183125" y="2.538125" curve="-63.413567"/>
+<vertex x="2.881115625" y="2.5076375" curve="-62.699477"/>
+<vertex x="2.774409375" y="2.6372125" curve="0.350923"/>
+<vertex x="2.6677" y="3.368925" curve="3.664413"/>
+<vertex x="2.65245625" y="3.452765625" curve="68.389568"/>
+<vertex x="2.484771875" y="3.612828125" curve="22.415756"/>
+<vertex x="2.233246875" y="3.60520625" curve="38.664218"/>
+<vertex x="1.943609375" y="3.422278125" curve="-4.417653"/>
+<vertex x="1.76068125" y="3.2088625" curve="45.654334"/>
+<vertex x="1.69970625" y="3.041178125" curve="-5.687793"/>
+<vertex x="1.69970625" y="2.774409375" curve="13.418586"/>
+<vertex x="1.775925" y="1.646353125" curve="25.708194"/>
+<vertex x="1.8750125" y="1.417690625" curve="31.685019"/>
+<vertex x="2.2866" y="1.09756875" curve="25.140171"/>
+<vertex x="2.515259375" y="1.059459375" curve="34.428801"/>
+<vertex x="2.721053125" y="1.135678125" curve="8.660756"/>
+<vertex x="3.5289875" y="1.85976875" curve="-1.093491"/>
+<vertex x="4.8552125" y="3.216484375"/>
+<vertex x="4.87808125" y="3.132640625" curve="-138.036352"/>
+<vertex x="1.196653125" y="0.434453125" curve="-88.451231"/>
+<vertex x="0.419209375" y="3.803378125" curve="-113.43953"/>
+</polygon>
+</package>
+<package name="CE-4MM">
+<rectangle x1="3.96" y1="1.73" x2="5.21" y2="2.33" layer="21"/>
+<polygon width="0.08" layer="21" spacing="0.053159375">
+<vertex x="2.18" y="0.6"/>
+<vertex x="2.18" y="0.06" curve="-188.435421"/>
+<vertex x="2.18" y="4"/>
+<vertex x="2.18" y="3.46" curve="192.866456"/>
+</polygon>
+<polygon width="0.08" layer="21" spacing="0.053159375">
+<vertex x="5.56" y="0.6"/>
+<vertex x="5.56" y="0.06" curve="-188.435421"/>
+<vertex x="5.56" y="4"/>
+<vertex x="5.56" y="3.46" curve="192.866456"/>
+</polygon>
+</package>
+<package name="FCC_20X8.35MM">
+<wire x1="0.06965" y1="8.2784" x2="19.9398" y2="8.2784" width="0.12" layer="21"/>
+<wire x1="19.9398" y1="8.2784" x2="19.9398" y2="0.0597" width="0.12" layer="21"/>
+<wire x1="19.9398" y1="0.0597" x2="0.06965" y2="0.0597" width="0.12" layer="21"/>
+<wire x1="0.06965" y1="0.0597" x2="0.06965" y2="8.2784" width="0.12" layer="21"/>
+<polygon width="0.09" layer="21" spacing="0.053159375">
+<vertex x="1.26365" y="2.0895"/>
+<vertex x="1.26365" y="5.94015"/>
+<vertex x="3.0646" y="5.94015"/>
+<vertex x="3.0646" y="5.42275"/>
+<vertex x="1.8109" y="5.42275"/>
+<vertex x="1.8109" y="4.2785"/>
+<vertex x="3.1243" y="4.2785"/>
+<vertex x="3.1243" y="3.85065"/>
+<vertex x="1.80095" y="3.85065"/>
+<vertex x="1.80095" y="2.0895"/>
+</polygon>
+<polygon width="0.09" layer="21" spacing="0.053159375">
+<vertex x="6.567" y="4.9551"/>
+<vertex x="6.05955" y="4.9551" curve="56.387481"/>
+<vertex x="4.96505" y="5.5521" curve="88.666452"/>
+<vertex x="3.57205" y="4.0795" curve="92.273597"/>
+<vertex x="4.975" y="2.5671" curve="48.100621"/>
+<vertex x="6.05955" y="3.1243"/>
+<vertex x="6.55705" y="3.1243" curve="-61.723073"/>
+<vertex x="4.975" y="2.09945" curve="-90.740536"/>
+<vertex x="3.1641" y="4.04965" curve="-91.580556"/>
+<vertex x="4.96505" y="6.01975" curve="-65.239541"/>
+<vertex x="6.55705" y="4.9551"/>
+</polygon>
+<polygon width="0.09" layer="21" spacing="0.053159375">
+<vertex x="5.4924" y="4.4974"/>
+<vertex x="5.8904" y="4.4974" curve="66.722386"/>
+<vertex x="4.9551" y="5.16405" curve="86.109025"/>
+<vertex x="3.95015" y="4.0596" curve="87.487444"/>
+<vertex x="4.9551" y="2.9651" curve="68.77421"/>
+<vertex x="5.8904" y="3.63175"/>
+<vertex x="5.50235" y="3.63175" curve="-52.619609"/>
+<vertex x="4.9551" y="3.3233" curve="-91.129981"/>
+<vertex x="4.28845" y="4.06955" curve="-91.298388"/>
+<vertex x="4.9551" y="4.80585" curve="-57.699234"/>
+</polygon>
+</package>
+<package name="FCC_10X4.175MM">
+<wire x1="0.034825" y1="4.1392" x2="11.5574" y2="4.1392" width="0.06" layer="21"/>
+<wire x1="11.5574" y1="4.1392" x2="11.5574" y2="0.02985" width="0.06" layer="21"/>
+<wire x1="11.5574" y1="0.02985" x2="0.034825" y2="0.02985" width="0.06" layer="21"/>
+<wire x1="0.034825" y1="0.02985" x2="0.034825" y2="4.1392" width="0.06" layer="21"/>
+<polygon width="0.045" layer="21" spacing="0.02658125">
+<vertex x="0.631825" y="1.04475"/>
+<vertex x="0.631825" y="2.970075"/>
+<vertex x="1.5323" y="2.970075"/>
+<vertex x="1.5323" y="2.711375"/>
+<vertex x="0.90545" y="2.711375"/>
+<vertex x="0.90545" y="2.13925"/>
+<vertex x="1.56215" y="2.13925"/>
+<vertex x="1.56215" y="1.925325"/>
+<vertex x="0.900475" y="1.925325"/>
+<vertex x="0.900475" y="1.04475"/>
+</polygon>
+<polygon width="0.045" layer="21" spacing="0.02658125">
+<vertex x="3.2835" y="2.47755"/>
+<vertex x="3.029775" y="2.47755" curve="56.387481"/>
+<vertex x="2.482525" y="2.77605" curve="88.666452"/>
+<vertex x="1.786025" y="2.03975" curve="92.273597"/>
+<vertex x="2.4875" y="1.28355" curve="48.100621"/>
+<vertex x="3.029775" y="1.56215"/>
+<vertex x="3.278525" y="1.56215" curve="-61.723073"/>
+<vertex x="2.4875" y="1.049725" curve="-90.740536"/>
+<vertex x="1.58205" y="2.024825" curve="-91.580556"/>
+<vertex x="2.482525" y="3.009875" curve="-65.239541"/>
+<vertex x="3.278525" y="2.47755"/>
+</polygon>
+<polygon width="0.045" layer="21" spacing="0.02658125">
+<vertex x="2.7462" y="2.2487"/>
+<vertex x="2.9452" y="2.2487" curve="66.722386"/>
+<vertex x="2.47755" y="2.582025" curve="86.109025"/>
+<vertex x="1.975075" y="2.0298" curve="87.487444"/>
+<vertex x="2.47755" y="1.48255" curve="68.77421"/>
+<vertex x="2.9452" y="1.815875"/>
+<vertex x="2.751175" y="1.815875" curve="-52.619609"/>
+<vertex x="2.47755" y="1.66165" curve="-91.129981"/>
+<vertex x="2.144225" y="2.034775" curve="-91.298388"/>
+<vertex x="2.47755" y="2.402925" curve="-57.699234"/>
+</polygon>
+</package>
+<package name="FCC_6.1X15MM">
+<wire x1="0.0522375" y1="4.9588" x2="14.95485" y2="4.9588" width="0.09" layer="21"/>
+<wire x1="14.95485" y1="4.9588" x2="14.95485" y2="0.044775" width="0.09" layer="21"/>
+<wire x1="14.95485" y1="0.044775" x2="0.0522375" y2="0.044775" width="0.09" layer="21"/>
+<wire x1="0.0522375" y1="0.044775" x2="0.0522375" y2="4.9588" width="0.09" layer="21"/>
+<polygon width="0.0675" layer="21" spacing="0.03986875">
+<vertex x="0.9477375" y="1.067125"/>
+<vertex x="0.9477375" y="3.9551125"/>
+<vertex x="2.29845" y="3.9551125"/>
+<vertex x="2.29845" y="3.5670625"/>
+<vertex x="1.358175" y="3.5670625"/>
+<vertex x="1.358175" y="2.708875"/>
+<vertex x="2.343225" y="2.708875"/>
+<vertex x="2.343225" y="2.3879875"/>
+<vertex x="1.3507125" y="2.3879875"/>
+<vertex x="1.3507125" y="1.067125"/>
+</polygon>
+<polygon width="0.0675" layer="21" spacing="0.03986875">
+<vertex x="4.92525" y="3.216325"/>
+<vertex x="4.5446625" y="3.216325" curve="56.387481"/>
+<vertex x="3.7237875" y="3.664075" curve="88.666452"/>
+<vertex x="2.6790375" y="2.559625" curve="92.273597"/>
+<vertex x="3.73125" y="1.425325" curve="48.100621"/>
+<vertex x="4.5446625" y="1.843225"/>
+<vertex x="4.9177875" y="1.843225" curve="-61.723073"/>
+<vertex x="3.73125" y="1.0745875" curve="-90.740536"/>
+<vertex x="2.373075" y="2.5372375" curve="-91.580556"/>
+<vertex x="3.7237875" y="4.0148125" curve="-65.239541"/>
+<vertex x="4.9177875" y="3.216325"/>
+</polygon>
+<polygon width="0.0675" layer="21" spacing="0.03986875">
+<vertex x="4.1193" y="2.87305"/>
+<vertex x="4.4178" y="2.87305" curve="66.722386"/>
+<vertex x="3.716325" y="3.3730375" curve="86.109025"/>
+<vertex x="2.9626125" y="2.5447" curve="87.487444"/>
+<vertex x="3.716325" y="1.723825" curve="68.77421"/>
+<vertex x="4.4178" y="2.2238125"/>
+<vertex x="4.1267625" y="2.2238125" curve="-52.619609"/>
+<vertex x="3.716325" y="1.992475" curve="-91.129981"/>
+<vertex x="3.2163375" y="2.5521625" curve="-91.298388"/>
+<vertex x="3.716325" y="3.1043875" curve="-57.699234"/>
 </polygon>
 </package>
 </packages>
