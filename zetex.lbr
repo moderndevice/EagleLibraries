@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -728,20 +728,6 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="PNP2C">
-<wire x1="2.286" y1="1.778" x2="1.778" y2="2.794" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="2.794" x2="1.016" y2="1.778" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="2.286" y2="1.778" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C1" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="C" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
 <symbol name="NPN">
 <wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
@@ -831,20 +817,6 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
-<symbol name="NPN2C">
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="C1" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C2" x="2.54" y="2.54" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
 <symbol name="N_MOSFET">
 <wire x1="-0.508" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
 <wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
@@ -898,72 +870,6 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<polygon width="0.1016" layer="94">
-<vertex x="-0.127" y="0"/>
-<vertex x="-1.143" y="-0.635"/>
-<vertex x="-1.143" y="0.635"/>
-</polygon>
-<polygon width="0.1016" layer="94">
-<vertex x="1.397" y="-0.508"/>
-<vertex x="0.762" y="0.508"/>
-<vertex x="2.032" y="0.508"/>
-</polygon>
-</symbol>
-<symbol name="N_MOS2D">
-<wire x1="-0.508" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-0.254" x2="1.397" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.397" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="2.54" x2="1.397" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
-<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
-<rectangle x1="0.762" y1="0.762" x2="2.032" y2="0.889" layer="94"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D2" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<polygon width="0.1016" layer="94">
-<vertex x="-1.524" y="0"/>
-<vertex x="-0.508" y="0.635"/>
-<vertex x="-0.508" y="-0.635"/>
-</polygon>
-<polygon width="0.1016" layer="94">
-<vertex x="1.397" y="0.762"/>
-<vertex x="2.032" y="-0.254"/>
-<vertex x="0.762" y="-0.254"/>
-</polygon>
-</symbol>
-<symbol name="P_MOS2D">
-<wire x1="-1.651" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-0.508" x2="1.397" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.397" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="2.54" x2="1.397" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
-<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
-<rectangle x1="0.762" y1="-0.635" x2="2.032" y2="-0.508" layer="94"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D2" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R90"/>
 <polygon width="0.1016" layer="94">
 <vertex x="-0.127" y="0"/>
 <vertex x="-1.143" y="-0.635"/>
@@ -1872,228 +1778,16 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <vertex x="0" y="-44.958"/>
 </polygon>
 </symbol>
-<symbol name="NMOS4D3S">
-<wire x1="-0.508" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-0.254" x2="1.397" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.397" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="2.54" x2="1.397" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
-<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
-<rectangle x1="0.762" y1="0.762" x2="2.032" y2="0.889" layer="94"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D2" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="D1" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="D3" x="0" y="10.16" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S1" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="S2" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
-<polygon width="0.1016" layer="94">
-<vertex x="-1.524" y="0"/>
-<vertex x="-0.508" y="0.635"/>
-<vertex x="-0.508" y="-0.635"/>
-</polygon>
-<polygon width="0.1016" layer="94">
-<vertex x="1.397" y="0.762"/>
-<vertex x="2.032" y="-0.254"/>
-<vertex x="0.762" y="-0.254"/>
-</polygon>
-</symbol>
-<symbol name="PMOS4D3S">
-<wire x1="-1.651" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-0.508" x2="1.397" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.397" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="2.54" x2="1.397" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
-<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
-<rectangle x1="0.762" y1="-0.635" x2="2.032" y2="-0.508" layer="94"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D2" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="D1" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="D3" x="0" y="10.16" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S1" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="S2" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
-<polygon width="0.1016" layer="94">
-<vertex x="-0.127" y="0"/>
-<vertex x="-1.143" y="-0.635"/>
-<vertex x="-1.143" y="0.635"/>
-</polygon>
-<polygon width="0.1016" layer="94">
-<vertex x="1.397" y="-0.508"/>
-<vertex x="0.762" y="0.508"/>
-<vertex x="2.032" y="0.508"/>
-</polygon>
-</symbol>
-<symbol name="NMOS4D1S">
-<wire x1="-0.508" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-0.254" x2="1.397" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.397" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="2.54" x2="1.397" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
-<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
-<rectangle x1="0.762" y1="0.762" x2="2.032" y2="0.889" layer="94"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D2" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="D1" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="D3" x="0" y="10.16" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1016" layer="94">
-<vertex x="-1.524" y="0"/>
-<vertex x="-0.508" y="0.635"/>
-<vertex x="-0.508" y="-0.635"/>
-</polygon>
-<polygon width="0.1016" layer="94">
-<vertex x="1.397" y="0.762"/>
-<vertex x="2.032" y="-0.254"/>
-<vertex x="0.762" y="-0.254"/>
-</polygon>
-</symbol>
-<symbol name="PMOS4D1S">
-<wire x1="-1.651" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-0.508" x2="1.397" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.397" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="2.54" x2="1.397" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
-<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
-<rectangle x1="0.762" y1="-0.635" x2="2.032" y2="-0.508" layer="94"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D2" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="D1" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="D3" x="0" y="10.16" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1016" layer="94">
-<vertex x="-0.127" y="0"/>
-<vertex x="-1.143" y="-0.635"/>
-<vertex x="-1.143" y="0.635"/>
-</polygon>
-<polygon width="0.1016" layer="94">
-<vertex x="1.397" y="-0.508"/>
-<vertex x="0.762" y="0.508"/>
-<vertex x="2.032" y="0.508"/>
-</polygon>
-</symbol>
-<symbol name="NPN4C">
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="C1" x="2.54" y="10.16" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C2" x="2.54" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C3" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C4" x="2.54" y="2.54" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
-<symbol name="NPN4C3E">
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="C1" x="2.54" y="10.16" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C2" x="2.54" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C3" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C4" x="2.54" y="2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="E1" x="2.54" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="E2" x="2.54" y="-10.16" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
-<symbol name="PNP4C3E">
-<wire x1="2.286" y1="1.778" x2="1.778" y2="2.794" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="2.794" x2="1.016" y2="1.778" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="2.286" y2="1.778" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C1" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="C" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C2" x="2.54" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="C3" x="2.54" y="-10.16" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="E1" x="2.54" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="E2" x="2.54" y="10.16" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
-<symbol name="PNP4C">
-<wire x1="2.286" y1="1.778" x2="1.778" y2="2.794" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="2.794" x2="1.016" y2="1.778" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="2.286" y2="1.778" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C1" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="C" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C2" x="2.54" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="C3" x="2.54" y="-10.16" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
 <symbol name="PNP-SHOTTKY">
-<wire x1="3.81" y1="2.286" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="6.35" y2="2.286" width="0.254" layer="94"/>
-<wire x1="6.35" y1="-0.635" x2="6.35" y2="0" width="0.254" layer="94"/>
-<wire x1="6.35" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="6.35" y1="2.286" x2="3.81" y2="2.286" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="6.35" y1="-0.635" x2="6.096" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="0.635" width="0.254" layer="94"/>
-<wire x1="4.064" y1="0.635" x2="3.81" y2="0.635" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.286" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="2.286" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-0.635" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.286" x2="1.27" y2="2.286" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-0.635" x2="3.556" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="0.635" width="0.254" layer="94"/>
+<wire x1="1.524" y1="0.635" x2="1.27" y2="0.635" width="0.254" layer="94"/>
 <wire x1="-0.254" y1="1.778" x2="-0.762" y2="2.794" width="0.1524" layer="94"/>
 <wire x1="-0.762" y1="2.794" x2="-1.524" y2="1.778" width="0.1524" layer="94"/>
 <wire x1="-1.524" y1="1.778" x2="-0.254" y2="1.778" width="0.1524" layer="94"/>
@@ -2102,31 +1796,11 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <text x="-12.7" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
 <rectangle x1="-2.794" y1="-2.54" x2="-2.032" y2="2.54" layer="94"/>
-<pin name="A" x="5.08" y="5.08" visible="off" length="middle" direction="pas" rot="R270"/>
-<pin name="K" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="2.54" y="5.08" visible="off" length="middle" direction="pas" rot="R270"/>
 <pin name="B" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <pin name="E" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C" x="0" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="C1" x="2.54" y="-2.54" visible="off" length="short" direction="pas"/>
-</symbol>
-<symbol name="DIODE-4C2A">
-<wire x1="-1.27" y1="-1.27" x2="1.016" y2="0" width="0.254" layer="94"/>
-<wire x1="1.016" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.651" y1="1.27" x2="1.016" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.27" x2="1.016" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.016" y1="0" x2="1.016" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.651" y1="1.27" x2="1.651" y2="1.016" width="0.254" layer="94"/>
-<wire x1="1.016" y1="-1.27" x2="0.381" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.016" x2="0.381" y2="-1.27" width="0.254" layer="94"/>
-<text x="-2.286" y="1.651" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="C1" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="C2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="C3" x="10.16" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="A1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="ZXSC300">
 <wire x1="-5.08" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
@@ -2158,15 +1832,14 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <deviceset name="FZT789A" prefix="T">
 <description>&lt;b&gt;PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="PNP2C" x="0" y="0"/>
+<gate name="A" symbol="PNP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT223">
 <connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="C1" pad="4"/>
-<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="A" pin="B" pad="1"/>
+<connect gate="A" pin="C" pad="2 4"/>
+<connect gate="A" pin="E" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -2301,19 +1974,17 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <deviceset name="NPN_PNPSM8" prefix="T" uservalue="yes">
 <description>Dual &lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="PNP2C" x="0" y="7.62"/>
-<gate name="B" symbol="NPN2C" x="0" y="-7.62"/>
+<gate name="A" symbol="PNP" x="0" y="7.62"/>
+<gate name="B" symbol="NPN" x="0" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="SM8">
 <connects>
 <connect gate="A" pin="B" pad="2"/>
-<connect gate="A" pin="C" pad="7"/>
-<connect gate="A" pin="C1" pad="8"/>
+<connect gate="A" pin="C" pad="7 8"/>
 <connect gate="A" pin="E" pad="1"/>
 <connect gate="B" pin="B" pad="4"/>
-<connect gate="B" pin="C1" pad="5"/>
-<connect gate="B" pin="C2" pad="6"/>
+<connect gate="B" pin="C" pad="5 6"/>
 <connect gate="B" pin="E" pad="3"/>
 </connects>
 <technologies>
@@ -2422,15 +2093,14 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <deviceset name="NPNSOT89" prefix="T" uservalue="yes">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="NPN2C" x="0" y="0"/>
+<gate name="A" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT89">
 <connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C1" pad="2"/>
-<connect gate="G$1" pin="C2" pad="2@1"/>
-<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="A" pin="B" pad="1"/>
+<connect gate="A" pin="C" pad="2 2@1"/>
+<connect gate="A" pin="E" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -2446,15 +2116,14 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <deviceset name="PNPSOT89" prefix="T" uservalue="yes">
 <description>&lt;b&gt;PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="PNP2C" x="0" y="0"/>
+<gate name="A" symbol="PNP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT89">
 <connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="C1" pad="2@1"/>
-<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="A" pin="B" pad="1"/>
+<connect gate="A" pin="C" pad="2 2@1" route="any"/>
+<connect gate="A" pin="E" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -2470,14 +2139,13 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <deviceset name="PNPSOT223" prefix="T" uservalue="yes">
 <description>&lt;b&gt;PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="PNP2C" x="0" y="0"/>
+<gate name="A" symbol="PNP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT223">
 <connects>
 <connect gate="A" pin="B" pad="1"/>
-<connect gate="A" pin="C" pad="2"/>
-<connect gate="A" pin="C1" pad="4"/>
+<connect gate="A" pin="C" pad="2 4"/>
 <connect gate="A" pin="E" pad="3"/>
 </connects>
 <technologies>
@@ -2494,14 +2162,13 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <deviceset name="NPNSOT223" prefix="T" uservalue="yes">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="NPN2C" x="0" y="0"/>
+<gate name="A" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT223">
 <connects>
 <connect gate="A" pin="B" pad="1"/>
-<connect gate="A" pin="C1" pad="2"/>
-<connect gate="A" pin="C2" pad="4"/>
+<connect gate="A" pin="C" pad="2 4"/>
 <connect gate="A" pin="E" pad="3"/>
 </connects>
 <technologies>
@@ -2518,19 +2185,17 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <deviceset name="NPNDUAL" prefix="T" uservalue="yes">
 <description>Dual &lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="NPN2C" x="0" y="7.62" swaplevel="1"/>
-<gate name="B" symbol="NPN2C" x="0" y="-7.62" swaplevel="1"/>
+<gate name="A" symbol="NPN" x="0" y="7.62"/>
+<gate name="B" symbol="NPN" x="0" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="SM8">
 <connects>
 <connect gate="A" pin="B" pad="4"/>
-<connect gate="A" pin="C1" pad="5"/>
-<connect gate="A" pin="C2" pad="6"/>
+<connect gate="A" pin="C" pad="5 6"/>
 <connect gate="A" pin="E" pad="3"/>
 <connect gate="B" pin="B" pad="2"/>
-<connect gate="B" pin="C1" pad="7"/>
-<connect gate="B" pin="C2" pad="8"/>
+<connect gate="B" pin="C" pad="7 8"/>
 <connect gate="B" pin="E" pad="1"/>
 </connects>
 <technologies>
@@ -2547,20 +2212,18 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <deviceset name="PNPDUAL" prefix="T" uservalue="yes">
 <description>Dual &lt;b&gt;PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="PNP2C" x="0" y="7.62" swaplevel="1"/>
-<gate name="B" symbol="PNP2C" x="0" y="-7.62" swaplevel="1"/>
+<gate name="A" symbol="PNP" x="-2.54" y="7.62"/>
+<gate name="B" symbol="PNP" x="-2.54" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="SM8">
 <connects>
-<connect gate="A" pin="B" pad="4"/>
-<connect gate="A" pin="C" pad="7"/>
-<connect gate="A" pin="C1" pad="8"/>
-<connect gate="A" pin="E" pad="3"/>
-<connect gate="B" pin="B" pad="2"/>
-<connect gate="B" pin="C" pad="5"/>
-<connect gate="B" pin="C1" pad="6"/>
-<connect gate="B" pin="E" pad="1"/>
+<connect gate="A" pin="B" pad="2"/>
+<connect gate="A" pin="C" pad="7 8"/>
+<connect gate="A" pin="E" pad="1"/>
+<connect gate="B" pin="B" pad="4"/>
+<connect gate="B" pin="C" pad="5 6"/>
+<connect gate="B" pin="E" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -2576,13 +2239,12 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <deviceset name="NMOSSOT223" prefix="T" uservalue="yes">
 <description>&lt;b&gt;MOS FET&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="N_MOS2D" x="0" y="0"/>
+<gate name="A" symbol="N_MOSFET" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT223">
 <connects>
-<connect gate="A" pin="D" pad="2"/>
-<connect gate="A" pin="D2" pad="4"/>
+<connect gate="A" pin="D" pad="2 4"/>
 <connect gate="A" pin="G" pad="1"/>
 <connect gate="A" pin="S" pad="3"/>
 </connects>
@@ -2600,15 +2262,14 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <deviceset name="PMOSSOT223" prefix="T" uservalue="yes">
 <description>&lt;b&gt;MOS FET&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="P_MOS2D" x="0" y="0"/>
+<gate name="G$1" symbol="P_MOSFET" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT223">
 <connects>
-<connect gate="A" pin="D" pad="2"/>
-<connect gate="A" pin="D2" pad="4"/>
-<connect gate="A" pin="G" pad="1"/>
-<connect gate="A" pin="S" pad="3"/>
+<connect gate="G$1" pin="D" pad="2 4"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -2670,20 +2331,18 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <deviceset name="NMOS2SM8" prefix="T" uservalue="yes">
 <description>Dual &lt;b&gt;MOS FET&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="N_MOS2D" x="2.54" y="7.62" swaplevel="1"/>
-<gate name="B" symbol="N_MOS2D" x="2.54" y="-7.62" swaplevel="1"/>
+<gate name="A" symbol="N_MOSFET" x="0" y="7.62"/>
+<gate name="B" symbol="N_MOSFET" x="0" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="SM8">
 <connects>
-<connect gate="A" pin="D" pad="5"/>
-<connect gate="A" pin="D2" pad="6"/>
-<connect gate="A" pin="G" pad="4"/>
-<connect gate="A" pin="S" pad="3"/>
-<connect gate="B" pin="D" pad="7"/>
-<connect gate="B" pin="D2" pad="8"/>
-<connect gate="B" pin="G" pad="2"/>
-<connect gate="B" pin="S" pad="1"/>
+<connect gate="A" pin="D" pad="7 8"/>
+<connect gate="A" pin="G" pad="2"/>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="D" pad="5 6"/>
+<connect gate="B" pin="G" pad="4"/>
+<connect gate="B" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -2699,18 +2358,16 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <deviceset name="NMOS2" prefix="T" uservalue="yes">
 <description>Dual &lt;b&gt;MOS FET&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="N_MOS2D" x="2.54" y="10.16" swaplevel="1"/>
-<gate name="B" symbol="N_MOS2D" x="2.54" y="-7.62" swaplevel="1"/>
+<gate name="A" symbol="N_MOSFET" x="0" y="7.62"/>
+<gate name="B" symbol="N_MOSFET" x="0" y="-7.62"/>
 </gates>
 <devices>
 <device name="MSOP8" package="MSOP8">
 <connects>
-<connect gate="A" pin="D" pad="8"/>
-<connect gate="A" pin="D2" pad="7"/>
+<connect gate="A" pin="D" pad="7 8"/>
 <connect gate="A" pin="G" pad="2"/>
 <connect gate="A" pin="S" pad="1"/>
-<connect gate="B" pin="D" pad="6"/>
-<connect gate="B" pin="D2" pad="5"/>
+<connect gate="B" pin="D" pad="5 6"/>
 <connect gate="B" pin="G" pad="4"/>
 <connect gate="B" pin="S" pad="3"/>
 </connects>
@@ -2725,12 +2382,10 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 </device>
 <device name="SO8" package="SO8">
 <connects>
-<connect gate="A" pin="D" pad="8"/>
-<connect gate="A" pin="D2" pad="7"/>
+<connect gate="A" pin="D" pad="7 8"/>
 <connect gate="A" pin="G" pad="2"/>
 <connect gate="A" pin="S" pad="1"/>
-<connect gate="B" pin="D" pad="6"/>
-<connect gate="B" pin="D2" pad="5"/>
+<connect gate="B" pin="D" pad="5 6"/>
 <connect gate="B" pin="G" pad="4"/>
 <connect gate="B" pin="S" pad="3"/>
 </connects>
@@ -2796,18 +2451,16 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 Source: &lt;a href="http://www.diodes.com/datasheets/ZXMP3A16DN8.pdf"&gt; Data sheet&lt;/a&gt; SOP8&lt;br&gt;
 Source: &lt;a href="http://www.diodes.com/datasheets/ZXMD63P03X.pdf"&gt; Data sheet &lt;/a&gt; MSOP8&lt;br&gt;</description>
 <gates>
-<gate name="A" symbol="P_MOS2D" x="2.54" y="7.62" swaplevel="1"/>
-<gate name="B" symbol="P_MOS2D" x="2.54" y="-5.08" swaplevel="1"/>
+<gate name="A" symbol="P_MOSFET" x="2.54" y="7.62"/>
+<gate name="B" symbol="P_MOSFET" x="2.54" y="-7.62"/>
 </gates>
 <devices>
 <device name="MSOP8" package="MSOP8">
 <connects>
-<connect gate="A" pin="D" pad="7"/>
-<connect gate="A" pin="D2" pad="8"/>
+<connect gate="A" pin="D" pad="7 8"/>
 <connect gate="A" pin="G" pad="2"/>
 <connect gate="A" pin="S" pad="1"/>
-<connect gate="B" pin="D" pad="6"/>
-<connect gate="B" pin="D2" pad="5"/>
+<connect gate="B" pin="D" pad="5 6"/>
 <connect gate="B" pin="G" pad="4"/>
 <connect gate="B" pin="S" pad="3"/>
 </connects>
@@ -2822,12 +2475,10 @@ Source: &lt;a href="http://www.diodes.com/datasheets/ZXMD63P03X.pdf"&gt; Data sh
 </device>
 <device name="SO8" package="SO8">
 <connects>
-<connect gate="A" pin="D" pad="7"/>
-<connect gate="A" pin="D2" pad="8"/>
+<connect gate="A" pin="D" pad="7 8"/>
 <connect gate="A" pin="G" pad="2"/>
 <connect gate="A" pin="S" pad="1"/>
-<connect gate="B" pin="D" pad="6"/>
-<connect gate="B" pin="D2" pad="5"/>
+<connect gate="B" pin="D" pad="5 6"/>
 <connect gate="B" pin="G" pad="4"/>
 <connect gate="B" pin="S" pad="3"/>
 </connects>
@@ -2846,18 +2497,16 @@ Source: &lt;a href="http://www.diodes.com/datasheets/ZXMD63P03X.pdf"&gt; Data sh
 <description>&lt;b&gt;DUAL N AND P-CHANNEL ENHANCEMENT MODE MOSFET&lt;/b&gt;&lt;p&gt;
 source ZXMD63C02.pdf from http://www.zetex.com/</description>
 <gates>
-<gate name="B" symbol="P_MOS2D" x="2.54" y="-7.62"/>
-<gate name="A" symbol="N_MOS2D" x="2.54" y="7.62"/>
+<gate name="A" symbol="P_MOSFET" x="0" y="7.62"/>
+<gate name="B" symbol="P_MOSFET" x="0" y="-7.62"/>
 </gates>
 <devices>
 <device name="MSOP8" package="MSOP8">
 <connects>
-<connect gate="A" pin="D" pad="7"/>
-<connect gate="A" pin="D2" pad="8"/>
+<connect gate="A" pin="D" pad="7 8"/>
 <connect gate="A" pin="G" pad="2"/>
 <connect gate="A" pin="S" pad="1"/>
-<connect gate="B" pin="D" pad="5"/>
-<connect gate="B" pin="D2" pad="6"/>
+<connect gate="B" pin="D" pad="5 6"/>
 <connect gate="B" pin="G" pad="4"/>
 <connect gate="B" pin="S" pad="3"/>
 </connects>
@@ -2872,12 +2521,10 @@ source ZXMD63C02.pdf from http://www.zetex.com/</description>
 </device>
 <device name="SO8" package="SO8">
 <connects>
-<connect gate="A" pin="D" pad="7"/>
-<connect gate="A" pin="D2" pad="8"/>
+<connect gate="A" pin="D" pad="7 8"/>
 <connect gate="A" pin="G" pad="2"/>
 <connect gate="A" pin="S" pad="1"/>
-<connect gate="B" pin="D" pad="5"/>
-<connect gate="B" pin="D2" pad="6"/>
+<connect gate="B" pin="D" pad="5 6"/>
 <connect gate="B" pin="G" pad="4"/>
 <connect gate="B" pin="S" pad="3"/>
 </connects>
@@ -3238,19 +2885,14 @@ source ZXMD63C02.pdf from http://www.zetex.com/</description>
 <deviceset name="NMOSMSOP8" prefix="T" uservalue="yes">
 <description>&lt;b&gt;MOS FET&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="NMOS4D3S" x="0" y="0"/>
+<gate name="A" symbol="N_MOSFET" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="MSOP8">
 <connects>
-<connect gate="G$1" pin="D" pad="1"/>
-<connect gate="G$1" pin="D1" pad="2"/>
-<connect gate="G$1" pin="D2" pad="3"/>
-<connect gate="G$1" pin="D3" pad="4"/>
-<connect gate="G$1" pin="G" pad="8"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$1" pin="S1" pad="6"/>
-<connect gate="G$1" pin="S2" pad="7"/>
+<connect gate="A" pin="D" pad="5 6 7 8"/>
+<connect gate="A" pin="G" pad="4"/>
+<connect gate="A" pin="S" pad="1 2 3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -3266,19 +2908,14 @@ source ZXMD63C02.pdf from http://www.zetex.com/</description>
 <deviceset name="PMOSMSOP8" prefix="T" uservalue="yes">
 <description>&lt;b&gt;MOS FET&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="PMOS4D3S" x="0" y="0"/>
+<gate name="A" symbol="P_MOSFET" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="MSOP8">
 <connects>
-<connect gate="G$1" pin="D" pad="5"/>
-<connect gate="G$1" pin="D1" pad="6"/>
-<connect gate="G$1" pin="D2" pad="7"/>
-<connect gate="G$1" pin="D3" pad="8"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="S" pad="1"/>
-<connect gate="G$1" pin="S1" pad="2"/>
-<connect gate="G$1" pin="S2" pad="3"/>
+<connect gate="A" pin="D" pad="5 6 7 8"/>
+<connect gate="A" pin="G" pad="4"/>
+<connect gate="A" pin="S" pad="1 2 3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -3294,17 +2931,14 @@ source ZXMD63C02.pdf from http://www.zetex.com/</description>
 <deviceset name="NMOSSOT23-6" prefix="T" uservalue="yes">
 <description>&lt;b&gt;MOS FET&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="NMOS4D1S" x="0" y="0"/>
+<gate name="A" symbol="N_MOSFET" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT23-6">
 <connects>
-<connect gate="G$1" pin="D" pad="1"/>
-<connect gate="G$1" pin="D1" pad="2"/>
-<connect gate="G$1" pin="D2" pad="5"/>
-<connect gate="G$1" pin="D3" pad="6"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="S" pad="3"/>
+<connect gate="A" pin="D" pad="1 2 5 6"/>
+<connect gate="A" pin="G" pad="3"/>
+<connect gate="A" pin="S" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -3318,19 +2952,18 @@ source ZXMD63C02.pdf from http://www.zetex.com/</description>
 </devices>
 </deviceset>
 <deviceset name="PMOSSOT23-6" prefix="T" uservalue="yes">
-<description>&lt;b&gt;MOS FET&lt;/b&gt;</description>
+<description>&lt;b&gt;P-CHANNEL ENHANCEMENT MODE MOSFET&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.diodes.com/zetex/_pdfs/3.0/pdf/ZXMP10A17E6.pdf"&gt; Data sheet &lt;/a&gt;&lt;br&gt;
+ZXMP10A17E6</description>
 <gates>
-<gate name="G$1" symbol="PMOS4D1S" x="0" y="0"/>
+<gate name="G$1" symbol="P_MOSFET" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT23-6">
 <connects>
-<connect gate="G$1" pin="D" pad="1"/>
-<connect gate="G$1" pin="D1" pad="2"/>
-<connect gate="G$1" pin="D2" pad="5"/>
-<connect gate="G$1" pin="D3" pad="6"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="S" pad="3"/>
+<connect gate="G$1" pin="D" pad="1 2 5 6"/>
+<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="S" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -3348,17 +2981,14 @@ source ZXMD63C02.pdf from http://www.zetex.com/</description>
 MPPS Miniature Package Power Solutions&lt;br&gt;
 Source: www.zetex.com/ .. zxtam322.pdf</description>
 <gates>
-<gate name="G$1" symbol="NPN4C" x="0" y="0"/>
+<gate name="A" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="MLP322">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C1" pad="C"/>
-<connect gate="G$1" pin="C2" pad="C@1"/>
-<connect gate="G$1" pin="C3" pad="C@2"/>
-<connect gate="G$1" pin="C4" pad="C@3"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="A" pin="B" pad="B"/>
+<connect gate="A" pin="C" pad="C C@1 C@2 C@3" route="any"/>
+<connect gate="A" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name="">
@@ -3376,19 +3006,17 @@ Source: www.zetex.com/ .. zxtam322.pdf</description>
 MPPS Miniature Package Power Solutions&lt;br&gt;
 Source: www.zetex.com/ .. zxtd1m832.pdf</description>
 <gates>
-<gate name="A" symbol="PNP2C" x="-10.16" y="0"/>
-<gate name="B" symbol="PNP2C" x="7.62" y="0"/>
+<gate name="A" symbol="PNP" x="-2.54" y="7.62"/>
+<gate name="B" symbol="PNP" x="-2.54" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="MLP832">
 <connects>
 <connect gate="A" pin="B" pad="1"/>
-<connect gate="A" pin="C" pad="7"/>
-<connect gate="A" pin="C1" pad="8"/>
+<connect gate="A" pin="C" pad="7 8"/>
 <connect gate="A" pin="E" pad="2"/>
 <connect gate="B" pin="B" pad="3"/>
-<connect gate="B" pin="C" pad="5"/>
-<connect gate="B" pin="C1" pad="6"/>
+<connect gate="B" pin="C" pad="5 6"/>
 <connect gate="B" pin="E" pad="4"/>
 </connects>
 <technologies>
@@ -3410,7 +3038,7 @@ Source: www.zetex.com/ .. zxtd1m832.pdf</description>
 <devices>
 <device name="" package="SOT89">
 <connects>
-<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="D" pad="2 2@1" route="any"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="3"/>
 </connects>
@@ -3451,18 +3079,16 @@ Source: www.zetex.com/ .. zxtd1m832.pdf</description>
 <deviceset name="PMOS2SM8" prefix="T" uservalue="yes">
 <description>Dual &lt;b&gt;MOS FET&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="P_MOS2D" x="0" y="10.16"/>
-<gate name="B" symbol="P_MOS2D" x="0" y="-10.16"/>
+<gate name="A" symbol="P_MOSFET" x="2.54" y="7.62"/>
+<gate name="B" symbol="P_MOSFET" x="2.54" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="SM8">
 <connects>
-<connect gate="A" pin="D" pad="5"/>
-<connect gate="A" pin="D2" pad="6"/>
+<connect gate="A" pin="D" pad="5 6"/>
 <connect gate="A" pin="G" pad="4"/>
 <connect gate="A" pin="S" pad="3"/>
-<connect gate="B" pin="D" pad="7"/>
-<connect gate="B" pin="D2" pad="8"/>
+<connect gate="B" pin="D" pad="7 8"/>
 <connect gate="B" pin="G" pad="2"/>
 <connect gate="B" pin="S" pad="1"/>
 </connects>
@@ -3480,19 +3106,14 @@ Source: www.zetex.com/ .. zxtd1m832.pdf</description>
 <deviceset name="NPNMSOP8" prefix="T">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="NPN4C3E" x="0" y="0"/>
+<gate name="A" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="MSOP8">
 <connects>
 <connect gate="A" pin="B" pad="4"/>
-<connect gate="A" pin="C1" pad="5"/>
-<connect gate="A" pin="C2" pad="6"/>
-<connect gate="A" pin="C3" pad="7"/>
-<connect gate="A" pin="C4" pad="8"/>
-<connect gate="A" pin="E" pad="1"/>
-<connect gate="A" pin="E1" pad="2"/>
-<connect gate="A" pin="E2" pad="3"/>
+<connect gate="A" pin="C" pad="5 6 7 8"/>
+<connect gate="A" pin="E" pad="1 2 3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -3508,19 +3129,14 @@ Source: www.zetex.com/ .. zxtd1m832.pdf</description>
 <deviceset name="PNP4C3E" prefix="T">
 <description>&lt;b&gt;PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="PNP4C3E" x="0" y="0"/>
+<gate name="A" symbol="PNP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="MSOP8">
 <connects>
 <connect gate="A" pin="B" pad="4"/>
-<connect gate="A" pin="C" pad="5"/>
-<connect gate="A" pin="C1" pad="6"/>
-<connect gate="A" pin="C2" pad="7"/>
-<connect gate="A" pin="C3" pad="8"/>
-<connect gate="A" pin="E" pad="1"/>
-<connect gate="A" pin="E1" pad="2"/>
-<connect gate="A" pin="E2" pad="3"/>
+<connect gate="A" pin="C" pad="5 6 7 8"/>
+<connect gate="A" pin="E" pad="1 2 3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -3536,16 +3152,13 @@ Source: www.zetex.com/ .. zxtd1m832.pdf</description>
 <deviceset name="NPNSOT23-6" prefix="T" uservalue="yes">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="NPN4C" x="0" y="0"/>
+<gate name="A" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT23-6">
 <connects>
 <connect gate="A" pin="B" pad="3"/>
-<connect gate="A" pin="C1" pad="1"/>
-<connect gate="A" pin="C2" pad="2"/>
-<connect gate="A" pin="C3" pad="5"/>
-<connect gate="A" pin="C4" pad="6"/>
+<connect gate="A" pin="C" pad="1 2 5 6"/>
 <connect gate="A" pin="E" pad="4"/>
 </connects>
 <technologies>
@@ -3562,16 +3175,13 @@ Source: www.zetex.com/ .. zxtd1m832.pdf</description>
 <deviceset name="PNPSOT23-6" prefix="T" uservalue="yes">
 <description>&lt;b&gt;PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="PNP4C" x="0" y="0"/>
+<gate name="A" symbol="PNP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT23-6">
 <connects>
 <connect gate="A" pin="B" pad="3"/>
-<connect gate="A" pin="C" pad="1"/>
-<connect gate="A" pin="C1" pad="2"/>
-<connect gate="A" pin="C2" pad="5"/>
-<connect gate="A" pin="C3" pad="6"/>
+<connect gate="A" pin="C" pad="1 2 5 6"/>
 <connect gate="A" pin="E" pad="4"/>
 </connects>
 <technologies>
@@ -3588,19 +3198,17 @@ Source: www.zetex.com/ .. zxtd1m832.pdf</description>
 <deviceset name="NPN2SM8" prefix="T">
 <description>Dual &lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="NPN2C" x="0" y="7.62"/>
-<gate name="B" symbol="NPN2C" x="0" y="-7.62"/>
+<gate name="A" symbol="NPN" x="0" y="7.62"/>
+<gate name="B" symbol="NPN" x="0" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="SM8">
 <connects>
 <connect gate="A" pin="B" pad="4"/>
-<connect gate="A" pin="C1" pad="5"/>
-<connect gate="A" pin="C2" pad="6"/>
+<connect gate="A" pin="C" pad="5 6"/>
 <connect gate="A" pin="E" pad="3"/>
 <connect gate="B" pin="B" pad="2"/>
-<connect gate="B" pin="C1" pad="7"/>
-<connect gate="B" pin="C2" pad="8"/>
+<connect gate="B" pin="C" pad="7 8"/>
 <connect gate="B" pin="E" pad="1"/>
 </connects>
 <technologies>
@@ -3617,19 +3225,17 @@ Source: www.zetex.com/ .. zxtd1m832.pdf</description>
 <deviceset name="PNP2SM8" prefix="T">
 <description>Dual &lt;b&gt;PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="PNP2C" x="0" y="7.62"/>
-<gate name="B" symbol="PNP2C" x="0" y="-7.62"/>
+<gate name="A" symbol="PNP" x="0" y="7.62"/>
+<gate name="B" symbol="PNP" x="0" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="SM8">
 <connects>
 <connect gate="A" pin="B" pad="4"/>
-<connect gate="A" pin="C" pad="5"/>
-<connect gate="A" pin="C1" pad="6"/>
+<connect gate="A" pin="C" pad="5 6"/>
 <connect gate="A" pin="E" pad="3"/>
 <connect gate="B" pin="B" pad="2"/>
-<connect gate="B" pin="C" pad="7"/>
-<connect gate="B" pin="C1" pad="8"/>
+<connect gate="B" pin="C" pad="7 8"/>
 <connect gate="B" pin="E" pad="1"/>
 </connects>
 <technologies>
@@ -3647,7 +3253,7 @@ Source: www.zetex.com/ .. zxtd1m832.pdf</description>
 <description>Dual &lt;b&gt;NPN PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN" x="0" y="7.62"/>
-<gate name="B" symbol="PNP" x="0" y="-10.16"/>
+<gate name="B" symbol="PNP" x="0" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="SOT23-6">
@@ -3680,10 +3286,8 @@ Source: www.zetex.com/ .. zxtd1m832.pdf</description>
 <connects>
 <connect gate="A" pin="A" pad="3"/>
 <connect gate="A" pin="B" pad="2"/>
-<connect gate="A" pin="C" pad="5"/>
-<connect gate="A" pin="C1" pad="6"/>
+<connect gate="A" pin="C" pad="4 5 6"/>
 <connect gate="A" pin="E" pad="1"/>
-<connect gate="A" pin="K" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -3699,17 +3303,13 @@ Source: www.zetex.com/ .. zxtd1m832.pdf</description>
 <deviceset name="ZHCS2000" prefix="D">
 <description>&lt;b&gt;SHOTTKY DIODE&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="DIODE-4C2A" x="0" y="0"/>
+<gate name="A" symbol="SCHOTTKY" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT23-6">
 <connects>
-<connect gate="A" pin="A" pad="3"/>
-<connect gate="A" pin="A1" pad="4"/>
-<connect gate="A" pin="C" pad="1"/>
-<connect gate="A" pin="C1" pad="2"/>
-<connect gate="A" pin="C2" pad="5"/>
-<connect gate="A" pin="C3" pad="6"/>
+<connect gate="A" pin="A" pad="3 4"/>
+<connect gate="A" pin="K" pad="1 2 5 6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -3852,18 +3452,16 @@ Source: http://www.zetex.com/3.0/pdf/ZXSC300.pdf</description>
 <description>&lt;b&gt;30V DUAL N-CHANNEL ENHANCEMENT MODE MOSFET&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.diodes.com/datasheets/DMN3024LSD.pdf"&gt; Data sheet&lt;/a&gt;</description>
 <gates>
-<gate name="A" symbol="N_MOS2D" x="0" y="7.62"/>
-<gate name="B" symbol="N_MOS2D" x="0" y="-7.62"/>
+<gate name="A" symbol="N_MOSFET" x="0" y="7.62"/>
+<gate name="B" symbol="N_MOSFET" x="0" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="SO8">
 <connects>
-<connect gate="A" pin="D" pad="8"/>
-<connect gate="A" pin="D2" pad="7"/>
+<connect gate="A" pin="D" pad="7 8"/>
 <connect gate="A" pin="G" pad="2"/>
 <connect gate="A" pin="S" pad="1"/>
-<connect gate="B" pin="D" pad="5"/>
-<connect gate="B" pin="D2" pad="6"/>
+<connect gate="B" pin="D" pad="5 6"/>
 <connect gate="B" pin="G" pad="4"/>
 <connect gate="B" pin="S" pad="3"/>
 </connects>
@@ -3882,18 +3480,16 @@ Source: &lt;a href="http://www.diodes.com/datasheets/DMN3024LSD.pdf"&gt; Data sh
 <description>&lt;b&gt;DUAL 30V N-CHANNEL ENHANCEMENT MODE MOSFET&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.diodes.com/datasheets/ZXMD63N03X.pdf"&gt; Data sheet&lt;/a&gt;</description>
 <gates>
-<gate name="A" symbol="N_MOS2D" x="0" y="7.62"/>
-<gate name="B" symbol="N_MOS2D" x="0" y="-7.62"/>
+<gate name="A" symbol="N_MOSFET" x="0" y="7.62"/>
+<gate name="B" symbol="N_MOSFET" x="0" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="MSOP8">
 <connects>
-<connect gate="A" pin="D" pad="8"/>
-<connect gate="A" pin="D2" pad="7"/>
+<connect gate="A" pin="D" pad="7 8"/>
 <connect gate="A" pin="G" pad="2"/>
 <connect gate="A" pin="S" pad="1"/>
-<connect gate="B" pin="D" pad="6"/>
-<connect gate="B" pin="D2" pad="5"/>
+<connect gate="B" pin="D" pad="5 6"/>
 <connect gate="B" pin="G" pad="4"/>
 <connect gate="B" pin="S" pad="3"/>
 </connects>
