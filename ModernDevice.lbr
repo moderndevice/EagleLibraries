@@ -32048,7 +32048,7 @@ Minimal pads to minimize thermal inertia</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R0603_NARROW" package="R0603_SMALL">
+<device name="R0603_SMALL" package="R0603_SMALL">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
