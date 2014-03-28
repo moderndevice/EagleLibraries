@@ -1,6 +1,69 @@
 ﻿EAGLE Library ChangeLog
 =======================
 
+2013-07-02
+  * display-lcd.lbr: Eagle 6.4.4
+    added:
+    EA_DIP.DEV
+    EA_DIP.PAC
+
+2013-06-25
+  * zetex.lbr: Eagle 6.4.3
+    corrected device: PN_MOSFET-.DEV, N-Channel
+
+2013-05-07
+  * optocoupler.lbr: Eagle 6.4.2
+    corrected web adress of data sheet: MOC30*.DEV
+
+2013-05-06
+  * atmel.lbr: Eagle 6.4.2
+    deleted: Package variant M at ATMEGA644.DEV, false package dimension.
+    The correct package used in ATMEGA644*.DEV variant M.
+
+2013-05-06
+  * st-microelectronics.lbr: Eagle 6.4.2
+    added:
+    LSM303DLHC.DEV
+    LGA-14.PAC
+
+2013-04-24
+  * aplus.lbr: Eagle 6.4.2
+    added:
+    APR9600_DIP-28.DEV
+    APR9600_SOP-28.DEV
+    DIP254P1525X550-28P.PAC
+    SOP50P1030X264-28N.PAC
+
+2013-04-23
+  * opto-vishay.lbr: Eagle 6.4.2
+    added:
+    TSSP6P38.DEV
+    TSSP6P38.PAC
+
+2013-04-09
+  * maxim.lbr: Eagle 6.4.2
+    corrected description of devices: TRANSEIVER to TRANSCEIVER
+
+2013-02-22
+  * transistor.lbr: Eagle 6.4.1
+    description corrected:
+    SOT89-ECB.PAC
+    SOT89-BCE.PAC
+
+2013-02-05
+  * con-ptr500.lbr: Eagle 6.4.1
+    corrected package: AK500/6-H.DEV => AK500/-6H.PAC
+
+2013-01-25
+  * atmel.lbr: Eagle 6.4.0
+    added:
+    MLF20-4X4.PAC
+    AT90S2313.DEV package variant V (MLF)
+
+2013-01-21
+  * frames.lbr: Eagle 6.4.0
+    text deleted in packages: "Sheet:" ">SHEET"
+
 2012-12-17
   * rcl.lbr: Eagle 6.3.2
     corrected package outlines:
