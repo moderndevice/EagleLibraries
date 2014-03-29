@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19745,7 +19745,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX232" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX232" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="25.4" y="-5.08" addlevel="request"/>
@@ -19782,7 +19782,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX242" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX242" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="25.4" y="-2.54" addlevel="request"/>
@@ -19862,7 +19862,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX231" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX231" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="25.4" y="0" addlevel="request"/>
@@ -19897,7 +19897,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX233" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX233" x="0" y="0"/>
 <gate name="P" symbol="PWR2GND" x="30.48" y="-2.54" addlevel="request"/>
@@ -19975,7 +19975,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX235" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX235" x="0" y="2.54"/>
 <gate name="P" symbol="VCC-GND" x="25.4" y="-5.08" addlevel="request"/>
@@ -20020,7 +20020,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX236" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX236" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="27.94" y="-7.62" addlevel="request"/>
@@ -20065,7 +20065,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX237" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX237" x="0" y="-2.54"/>
 <gate name="P" symbol="VCC-GND" x="27.94" y="-10.16" addlevel="request"/>
@@ -20110,7 +20110,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX238" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX238" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="25.4" y="-7.62" addlevel="request"/>
@@ -20155,7 +20155,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX239" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="P" symbol="VCC-GND" x="27.94" y="-2.54" addlevel="request"/>
 <gate name="G$1" symbol="MAX239" x="0" y="2.54"/>
@@ -20200,7 +20200,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX243" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX243" x="0" y="2.54"/>
 <gate name="P" symbol="VCC-GND" x="25.4" y="-2.54" addlevel="request"/>
@@ -20237,7 +20237,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX244" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX244" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="33.02" y="-7.62" addlevel="request"/>
@@ -20302,7 +20302,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX245" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX245" x="0" y="2.54"/>
 <gate name="P" symbol="VCC-GND" x="30.48" y="-7.62" addlevel="request"/>
@@ -20363,7 +20363,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX247" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX247" x="0" y="-2.54"/>
 <gate name="P" symbol="VCC-GND" x="30.48" y="-15.24" addlevel="request"/>
@@ -20424,7 +20424,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX246" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX246" x="0" y="2.54"/>
 <gate name="P" symbol="VCC-GND" x="33.02" y="-12.7" addlevel="request"/>
@@ -20485,7 +20485,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX248" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX248" x="0" y="-2.54"/>
 <gate name="P" symbol="VCC-GND" x="30.48" y="-22.86" addlevel="request"/>
@@ -20550,7 +20550,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX249" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX249" x="0" y="-2.54"/>
 <gate name="P" symbol="VCC-GND" x="30.48" y="-22.86" addlevel="request"/>
@@ -21649,7 +21649,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX220CPE" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX220" x="0" y="0"/>
 </gates>
@@ -21685,7 +21685,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX222CPN" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX222" x="0" y="0"/>
 </gates>
@@ -21722,7 +21722,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX250CPD" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX250" x="0" y="0"/>
 </gates>
@@ -21756,7 +21756,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX251CPD" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX251" x="0" y="0"/>
 </gates>
@@ -21790,7 +21790,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX252A" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX252" x="0" y="0"/>
 </gates>
@@ -25027,7 +25027,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX201CPD" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX201" x="0" y="0"/>
 </gates>
@@ -25061,7 +25061,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX201CWE" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX201" x="0" y="0"/>
 </gates>
@@ -25095,7 +25095,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX202CPE" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX202" x="0" y="0"/>
 </gates>
@@ -27878,7 +27878,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX3237" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX3237" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="30.48" y="-2.54" addlevel="request"/>
@@ -27927,7 +27927,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX3241" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX3241" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="35.56" y="0" addlevel="request"/>
@@ -27976,7 +27976,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX3222" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX3222" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="33.02" y="0" addlevel="request"/>
@@ -28637,7 +28637,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX4137-MAX4138.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX232ECWE" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX232" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="25.4" y="0" addlevel="request"/>
@@ -28674,7 +28674,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX4137-MAX4138.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX202ECWE" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX232" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="35.56" y="-2.54" addlevel="request"/>
@@ -28711,7 +28711,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX4137-MAX4138.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX203ECWP" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX203E" x="0" y="0"/>
 <gate name="P" symbol="PWR2GND" x="33.02" y="-2.54" addlevel="request"/>
@@ -28752,7 +28752,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX4137-MAX4138.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX206ECWG" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="P" symbol="VCC-GND" x="33.02" y="-2.54" addlevel="request"/>
 <gate name="G$1" symbol="MAX236" x="0" y="0"/>
@@ -28797,7 +28797,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX4137-MAX4138.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX205ECPG" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX235" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="33.02" y="5.08" addlevel="request"/>
@@ -28842,7 +28842,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX4137-MAX4138.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX207ECWG" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX237" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="33.02" y="5.08" addlevel="request"/>
@@ -28887,7 +28887,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX4137-MAX4138.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX208ECWG" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX238" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="27.94" y="2.54" addlevel="request"/>
@@ -28932,7 +28932,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX4137-MAX4138.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX241ECWI" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX211E" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="30.48" y="2.54" addlevel="request"/>
@@ -28981,7 +28981,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX4137-MAX4138.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX211ECWI" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX211E" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="33.02" y="0" addlevel="request"/>
@@ -29030,7 +29030,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX4137-MAX4138.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX213ECWI" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX213E" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="33.02" y="0" addlevel="request"/>
@@ -29290,7 +29290,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX4137-MAX4138.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX233AEWP" prefix="IC">
-<description>&lt;b&gt;RS232 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS232 TRANSCEIVER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX233" x="0" y="0"/>
 <gate name="P" symbol="PWR2GND" x="25.4" y="0" addlevel="request"/>

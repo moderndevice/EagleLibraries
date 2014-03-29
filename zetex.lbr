@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2495,20 +2495,20 @@ Source: &lt;a href="http://www.diodes.com/datasheets/ZXMD63P03X.pdf"&gt; Data sh
 </deviceset>
 <deviceset name="PN_MOSFET-" prefix="T" uservalue="yes">
 <description>&lt;b&gt;DUAL N AND P-CHANNEL ENHANCEMENT MODE MOSFET&lt;/b&gt;&lt;p&gt;
-source ZXMD63C02.pdf from http://www.zetex.com/</description>
+Source: &lt;a href="http://www.farnell.com/datasheets/1693880.pdf"&gt;Data sheet&lt;/a&gt;</description>
 <gates>
-<gate name="A" symbol="P_MOSFET" x="0" y="7.62"/>
-<gate name="B" symbol="P_MOSFET" x="0" y="-7.62"/>
+<gate name="2" symbol="P_MOSFET" x="0" y="-7.62"/>
+<gate name="1" symbol="N_MOSFET" x="0" y="7.62"/>
 </gates>
 <devices>
 <device name="MSOP8" package="MSOP8">
 <connects>
-<connect gate="A" pin="D" pad="7 8"/>
-<connect gate="A" pin="G" pad="2"/>
-<connect gate="A" pin="S" pad="1"/>
-<connect gate="B" pin="D" pad="5 6"/>
-<connect gate="B" pin="G" pad="4"/>
-<connect gate="B" pin="S" pad="3"/>
+<connect gate="1" pin="D" pad="7 8" route="any"/>
+<connect gate="1" pin="G" pad="2"/>
+<connect gate="1" pin="S" pad="1"/>
+<connect gate="2" pin="D" pad="5 6"/>
+<connect gate="2" pin="G" pad="4"/>
+<connect gate="2" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -2521,12 +2521,12 @@ source ZXMD63C02.pdf from http://www.zetex.com/</description>
 </device>
 <device name="SO8" package="SO8">
 <connects>
-<connect gate="A" pin="D" pad="7 8"/>
-<connect gate="A" pin="G" pad="2"/>
-<connect gate="A" pin="S" pad="1"/>
-<connect gate="B" pin="D" pad="5 6"/>
-<connect gate="B" pin="G" pad="4"/>
-<connect gate="B" pin="S" pad="3"/>
+<connect gate="1" pin="D" pad="7 8" route="any"/>
+<connect gate="1" pin="G" pad="2"/>
+<connect gate="1" pin="S" pad="1"/>
+<connect gate="2" pin="D" pad="5 6"/>
+<connect gate="2" pin="G" pad="4"/>
+<connect gate="2" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name="">

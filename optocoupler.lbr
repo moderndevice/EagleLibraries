@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -114,7 +114,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </package>
 <package name="DIL06B">
 <description>&lt;b&gt;Dual In Line&lt;/b&gt; 0.4" Lead spacing&lt;p&gt;
-Source: http://www.fairchildsemi.com/ds/MO/MOC3043-M.pdf</description>
+Source: &lt;a href="http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf"&gt; Data sheet&lt;/&lt;&gt;</description>
 <wire x1="-3.81" y1="-3.175" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
 <wire x1="-3.81" y1="0.635" x2="-3.81" y2="3.175" width="0.1524" layer="21"/>
 <wire x1="-3.81" y1="-0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21" curve="180"/>
@@ -6748,7 +6748,8 @@ Source: http://www.fairchildsemi.com/ds/4N/4N35-M.pdf</description>
 </deviceset>
 <deviceset name="MOC30*" prefix="OK">
 <description>&lt;b&gt;6-Pin DIP Zero-Cross Optoisolators Triac Driver Output&lt;/b&gt; (250/400 Volt Peak)&lt;p&gt;
-Source: http://www.fairchildsemi.com/ds/MO/MOC3043-M.pdf</description>
+Source: &lt;a href="http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf"&lt; Data sheet &lt;/a&gt;&lt;br&gt;
+The old path of data sheet not more available 2013-05-06.</description>
 <gates>
 <gate name="-1" symbol="OK-TRN" x="0" y="0"/>
 </gates>

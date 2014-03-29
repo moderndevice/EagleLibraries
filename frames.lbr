@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -93,9 +93,7 @@
 <text x="66.04" y="259.08" size="2.54" layer="48" font="vector" ratio="10">NAME:</text>
 <text x="120.65" y="261.493" size="1.524" layer="48" font="vector" ratio="10">DATE:</text>
 <text x="120.65" y="257.81" size="1.524" layer="48" font="vector" ratio="10">Devices</text>
-<text x="167.64" y="261.493" size="1.524" layer="48" font="vector" ratio="10">SHEET:</text>
 <text x="77.47" y="259.08" size="2.54" layer="48" font="vector">&gt;DRAWING_NAME</text>
-<text x="175.895" y="261.493" size="1.524" layer="48" font="vector" ratio="10">&gt;SHEET</text>
 <text x="128.905" y="261.493" size="1.524" layer="48" font="vector" ratio="12">&gt;Last_Date_Time</text>
 <frame x1="0" y1="0" x2="185.42" y2="264.16" columns="8" rows="5" layer="48" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 </package>
@@ -122,8 +120,6 @@
 <wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="48"/>
 <text x="1.27" y="1.27" size="2.54" layer="48" font="vector">Date:</text>
 <text x="12.7" y="1.27" size="2.54" layer="48" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="48" font="vector">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="48" font="vector">&gt;SHEET</text>
 <text x="88.9" y="11.43" size="2.54" layer="48" font="vector">REV:</text>
 <text x="1.27" y="19.05" size="2.54" layer="48" font="vector">TITLE:</text>
 <text x="1.27" y="11.43" size="2.54" layer="48" font="vector">Document Number:</text>
@@ -174,8 +170,6 @@
 <wire x1="342.265" y1="19.05" x2="342.265" y2="24.13" width="0.1016" layer="48"/>
 <text x="344.17" y="15.24" size="2.54" layer="48" font="vector">&gt;DRAWING_NAME</text>
 <text x="344.17" y="10.16" size="2.286" layer="48" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="357.505" y="5.08" size="2.54" layer="48" font="vector">&gt;SHEET</text>
-<text x="343.916" y="4.953" size="2.54" layer="48" font="vector">Sheet:</text>
 <frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="48"/>
 </package>
 <package name="A3P-LOC">
@@ -201,8 +195,6 @@
 <wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="48"/>
 <text x="217.17" y="15.24" size="2.54" layer="48" font="vector">&gt;DRAWING_NAME</text>
 <text x="217.17" y="10.16" size="2.286" layer="48" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="230.505" y="5.08" size="2.54" layer="48" font="vector">&gt;SHEET</text>
-<text x="216.916" y="4.953" size="2.54" layer="48" font="vector">Sheet:</text>
 <frame x1="0" y1="0" x2="260.35" y2="387.35" columns="8" rows="5" layer="48"/>
 </package>
 <package name="A4-35SCP">
@@ -219,9 +211,7 @@
 <text x="66.04" y="271.78" size="2.54" layer="48" font="vector" ratio="10">NAME:</text>
 <text x="120.65" y="274.193" size="1.524" layer="48" font="vector" ratio="10">DATE:</text>
 <text x="120.65" y="270.51" size="1.524" layer="48" font="vector" ratio="10">Devices</text>
-<text x="167.64" y="274.193" size="1.524" layer="48" font="vector" ratio="10">SHEET:</text>
 <text x="77.47" y="271.78" size="2.54" layer="48" font="vector">&gt;DRAWING_NAME</text>
-<text x="175.895" y="274.193" size="1.524" layer="48" font="vector" ratio="10">&gt;SHEET</text>
 <text x="128.905" y="274.193" size="1.524" layer="48" font="vector" ratio="12">&gt;Last_Date_Time</text>
 <frame x1="0" y1="0" x2="185.42" y2="276.86" columns="8" rows="5" layer="48" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 </package>
@@ -241,8 +231,6 @@
 <wire x1="139.065" y1="19.05" x2="139.065" y2="24.13" width="0.1016" layer="48"/>
 <text x="140.97" y="15.24" size="2.54" layer="48" font="vector">&gt;DRAWING_NAME</text>
 <text x="140.97" y="10.16" size="2.286" layer="48" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="154.305" y="5.08" size="2.54" layer="48" font="vector">&gt;SHEET</text>
-<text x="140.716" y="4.953" size="2.54" layer="48" font="vector">Sheet:</text>
 <frame x1="0" y1="0" x2="184.15" y2="265.43" columns="4" rows="6" layer="48"/>
 </package>
 <package name="A4L-LOC">
@@ -265,8 +253,6 @@
 <wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="48"/>
 <text x="217.17" y="15.24" size="2.54" layer="48" font="vector">&gt;DRAWING_NAME</text>
 <text x="217.17" y="10.16" size="2.286" layer="48" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="230.505" y="5.08" size="2.54" layer="48" font="vector">&gt;SHEET</text>
-<text x="216.916" y="4.953" size="2.54" layer="48" font="vector">Sheet:</text>
 <frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="48"/>
 </package>
 <package name="A5L-LOC">
@@ -285,8 +271,6 @@
 <wire x1="139.065" y1="19.05" x2="139.065" y2="24.13" width="0.1016" layer="48"/>
 <text x="140.97" y="15.24" size="2.54" layer="48" font="vector">&gt;DRAWING_NAME</text>
 <text x="140.97" y="10.16" size="2.286" layer="48" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="154.305" y="5.08" size="2.54" layer="48" font="vector">&gt;SHEET</text>
-<text x="140.716" y="4.953" size="2.54" layer="48" font="vector">Sheet:</text>
 <frame x1="0" y1="0" x2="184.15" y2="133.35" columns="4" rows="4" layer="48"/>
 </package>
 <package name="A5P-LOC">
@@ -309,8 +293,6 @@
 <wire x1="85.725" y1="19.177" x2="85.725" y2="24.257" width="0.1016" layer="48"/>
 <text x="87.63" y="15.367" size="2.54" layer="48" font="vector">&gt;DRAWING_NAME</text>
 <text x="87.63" y="10.287" size="2.286" layer="48" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="100.965" y="5.207" size="2.54" layer="48" font="vector">&gt;SHEET</text>
-<text x="87.376" y="5.08" size="2.54" layer="48" font="vector">Sheet:</text>
 <frame x1="0" y1="0" x2="130.81" y2="179.07" columns="4" rows="4" layer="48"/>
 </package>
 <package name="DINA-DOC">
@@ -357,9 +339,7 @@
 <text x="53.594" y="1.8796" size="1.905" layer="48">&gt;DRAWING_NAME</text>
 <text x="52.705" y="27.94" size="1.27" layer="48">zu Gerät</text>
 <text x="52.705" y="17.78" size="1.27" layer="48">zu Anlage</text>
-<text x="84.963" y="1.905" size="1.778" layer="48">&gt;SHEET</text>
 <text x="92.456" y="1.905" size="1.778" layer="48">&gt;LAST_DATE_TIME</text>
-<text x="77.47" y="1.905" size="1.778" layer="48">Blatt</text>
 </package>
 <package name="DINA3_L">
 <description>&lt;b&gt;FRAME&lt;/b&gt; DIN A3 landscape</description>
@@ -387,8 +367,6 @@
 <wire x1="88.9" y1="10.16" x2="180.34" y2="10.16" width="0.254" layer="48"/>
 <text x="90.17" y="6.35" size="2.54" layer="48" font="vector">Date:</text>
 <text x="101.6" y="6.35" size="2.54" layer="48" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="151.13" y="1.27" size="2.54" layer="48" font="vector">Sheet:</text>
-<text x="165.1" y="1.27" size="2.54" layer="48" font="vector">&gt;SHEET</text>
 <text x="90.17" y="1.27" size="2.54" layer="48" font="vector">TITLE:</text>
 <text x="106.68" y="1.27" size="2.54" layer="48" font="vector">&gt;DRAWING_NAME</text>
 <frame x1="0" y1="0" x2="180.34" y2="264.16" columns="4" rows="4" layer="48" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
