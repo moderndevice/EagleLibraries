@@ -24316,6 +24316,9 @@ Source: www.suminda.com .. CR32.pdf</description>
 <rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
 <wire x1="13.97" y1="0.635" x2="13.97" y2="-0.635" width="0.2032" layer="21"/>
 </package>
+<package name="PAULTESTPACKAGE">
+<rectangle x1="0" y1="0" x2="5.08" y2="3.81" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="USB">
