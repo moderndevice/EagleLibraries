@@ -37792,7 +37792,9 @@ Source: www.suminda.com .. CR32.pdf</description>
 <connect gate="G$1" pin="3_GND" pad="3"/>
 <connect gate="G$1" pin="4_PWR" pad="4"/>
 <connect gate="G$1" pin="5_AIO/SDA" pad="5"/>
-<connect gate="G$1" pin="6_DIO/SCL" pad="6 7 8"/>
+<connect gate="G$1" pin="6_DIO/SCL" pad="6"/>
+<connect gate="G$1" pin="7_TXD" pad="7"/>
+<connect gate="G$1" pin="8_RST" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
