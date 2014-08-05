@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3125,8 +3125,8 @@ Source: http://catalog.tycoelectronics.com .. ENG_CS_889092_0.5mm_FH_Conn_0906.p
 <pin name="GND@7" x="20.32" y="-63.5" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 <symbol name="COMEXPRESS">
-<text x="-55.88" y="144.78" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-55.88" y="142.24" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-55.88" y="144.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-55.88" y="142.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="-55.88" y="139.7" length="middle" direction="pas"/>
 <pin name="GBE0_MDI3-" x="-55.88" y="137.16" length="middle" direction="pas"/>
 <pin name="GBE0_MDI3+" x="-55.88" y="134.62" length="middle" direction="pas"/>
@@ -3569,13 +3569,13 @@ Source: http://catalog.tycoelectronics.com .. ENG_CS_889092_0.5mm_FH_Conn_0906.p
 <pin name="GND@63" x="20.32" y="-137.16" length="middle" direction="pas"/>
 </symbol>
 <symbol name="1PIN_NAME_VALUE">
-<text x="2.54" y="-0.762" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="2.54" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
 <rectangle x1="0" y1="-0.254" x2="1.778" y2="0.254" layer="94"/>
 <pin name="1" x="-5.08" y="0" visible="pad" length="middle" direction="pas"/>
 </symbol>
 <symbol name="1PIN_NAME">
-<text x="2.54" y="-0.762" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
 <rectangle x1="0" y1="-0.254" x2="1.778" y2="0.254" layer="94"/>
 <pin name="1" x="-5.08" y="0" visible="pad" length="middle" direction="pas"/>
 </symbol>

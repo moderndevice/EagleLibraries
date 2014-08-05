@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -195,8 +195,8 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 <wire x1="10.16" y1="20.32" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-20.32" x2="-10.16" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-20.32" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
-<text x="-10.16" y="21.59" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-22.86" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-10.16" y="21.59" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="ETR" x="-12.7" y="12.7" length="short"/>
 <pin name="ETS" x="-12.7" y="10.16" length="short"/>
 <pin name="VBAT" x="-12.7" y="7.62" length="short"/>

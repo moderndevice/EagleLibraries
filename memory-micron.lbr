@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1337,8 +1337,8 @@ Source: http://download.micron.com/pdf/datasheets/dram/sdram/256MSDRAM.pdf</desc
 <wire x1="-12.7" y1="-45.72" x2="12.7" y2="-45.72" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-45.72" x2="12.7" y2="43.18" width="0.254" layer="94"/>
 <wire x1="12.7" y1="43.18" x2="-12.7" y2="43.18" width="0.254" layer="94"/>
-<text x="-12.7" y="44.45" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-12.7" y="-48.26" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-12.7" y="44.45" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-48.26" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="VDD@1" x="-15.24" y="40.64" length="short" direction="pwr"/>
 <pin name="VSS@1" x="-15.24" y="-40.64" length="short" direction="pwr"/>
 <pin name="VDDQ@1" x="-15.24" y="38.1" length="short" direction="pwr"/>
@@ -1405,8 +1405,8 @@ Source: http://download.micron.com/pdf/datasheets/dram/sdram/256MSDRAM.pdf</desc
 <wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="15.24" width="0.254" layer="94"/>
 <wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
-<text x="-12.7" y="16.51" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-12.7" y="-20.32" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-12.7" y="16.51" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="VDD@2" x="-15.24" y="12.7" length="short" direction="pwr"/>
 <pin name="VSS@2" x="15.24" y="12.7" length="short" direction="pwr" rot="R180"/>
 <pin name="VDDQ@2" x="-15.24" y="0" length="short" direction="pwr"/>
@@ -2015,8 +2015,8 @@ Source: http://www.datasheetcatalog.org/datasheet/micron/MT48LC4M32B2.pdf</descr
 </device>
 </devices>
 </deviceset>
-<deviceset name="MT48LC64M4A2" prefix="IC">
-<description>&lt;b&gt;256Mb: x16 SDRAM&lt;/b&gt; MT48LC64M4A2 - 16 Meg x 4 x 4 banks&lt;p&gt;
+<deviceset name="MT48LC16M16A2" prefix="IC">
+<description>&lt;b&gt;256Mb: x16 SDRAM&lt;/b&gt; MT48LC16M16A2 - 4 Meg x 16 x 4 banks&lt;p&gt;
 Source: http://download.micron.com/pdf/datasheets/dram/sdram/256MSDRAM.pdf</description>
 <gates>
 <gate name="P" symbol="MT48LC64/32/16M-PWR" x="35.56" y="0" addlevel="request"/>
@@ -2167,8 +2167,8 @@ Source: http://download.micron.com/pdf/datasheets/dram/sdram/256MSDRAM.pdf</desc
 </device>
 </devices>
 </deviceset>
-<deviceset name="MT48LC16M16A2" prefix="IC">
-<description>&lt;b&gt;256Mb: x16 SDRAM&lt;/b&gt; MT48LC16M16A2 - 4 Meg x 16 x 4 banks&lt;p&gt;
+<deviceset name="MT48LC64M4A2" prefix="IC">
+<description>&lt;b&gt;256Mb: x16 SDRAM&lt;/b&gt; MT48LC64M4A2 - 16 Meg x 4 x 4 banks&lt;p&gt;
 Source: http://download.micron.com/pdf/datasheets/dram/sdram/256MSDRAM.pdf</description>
 <gates>
 <gate name="G$1" symbol="MT48LC16M16A2" x="0" y="0"/>
@@ -2235,9 +2235,9 @@ Source: http://download.micron.com/pdf/datasheets/dram/sdram/256MSDRAM.pdf</desc
 <technologies>
 <technology name="">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="MT48LC16M16A2P-75:D" constant="no"/>
-<attribute name="OC_FARNELL" value="1216280" constant="no"/>
-<attribute name="OC_NEWARK" value="97K6120" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>

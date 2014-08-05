@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1184,8 +1184,8 @@ Source: www.FlexiPanel.com .. Pixie DS481.pdf</description>
 <wire x1="-17.78" y1="-22.86" x2="17.78" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-22.86" x2="17.78" y2="22.86" width="0.254" layer="94"/>
 <wire x1="17.78" y1="22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
-<text x="-17.78" y="24.13" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-17.78" y="-25.4" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-17.78" y="24.13" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="RA1/AN1" x="20.32" y="12.7" length="short" rot="R180"/>
 <pin name="RA2/AN2" x="20.32" y="10.16" length="short" rot="R180"/>
 <pin name="RA3/AN3" x="20.32" y="7.62" length="short" rot="R180"/>
@@ -1218,8 +1218,8 @@ Source: www.FlexiPanel.com .. Pixie DS481.pdf</description>
 <wire x1="-17.78" y1="-22.86" x2="17.78" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-22.86" x2="17.78" y2="22.86" width="0.254" layer="94"/>
 <wire x1="17.78" y1="22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
-<text x="-17.78" y="24.13" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-17.78" y="-25.4" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-17.78" y="24.13" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="RA1/AN1" x="20.32" y="12.7" length="short" rot="R180"/>
 <pin name="RA2/AN2" x="20.32" y="10.16" length="short" rot="R180"/>
 <pin name="RA3/AN3" x="20.32" y="7.62" length="short" rot="R180"/>

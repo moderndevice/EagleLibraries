@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -39279,8 +39279,8 @@ Source: &lt;a href="http://www.farnell.com/cad/494074.pdf"&gt; Data sheet &lt;/a
 <pad name="4" x="2.5" y="-7.5" drill="1.5" diameter="2.2"/>
 <pad name="5" x="2.5" y="-11" drill="1.5" diameter="2.2"/>
 <pad name="6" x="2.5" y="-14.5" drill="1.5" diameter="2.2"/>
-<text x="-12.7548" y="-9.501" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-5.5048" y="-3.1234" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-12.7548" y="-9.501" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.5048" y="-3.1234" size="1.27" layer="27">&gt;VALUE</text>
 <hole x="-10" y="-3.7" drill="3.2"/>
 <hole x="10" y="-3.7" drill="3.2"/>
 </package>

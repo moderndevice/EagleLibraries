@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -194,7 +194,6 @@ FUK HING Industries, distributor Conrad</description>
 Artikel-Nr.: 736880 - 49&lt;br&gt;
 Source: http://www.produktinfo.conrad.com/datenblaetter/725000-749999/736880-da-01-de-Cinch-Einbaubuchse.pdf</description>
 <wire x1="6.08" y1="-5.5" x2="2.08" y2="-5.5" width="0.4096" layer="51"/>
-<wire x1="5.58" y1="5.5" x2="2.08" y2="5.5" width="0.4096" layer="51"/>
 <wire x1="-4.92" y1="3" x2="-4.92" y2="-3" width="0.4096" layer="51"/>
 <wire x1="2.08" y1="5.5" x2="-4.92" y2="5.5" width="0.4096" layer="21"/>
 <wire x1="-4.92" y1="5.5" x2="-4.92" y2="4.25" width="0.4096" layer="21"/>
@@ -209,11 +208,25 @@ Source: http://www.produktinfo.conrad.com/datenblaetter/725000-749999/736880-da-
 <wire x1="-11.92" y1="3.75" x2="-5.42" y2="3.75" width="0.4096" layer="21"/>
 <wire x1="-4.92" y1="4.25" x2="-5.42" y2="3.75" width="0.4096" layer="21" curve="-90"/>
 <wire x1="-5.42" y1="-3.5" x2="-4.92" y2="-4" width="0.4096" layer="21" curve="-90"/>
-<pad name="1" x="-3.92" y="0" drill="2" diameter="3.81" shape="square"/>
-<pad name="2" x="5.08" y="5.5" drill="2" diameter="3.81" shape="square"/>
-<pad name="2@2" x="5.08" y="-5.5" drill="2" diameter="3.81" shape="square"/>
+<pad name="1" x="-3.92" y="0" drill="1" diameter="2.2" shape="long"/>
+<pad name="1@2" x="5.08" y="5.5" drill="1" diameter="2.2" shape="long"/>
+<pad name="1@1" x="5.08" y="-5.5" drill="1" diameter="2.2" shape="long"/>
 <text x="2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="2" x="3.58" y="0" drill="1.8" diameter="3"/>
+<wire x1="3.975" y1="6" x2="6.275" y2="6" width="0" layer="46"/>
+<wire x1="6.275" y1="6" x2="6.275" y2="5" width="0" layer="46"/>
+<wire x1="6.275" y1="5" x2="3.975" y2="5" width="0" layer="46"/>
+<wire x1="3.975" y1="5" x2="3.975" y2="6" width="0" layer="46"/>
+<wire x1="6.08" y1="5.5" x2="2.08" y2="5.5" width="0.4096" layer="51"/>
+<wire x1="3.975" y1="-5" x2="6.275" y2="-5" width="0" layer="46"/>
+<wire x1="6.275" y1="-5" x2="6.275" y2="-6" width="0" layer="46"/>
+<wire x1="6.275" y1="-6" x2="3.975" y2="-6" width="0" layer="46"/>
+<wire x1="3.975" y1="-6" x2="3.975" y2="-5" width="0" layer="46"/>
+<wire x1="-5.025" y1="0.5" x2="-2.725" y2="0.5" width="0" layer="46"/>
+<wire x1="-2.725" y1="0.5" x2="-2.725" y2="-0.5" width="0" layer="46"/>
+<wire x1="-2.725" y1="-0.5" x2="-5.025" y2="-0.5" width="0" layer="46"/>
+<wire x1="-5.025" y1="-0.5" x2="-5.025" y2="0.5" width="0" layer="46"/>
 </package>
 <package name="733980-62">
 <description>&lt;b&gt;DC POWER JACK&lt;/b&gt;&lt;p&gt;
@@ -476,13 +489,15 @@ Source: RCA-4-117-01x.pdf</description>
 <pin name="KL" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="CINCH">
-<wire x1="-5.334" y1="3.81" x2="-5.334" y2="-3.81" width="0.254" layer="94" curve="-180"/>
-<text x="0" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
 <rectangle x1="-5.08" y1="-0.508" x2="-2.54" y2="0.508" layer="94"/>
-<pin name="1" x="2.54" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
-<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2@2" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="2.54" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="1" x="2.54" y="-2.54" visible="off" length="middle" direction="pas" rot="R180"/>
+<wire x1="-5.08" y1="-2.54" x2="-3.175" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.016" y2="-0.381" width="0.254" layer="94" curve="90"/>
+<wire x1="-5.08" y1="2.54" x2="-3.175" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-1.016" y2="0.381" width="0.254" layer="94" curve="-90"/>
 </symbol>
 <symbol name="4POL-SPEAKER">
 <wire x1="-2.54" y1="10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
@@ -683,16 +698,17 @@ DIN 45323 (34V/3A), ROKA, distributor Conrad</description>
 </devices>
 </deviceset>
 <deviceset name="736880-49" prefix="X">
-<description>&lt;b&gt;Cinch Connector&lt;/b&gt; ( RCA Jack )</description>
+<description>&lt;b&gt;Cinch Connector&lt;/b&gt; ( RCA Jack )&lt;p&gt;
+Cinch-Einbaukupplung 90º 72345 Vernickelt BKL Electronic&lt;br&gt;
+Source: &lt;a href="http://www.conrad.de/ce/de/product/736880"&gt; Conrad &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CINCH" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="736880-49">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="1" pad="1 1@1 1@2"/>
 <connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="2@2" pad="2@2"/>
 </connects>
 <technologies>
 <technology name=""/>

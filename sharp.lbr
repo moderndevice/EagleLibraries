@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -641,8 +641,8 @@ Source: http://document.sharpsma.com/files/IR2D20U.pdf</description>
 <wire x1="10.16" y1="40.64" x2="10.16" y2="-38.1" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-38.1" x2="-10.16" y2="-38.1" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-38.1" x2="-10.16" y2="40.64" width="0.254" layer="94"/>
-<text x="-10.16" y="41.91" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-40.64" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-10.16" y="41.91" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-40.64" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="VCC" x="-12.7" y="38.1" length="short" direction="pwr"/>
 <pin name="VRO" x="-12.7" y="35.56" length="short" direction="pas"/>
 <pin name="VRI" x="-12.7" y="33.02" length="short" direction="in"/>
@@ -685,8 +685,8 @@ Source: http://document.sharpsma.com/files/IR2D20U.pdf</description>
 <wire x1="10.16" y1="33.02" x2="10.16" y2="-38.1" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-38.1" x2="-10.16" y2="-38.1" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-38.1" x2="-10.16" y2="33.02" width="0.254" layer="94"/>
-<text x="-10.16" y="34.29" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-40.64" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-10.16" y="34.29" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-40.64" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="VIN" x="-12.7" y="30.48" length="short" direction="in"/>
 <pin name="C1P" x="-12.7" y="25.4" length="short" direction="pas"/>
 <pin name="C1N" x="-12.7" y="20.32" length="short" direction="pas"/>
@@ -726,8 +726,8 @@ Source: http://document.sharpsma.com/files/IR2D20U.pdf</description>
 <wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<text x="-7.62" y="8.89" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="VIN" x="-10.16" y="5.08" length="short" direction="in"/>
 <pin name="VSW" x="10.16" y="5.08" length="short" direction="in" rot="R180"/>
 <pin name="CTRL" x="-10.16" y="0" length="short" direction="in"/>
@@ -740,8 +740,8 @@ Source: http://document.sharpsma.com/files/IR2D20U.pdf</description>
 <wire x1="10.16" y1="35.56" x2="10.16" y2="-38.1" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-38.1" x2="-10.16" y2="-38.1" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-38.1" x2="-10.16" y2="35.56" width="0.254" layer="94"/>
-<text x="-10.16" y="36.83" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-40.64" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-10.16" y="36.83" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-40.64" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="SI" x="-12.7" y="27.94" length="short" direction="in"/>
 <pin name="SO" x="12.7" y="27.94" length="short" direction="out" rot="R180"/>
 <pin name="CLK" x="-12.7" y="25.4" length="short" direction="in"/>
@@ -797,8 +797,8 @@ Source: http://document.sharpsma.com/files/IR2D20U.pdf</description>
 <wire x1="10.16" y1="25.4" x2="10.16" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-27.94" x2="-10.16" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-27.94" x2="-10.16" y2="25.4" width="0.254" layer="94"/>
-<text x="-10.16" y="26.67" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-30.48" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-10.16" y="26.67" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="SI" x="-12.7" y="22.86" length="short" direction="in"/>
 <pin name="SO" x="12.7" y="22.86" length="short" direction="out" rot="R180"/>
 <pin name="CLK" x="-12.7" y="20.32" length="short" direction="in"/>

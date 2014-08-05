@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -566,8 +566,8 @@ Source: WELLS CTI 7014-064-6-08 TQFP 64 - Drawing.pdf</description>
 <circle x="12.1938" y="12.1938" radius="1.8623" width="0.1016" layer="94"/>
 <circle x="12.1938" y="12.1938" radius="1.5525" width="0.1016" layer="94"/>
 <circle x="13.4353" y="0" radius="0.9755" width="0.1016" layer="94"/>
-<text x="-2.6" y="1.74" size="1.27" layer="94" font="vector">&gt;NAME</text>
-<text x="-3.2" y="-2.54" size="1.27" layer="94" font="vector">&gt;VALUE</text>
+<text x="-2.6" y="1.74" size="1.27" layer="94">&gt;NAME</text>
+<text x="-3.2" y="-2.54" size="1.27" layer="94">&gt;VALUE</text>
 <rectangle x1="-10" y1="5.8" x2="-7.4" y2="6.2" layer="94"/>
 <rectangle x1="-10" y1="5" x2="-7.4" y2="5.4" layer="94"/>
 <rectangle x1="-10" y1="4.2" x2="-7.4" y2="4.6" layer="94"/>

@@ -1,6 +1,62 @@
 ﻿EAGLE Library ChangeLog
 =======================
 
+2014-05-23
+  * microphon.lbr: Eagle 6.5.4
+    added:
+    TOM-1545P-R.PAC
+
+2014-05-23
+  * transistor-power.lbr: Eagle 6.5.4
+    added:
+    BTS5215L.DEV
+    FDS6890A.DEV
+    M08A.PAC
+    PG-DSO-12-9.PAC
+
+2014-05-23
+  * speaker.lbr: Eagle 6.5.4
+    added:
+    SMS-1308MS-2-R.DEV
+    SMS-1308MS-2-R.PAC
+
+2014-05-23
+  * pinhead.lbr: Eagle 6.5.4
+    added:
+    PINHD-1X70.DEV
+    PINHD-1X100.DEV
+    1X70.PAC
+    1X100.PAC
+    1_05X2MM.PAC
+
+2014-05-16
+  * con-phoenix-3.81.lbr: Eagle 6.5.4
+    added:
+    1803497.DEV
+    1803549.DEV
+    1803497.PAC
+
+2013-10-07
+  * marks.lbr: Eagle 6.5.1
+    deleted:
+    PASSER-SMD
+    added:
+    PASSER-CIRCLE.PAC
+
+2013-09-17
+  * memory-micron.lbr: Eagle 6.5.1
+    renamed devices:
+    MT48LC16M16A2 > MT48LC64M4A2
+    MT48LC64M4A2 > MT48LC16M16A2
+
+2013-08-27
+  * con-conrad.lbr: Eagle 6.5.1
+    package extended: 736880-49.DEV
+
+2013-08-27
+  * dc-dc-converter.lbr: Eagle 6.5.1
+    corrected pin connection: VA-*D01.DEV
+
 2013-07-02
   * display-lcd.lbr: Eagle 6.4.4
     added:

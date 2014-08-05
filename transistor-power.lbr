@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.5.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -36,17 +36,17 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
@@ -57,7 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -2645,6 +2645,121 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <rectangle x1="0.889" y1="0.127" x2="1.778" y2="1.016" layer="31" rot="R180"/>
 <rectangle x1="0.889" y1="1.27" x2="1.778" y2="2.159" layer="31" rot="R180"/>
 </package>
+<package name="LFPAK33">
+<description>&lt;b&gt; LFPAK33 using NextPower Technology&lt;/b&gt; SOT1210&lt;p&gt;
+PSMN013-30MLC  N-channel 30 V 13.6 mΩ logic level MOSFET&lt;p&gt;
+Source: &lt;a href="http://www.nxp.com/documents/data_sheet/PSMN013-30MLC.pdf"&gt; Data sheet &lt;/a&gt;&lt;br&gt;
+PSMN013-30MLC © NXP B.V. 2012. All rights reserved.</description>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.2032" layer="21"/>
+<rectangle x1="-1.15" y1="1.35" x2="-0.8" y2="1.6" layer="51"/>
+<rectangle x1="-1.15" y1="-1.8" x2="-0.8" y2="-1.35" layer="51"/>
+<rectangle x1="-0.5" y1="1.35" x2="-0.15" y2="1.6" layer="51"/>
+<rectangle x1="-0.5" y1="-1.8" x2="-0.15" y2="-1.35" layer="51"/>
+<rectangle x1="0.15" y1="1.35" x2="0.5" y2="1.6" layer="51"/>
+<rectangle x1="0.15" y1="-1.8" x2="0.5" y2="-1.35" layer="51"/>
+<rectangle x1="0.8" y1="1.35" x2="1.15" y2="1.6" layer="51"/>
+<rectangle x1="0.8" y1="-1.8" x2="1.15" y2="-1.35" layer="51"/>
+<smd name="1" x="-0.975" y="-1.625" dx="0.4" dy="0.8" layer="1"/>
+<smd name="2" x="-0.325" y="-1.625" dx="0.4" dy="0.8" layer="1"/>
+<smd name="3" x="0.325" y="-1.625" dx="0.4" dy="0.8" layer="1"/>
+<smd name="4" x="0.975" y="-1.625" dx="0.4" dy="0.8" layer="1"/>
+<smd name="MB" x="0" y="0.425" dx="2.45" dy="2.35" layer="1"/>
+<text x="-1.7016" y="1.8286" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.7016" y="-4.0316" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="PG-DSO-12-9">
+<description>&lt;b&gt;PG-DSO-12-9&lt;/b&gt;&lt;p&gt;
+Auto generated by &lt;i&gt;make-symbol-device-package-bsdl.ulp Rev. 44&lt;/i&gt;&lt;br&gt;
+Source: BTS5215L.pdf</description>
+<smd name="1" x="-4.7" y="2.5" dx="1.65" dy="0.65" layer="1" stop="no"/>
+<rectangle x1="-5.15" y1="2.3" x2="-3.75" y2="2.7" layer="51"/>
+<smd name="2" x="-4.7" y="1.5" dx="1.65" dy="0.65" layer="1" stop="no"/>
+<rectangle x1="-5.15" y1="1.3" x2="-3.75" y2="1.7" layer="51"/>
+<smd name="3" x="-4.7" y="0.5" dx="1.65" dy="0.65" layer="1" stop="no"/>
+<rectangle x1="-5.15" y1="0.3" x2="-3.75" y2="0.7" layer="51"/>
+<smd name="4" x="-4.7" y="-0.5" dx="1.65" dy="0.65" layer="1" stop="no"/>
+<rectangle x1="-5.15" y1="-0.7" x2="-3.75" y2="-0.3" layer="51"/>
+<smd name="5" x="-4.7" y="-1.5" dx="1.65" dy="0.65" layer="1" stop="no"/>
+<rectangle x1="-5.15" y1="-1.7" x2="-3.75" y2="-1.3" layer="51"/>
+<smd name="6" x="-4.7" y="-2.5" dx="1.65" dy="0.65" layer="1" stop="no"/>
+<rectangle x1="-5.15" y1="-2.7" x2="-3.75" y2="-2.3" layer="51"/>
+<smd name="7" x="4.7" y="-2.5" dx="1.65" dy="0.65" layer="1" stop="no"/>
+<rectangle x1="3.75" y1="-2.7" x2="5.15" y2="-2.3" layer="51"/>
+<smd name="8" x="4.7" y="-1.5" dx="1.65" dy="0.65" layer="1" stop="no"/>
+<rectangle x1="3.75" y1="-1.7" x2="5.15" y2="-1.3" layer="51"/>
+<smd name="9" x="4.7" y="-0.5" dx="1.65" dy="0.65" layer="1" stop="no"/>
+<rectangle x1="3.75" y1="-0.7" x2="5.15" y2="-0.3" layer="51"/>
+<smd name="10" x="4.7" y="0.5" dx="1.65" dy="0.65" layer="1" stop="no"/>
+<rectangle x1="3.75" y1="0.3" x2="5.15" y2="0.7" layer="51"/>
+<smd name="11" x="4.7" y="1.5" dx="1.65" dy="0.65" layer="1" stop="no"/>
+<rectangle x1="3.75" y1="1.3" x2="5.15" y2="1.7" layer="51"/>
+<smd name="12" x="4.7" y="2.5" dx="1.65" dy="0.65" layer="1" stop="no"/>
+<rectangle x1="3.75" y1="2.3" x2="5.15" y2="2.7" layer="51"/>
+<wire x1="-1" y1="3" x2="1" y2="3" width="0.2032" layer="21" curve="180"/>
+<wire x1="-3.6484" y1="-3.0984" x2="3.6484" y2="-3.0984" width="0.2032" layer="21"/>
+<wire x1="3.6484" y1="-3.0984" x2="3.6484" y2="3.0984" width="0.2032" layer="21"/>
+<wire x1="3.6484" y1="3.0984" x2="-3.6484" y2="3.0984" width="0.2032" layer="21"/>
+<wire x1="-3.6484" y1="3.0984" x2="-3.6484" y2="-3.0984" width="0.2032" layer="21"/>
+<text x="-4" y="3.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.5" y="-5" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.2" y1="-2.65" x2="2.2" y2="2.65" layer="29"/>
+<rectangle x1="-0.9" y1="-4" x2="0.9" y2="4" layer="29"/>
+<rectangle x1="-1.8" y1="-2.2" x2="1.8" y2="2.2" layer="32"/>
+<rectangle x1="-0.6" y1="2.2" x2="0.6" y2="3.7" layer="32"/>
+<rectangle x1="-0.6" y1="-3.7" x2="0.6" y2="-2.2" layer="32"/>
+<rectangle x1="-5.6" y1="2.1" x2="-3.8" y2="2.9" layer="29"/>
+<rectangle x1="-5.6" y1="1.1" x2="-3.8" y2="1.9" layer="29"/>
+<rectangle x1="-5.6" y1="0.1" x2="-3.8" y2="0.9" layer="29"/>
+<rectangle x1="-5.6" y1="-0.9" x2="-3.8" y2="-0.1" layer="29"/>
+<rectangle x1="-5.6" y1="-1.9" x2="-3.8" y2="-1.1" layer="29"/>
+<rectangle x1="-5.6" y1="-2.9" x2="-3.8" y2="-2.1" layer="29"/>
+<rectangle x1="3.8" y1="-2.9" x2="5.6" y2="-2.1" layer="29" rot="R180"/>
+<rectangle x1="3.8" y1="-1.9" x2="5.6" y2="-1.1" layer="29" rot="R180"/>
+<rectangle x1="3.8" y1="-0.9" x2="5.6" y2="-0.1" layer="29" rot="R180"/>
+<rectangle x1="3.8" y1="0.1" x2="5.6" y2="0.9" layer="29" rot="R180"/>
+<rectangle x1="3.8" y1="1.1" x2="5.6" y2="1.9" layer="29" rot="R180"/>
+<rectangle x1="3.8" y1="2.1" x2="5.6" y2="2.9" layer="29" rot="R180"/>
+<smd name="EXP" x="0" y="0" dx="4.2" dy="5.1" layer="1" stop="no" cream="no"/>
+<polygon width="0.2" layer="1">
+<vertex x="-0.7" y="-3.8"/>
+<vertex x="0.7" y="-3.8"/>
+<vertex x="0.7" y="3.8"/>
+<vertex x="-0.7" y="3.8"/>
+</polygon>
+</package>
+<package name="M08A">
+<description>&lt;b&gt;FAIRCHILD SEMICONDUCTOR&lt;/b&gt; SOIC127P600X175-8M&lt;p&gt;
+JEDEC MS-012. VARIATION AA.&lt;br&gt;
+Source: http://www.fairchildsemi.com/dwg/M0/M08A.pdf</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.8" dx="0.65" dy="1.75" layer="1"/>
+<smd name="7" x="-0.635" y="2.8" dx="0.65" dy="1.75" layer="1"/>
+<smd name="1" x="-1.905" y="-2.8" dx="0.65" dy="1.75" layer="1"/>
+<smd name="3" x="0.635" y="-2.8" dx="0.65" dy="1.75" layer="1"/>
+<smd name="4" x="1.905" y="-2.8" dx="0.65" dy="1.75" layer="1"/>
+<smd name="8" x="-1.905" y="2.8" dx="0.65" dy="1.75" layer="1"/>
+<smd name="6" x="0.635" y="2.8" dx="0.65" dy="1.75" layer="1"/>
+<smd name="5" x="1.905" y="2.8" dx="0.65" dy="1.75" layer="1"/>
+<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MFN">
@@ -3364,6 +3479,80 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 <vertex x="1.778" y="0.508"/>
 <vertex x="1.778" y="-0.508"/>
 </polygon>
+</symbol>
+<symbol name="BTS5215L">
+<pin name="IN1" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="IN2" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="ST1" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="ST2" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="O1" x="15.24" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="O2" x="15.24" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="VBB" x="15.24" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="-12.7" y="-7.62" length="short" direction="pwr"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.2032" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="12.7" y2="-10.16" width="0.2032" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="10.16" width="0.2032" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-10.16" y2="10.16" width="0.2032" layer="94"/>
+<text x="-10.16" y="11.43" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-1.1176" y1="8.001" x2="-1.1176" y2="3.048" width="0.254" layer="94"/>
+<wire x1="2.54" y1="8.128" x2="2.54" y2="7.493" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.588" x2="2.54" y2="3.683" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="3.683" x2="2.54" y2="3.683" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="3.683" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="5.588" x2="2.54" y2="5.588" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="6.096" x2="3.81" y2="6.096" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="6.096" x2="4.318" y2="6.096" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="7.493" x2="2.54" y2="7.493" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.493" x2="0.5334" y2="7.493" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="6.096" x2="3.81" y2="7.493" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="3.683" x2="3.81" y2="5.461" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="3.683" x2="2.54" y2="3.683" width="0.1524" layer="94"/>
+<circle x="2.54" y="3.683" radius="0.127" width="0.4064" layer="94"/>
+<rectangle x1="-0.254" y1="3.048" x2="0.508" y2="4.318" layer="94"/>
+<rectangle x1="-0.254" y1="6.858" x2="0.508" y2="8.128" layer="94"/>
+<rectangle x1="-0.254" y1="4.699" x2="0.508" y2="6.477" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.508" y="5.588"/>
+<vertex x="1.778" y="5.08"/>
+<vertex x="1.778" y="6.096"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="6.096"/>
+<vertex x="3.302" y="5.334"/>
+<vertex x="4.318" y="5.334"/>
+</polygon>
+<wire x1="-1.1176" y1="0.381" x2="-1.1176" y2="-4.572" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.508" x2="2.54" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.032" x2="2.54" y2="-3.937" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-3.937" x2="2.54" y2="-3.937" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-3.937" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="-2.032" x2="2.54" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-1.524" x2="3.81" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-1.524" x2="4.318" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-0.127" x2="2.54" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.127" x2="0.5334" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-1.524" x2="3.81" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-3.937" x2="3.81" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-3.937" x2="2.54" y2="-3.937" width="0.1524" layer="94"/>
+<circle x="2.54" y="-3.937" radius="0.127" width="0.4064" layer="94"/>
+<rectangle x1="-0.254" y1="-4.572" x2="0.508" y2="-3.302" layer="94"/>
+<rectangle x1="-0.254" y1="-0.762" x2="0.508" y2="0.508" layer="94"/>
+<rectangle x1="-0.254" y1="-2.921" x2="0.508" y2="-1.143" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.508" y="-2.032"/>
+<vertex x="1.778" y="-2.54"/>
+<vertex x="1.778" y="-1.524"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="-1.524"/>
+<vertex x="3.302" y="-2.286"/>
+<vertex x="4.318" y="-2.286"/>
+</polygon>
+<pin name="EXP" x="5.08" y="-12.7" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="5.08" y="-9.652" size="1.27" layer="95" align="bottom-center">EXP</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5013,8 +5202,8 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <description>&lt;b&gt;HEXFET(R) Power MOSFET&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.irf.com/product-info/datasheets/data/irf8313pbf.pdf"&gt; Data sheet &lt;/a&gt;</description>
 <gates>
-<gate name="A" symbol="HEXFET_N" x="0" y="7.62"/>
-<gate name="B" symbol="HEXFET_N" x="0" y="-7.62"/>
+<gate name="A" symbol="HEXFET_N" x="0" y="7.62" swaplevel="1"/>
+<gate name="B" symbol="HEXFET_N" x="0" y="-7.62" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="SO-08">
@@ -5025,6 +5214,80 @@ Source: &lt;a href="http://www.irf.com/product-info/datasheets/data/irf8313pbf.p
 <connect gate="B" pin="D" pad="7 8"/>
 <connect gate="B" pin="G" pad="2"/>
 <connect gate="B" pin="S" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PSMN013-30MLC" prefix="Q">
+<description>&lt;b&gt;N-channel 30 V 13.6 mΩ logic level MOSFET&lt;/b&gt;&lt;p&gt;
+NextPower Technology&lt;br&gt;
+Source: &lt;a href="http://www.nxp.com/documents/data_sheet/PSMN013-30MLC.pdf"&gt; Data sheet &lt;/a&gt;&lt;br&gt;
+PSMN013-30MLC © NXP B.V. 2012. All rights reserved.</description>
+<gates>
+<gate name="G$1" symbol="HEXFET_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LFPAK33">
+<connects>
+<connect gate="G$1" pin="D" pad="MB"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="PSMN013-30MLC" constant="no"/>
+<attribute name="OC_FARNELL" value="2115260" constant="no"/>
+<attribute name="OC_NEWARK" value="05W5709" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BTS5215L" prefix="Q">
+<description>&lt;b&gt;Smart High-Side Power Switch Two Channels: 2 x 90mΩ&lt;/b&gt;&lt;p&gt;
+Source: BTS5215L.pdf</description>
+<gates>
+<gate name="G$1" symbol="BTS5215L" x="0" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="PG-DSO-12-9">
+<connects>
+<connect gate="G$1" pin="EXP" pad="EXP"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN1" pad="2"/>
+<connect gate="G$1" pin="IN2" pad="4"/>
+<connect gate="G$1" pin="O1" pad="10"/>
+<connect gate="G$1" pin="O2" pad="8"/>
+<connect gate="G$1" pin="ST1" pad="3"/>
+<connect gate="G$1" pin="ST2" pad="5"/>
+<connect gate="G$1" pin="VBB" pad="6 12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FDS6890A" prefix="Q">
+<description>&lt;b&gt;Dual N-Channel 2.5V Specified PowerTrenchTM MOSFET&lt;/b&gt;&lt;p&gt;
+Source: FDS6890A.pdf</description>
+<gates>
+<gate name="A" symbol="MFNS" x="0" y="7.62" addlevel="always" swaplevel="1"/>
+<gate name="B" symbol="MFNS" x="0" y="-7.62" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="M08A">
+<connects>
+<connect gate="A" pin="D" pad="7 8"/>
+<connect gate="A" pin="G" pad="2"/>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="D" pad="5 6"/>
+<connect gate="B" pin="G" pad="4"/>
+<connect gate="B" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

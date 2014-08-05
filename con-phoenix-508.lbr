@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14823,12 +14823,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <connect gate="-2" pin="KL" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="MKDSN 1,5/2-5.08" constant="no"/>
-<attribute name="OC_FARNELL" value="1792903" constant="no"/>
-<attribute name="OC_NEWARK" value="30M2397" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -14871,12 +14866,7 @@ Source: http://eshop.phoenixcontact.com .. 1729209.pdf</description>
 <connect gate="-9" pin="KL" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SMKDSN1,5/10-5,08" constant="no"/>
-<attribute name="OC_FARNELL" value="1792913" constant="no"/>
-<attribute name="OC_NEWARK" value="70R0297" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -14917,12 +14907,7 @@ Source: http://eshop.phoenixcontact.com .. 1729199.pdf</description>
 <connect gate="-9" pin="KL" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SMKDSN1,5/9-5,08" constant="no"/>
-<attribute name="OC_FARNELL" value="1792912" constant="no"/>
-<attribute name="OC_NEWARK" value="70R0305" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -14961,12 +14946,7 @@ Source: http://eshop.phoenixcontact.com .. 1729186.pdf</description>
 <connect gate="-8" pin="KL" pad="8"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SMKDSN1,5/8-5,08" constant="no"/>
-<attribute name="OC_FARNELL" value="1792911" constant="no"/>
-<attribute name="OC_NEWARK" value="70R0304" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -15003,12 +14983,7 @@ Source: http://eshop.phoenixcontact.com .. 1729173.pdf</description>
 <connect gate="-7" pin="KL" pad="7"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SMKDSN1,5/7-5,08" constant="no"/>
-<attribute name="OC_FARNELL" value="1792909" constant="no"/>
-<attribute name="OC_NEWARK" value="70R0303" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -15043,12 +15018,7 @@ Source: http://eshop.phoenixcontact.com .. 1729160.pdf</description>
 <connect gate="-6" pin="KL" pad="6"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SMKDSN1,5/6-5,08" constant="no"/>
-<attribute name="OC_FARNELL" value="1792907" constant="no"/>
-<attribute name="OC_NEWARK" value="70R0302" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -15081,12 +15051,7 @@ Source: http://eshop.phoenixcontact.com .. 1729157.pdf</description>
 <connect gate="-5" pin="KL" pad="5"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SMKDSN1,5/5-5,08" constant="no"/>
-<attribute name="OC_FARNELL" value="1792906" constant="no"/>
-<attribute name="OC_NEWARK" value="70R0301" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -15117,12 +15082,7 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 <connect gate="-4" pin="KL" pad="4"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SMKDSN1,5/4-5,08" constant="no"/>
-<attribute name="OC_FARNELL" value="1792905" constant="no"/>
-<attribute name="OC_NEWARK" value="70R0300" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -15151,12 +15111,7 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <connect gate="-3" pin="KL" pad="3"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SMKDSN1,5/3-5,08" constant="no"/>
-<attribute name="OC_FARNELL" value="1792904" constant="no"/>
-<attribute name="OC_NEWARK" value="70R0299" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

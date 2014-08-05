@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25,17 +25,17 @@
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -52,13 +52,13 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -623,8 +623,8 @@ Source: &lt;a href="http://www.tycoelectronics.com/commerce/DocumentDelivery/DDE
 <wire x1="-30.6387" y1="-0.635" x2="-30.6387" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="-30.6387" y1="-1.905" x2="-31.5913" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="-31.5913" y1="-1.905" x2="-31.5913" y2="-0.635" width="0.2032" layer="51"/>
-<text x="-2.54" y="5.715" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-8.89" y="-6.985" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-2.54" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.89" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="5749069-8">
 <description>&lt;b&gt;TE CONNECTIVITY / AMP -  BUCHSE, SCSI, VERTIKAL, 80 &lt;/b&gt;&lt;p&gt;
@@ -876,8 +876,8 @@ Source: &lt;a href="http://www.tycoelectronics.com/commerce/DocumentDelivery/DDE
 <wire x1="-25.2413" y1="0.635" x2="-24.2887" y2="0.635" width="0.2032" layer="51"/>
 <wire x1="-24.2887" y1="0.635" x2="-24.2887" y2="1.905" width="0.2032" layer="51"/>
 <wire x1="-24.2887" y1="1.905" x2="-25.2413" y2="1.905" width="0.2032" layer="51"/>
-<text x="-5.08" y="5.715" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-6.985" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-5.08" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.62" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
 <pad name="41" x="24.765" y="-2.867" drill="0.9" diameter="1.27"/>
 <pad name="42" x="23.495" y="-0.957" drill="0.9" diameter="1.27"/>
 <pad name="43" x="22.225" y="-2.867" drill="0.9" diameter="1.27"/>
@@ -1299,8 +1299,8 @@ Source: &lt;a href="http://www.tycoelectronics.com/commerce/DocumentDelivery/DDE
 <wire x1="-21.4313" y1="0.635" x2="-20.4787" y2="0.635" width="0.2032" layer="51"/>
 <wire x1="-20.4787" y1="0.635" x2="-20.4787" y2="1.905" width="0.2032" layer="51"/>
 <wire x1="-20.4787" y1="1.905" x2="-21.4313" y2="1.905" width="0.2032" layer="51"/>
-<text x="-2.54" y="5.715" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-6.985" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-2.54" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.16" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="20.4787" y1="-0.635" x2="20.4787" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="20.4787" y1="-1.905" x2="21.4313" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="21.4313" y1="-1.905" x2="21.4313" y2="-0.635" width="0.2032" layer="51"/>
@@ -1647,8 +1647,8 @@ Source: &lt;a href="http://www.tycoelectronics.com/commerce/DocumentDelivery/DDE
 <wire x1="-15.7163" y1="0.635" x2="-14.7637" y2="0.635" width="0.2032" layer="51"/>
 <wire x1="-14.7637" y1="0.635" x2="-14.7637" y2="1.905" width="0.2032" layer="51"/>
 <wire x1="-14.7637" y1="1.905" x2="-15.7163" y2="1.905" width="0.2032" layer="51"/>
-<text x="-4.445" y="5.715" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-10.795" y="-6.985" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-4.445" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.795" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="14.7637" y1="-0.635" x2="14.7637" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="14.7637" y1="-1.905" x2="15.7163" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="15.7163" y1="-1.905" x2="15.7163" y2="-0.635" width="0.2032" layer="51"/>
@@ -1925,8 +1925,8 @@ Source: &lt;a href="http://www.tycoelectronics.com/commerce/DocumentDelivery/DDE
 <wire x1="-12.5413" y1="0.635" x2="-11.5887" y2="0.635" width="0.2032" layer="51"/>
 <wire x1="-11.5887" y1="0.635" x2="-11.5887" y2="1.905" width="0.2032" layer="51"/>
 <wire x1="-11.5887" y1="1.905" x2="-12.5413" y2="1.905" width="0.2032" layer="51"/>
-<text x="-6.35" y="5.715" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-11.43" y="-6.985" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-6.35" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-11.43" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="11.5887" y1="-0.635" x2="11.5887" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="11.5887" y1="-1.905" x2="12.5413" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="12.5413" y1="-1.905" x2="12.5413" y2="-0.635" width="0.2032" layer="51"/>
@@ -2143,8 +2143,8 @@ Source: &lt;a href="http://www.tycoelectronics.com/commerce/DocumentDelivery/DDE
 <wire x1="-8.1163" y1="0.635" x2="-7.1637" y2="0.635" width="0.2032" layer="51"/>
 <wire x1="-7.1637" y1="0.635" x2="-7.1637" y2="1.905" width="0.2032" layer="51"/>
 <wire x1="-7.1637" y1="1.905" x2="-8.1163" y2="1.905" width="0.2032" layer="51"/>
-<text x="-4.445" y="5.715" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-10.795" y="-6.985" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-4.445" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.795" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="7.1237" y1="-0.635" x2="7.1237" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="7.1237" y1="-1.905" x2="8.0763" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="8.0763" y1="-1.905" x2="8.0763" y2="-0.635" width="0.2032" layer="51"/>
@@ -2311,8 +2311,8 @@ Source: &lt;a href="http://www.tycoelectronics.com/commerce/DocumentDelivery/DDE
 <wire x1="-6.1913" y1="0.635" x2="-5.2387" y2="0.635" width="0.2032" layer="51"/>
 <wire x1="-5.2387" y1="0.635" x2="-5.2387" y2="1.905" width="0.2032" layer="51"/>
 <wire x1="-5.2387" y1="1.905" x2="-6.1913" y2="1.905" width="0.2032" layer="51"/>
-<text x="-5.08" y="5.715" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-6.985" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-5.08" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.16" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="5.2387" y1="-0.635" x2="5.2387" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="5.2387" y1="-1.905" x2="6.1913" y2="-1.905" width="0.2032" layer="51"/>
 <wire x1="6.1913" y1="-1.905" x2="6.1913" y2="-0.635" width="0.2032" layer="51"/>

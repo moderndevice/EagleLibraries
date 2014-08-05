@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -569,8 +569,8 @@ Source: ref-packages.lbr</description>
 <wire x1="55.88" y1="-58.42" x2="55.88" y2="55.88" width="0.254" layer="94"/>
 <wire x1="55.88" y1="55.88" x2="-58.42" y2="55.88" width="0.254" layer="94"/>
 <wire x1="-58.42" y1="55.88" x2="-58.42" y2="-58.42" width="0.254" layer="94"/>
-<text x="-5.08" y="1.27" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-5.08" y="-2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-5.08" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="NC@1" x="-63.5" y="38.1" length="middle" direction="nc"/>
 <pin name="NC@2" x="-63.5" y="35.56" length="middle" direction="nc"/>
 <pin name="LCD_LINE" x="-63.5" y="33.02" length="middle"/>

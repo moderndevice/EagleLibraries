@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -460,13 +460,13 @@ Source: DRW_1264486270_000_03_1.pdf</description>
 </packages>
 <symbols>
 <symbol name="PIN">
-<text x="2.54" y="-0.762" size="1.524" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
 <rectangle x1="0" y1="-0.254" x2="1.524" y2="0.254" layer="94"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 <symbol name="PIN-V">
-<text x="2.54" y="-0.762" size="1.524" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-2.54" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
 <rectangle x1="0" y1="-0.254" x2="1.524" y2="0.254" layer="94"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>

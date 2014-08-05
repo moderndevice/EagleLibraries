@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -43,7 +43,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -3374,18 +3374,18 @@ Mors</description>
 <pad name="2" x="-6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="3" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="4" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="11" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="12" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="13" x="-6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="14" x="-8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="5" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="10" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="9" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="6" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="7" x="6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="15" x="8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="16" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="15" x="-6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="16" x="-8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
 <text x="-9.271" y="-2.667" size="0.9906" layer="21" ratio="12">1</text>
 <text x="-6.731" y="-2.667" size="0.9906" layer="21" ratio="12">2</text>
 <text x="-4.191" y="-2.667" size="0.9906" layer="21" ratio="12">3</text>

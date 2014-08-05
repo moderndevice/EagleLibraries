@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9550,8 +9550,8 @@ Source: &lt;a href="http://ics.nxp.com/products/lpc1000/datasheet/lpc1102.pdf"&g
 <text x="-2.032" y="-51.816" size="1.27" layer="94">INTERRUPT MANAGEMENT</text>
 <text x="6.096" y="-60.452" size="1.27" layer="94">LOW PASS</text>
 <text x="7.112" y="-62.484" size="1.27" layer="94">FILTER</text>
-<text x="-38.1" y="67.31" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-38.1" y="-68.58" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-38.1" y="67.31" size="1.778" layer="95">&gt;NAME</text>
+<text x="-38.1" y="-68.58" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A0" x="-40.64" y="53.34" length="short" direction="in"/>
 <pin name="!INT" x="40.64" y="-53.34" length="short" direction="in" rot="R180"/>
 <pin name="!RESET" x="-40.64" y="-22.86" length="short" direction="in"/>

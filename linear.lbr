@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -7234,7 +7234,7 @@ Source: www.analog.com .. OP1177_2177_4177.pdf</description>
 <wire x1="13.97" y1="-2.54" x2="-13.97" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-13.97" y1="-2.54" x2="-13.97" y2="1.27" width="0.254" layer="94"/>
 <text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.27" y="-1.27" size="1.524" layer="95" font="vector">GND</text>
+<text x="-1.27" y="-1.27" size="1.524" layer="95">GND</text>
 <pin name="GND@1" x="-12.7" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
 <pin name="GND@2" x="-10.16" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
 <pin name="GND@3" x="-7.62" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
@@ -10838,7 +10838,8 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="TL082" prefix="IC">
-<description>&lt;b&gt;OP AMP&lt;/b&gt;</description>
+<description>&lt;b&gt;OP AMP&lt;/b&gt;&lt;p&gt;
+&lt;a href = "http://www.ti.com/lit/ds/symlink/tl084a . pdf"&gt; Data sheet &lt;/a&gt;</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="15.24" y="10.16" swaplevel="1"/>
 <gate name="B" symbol="OPAMP" x="15.24" y="-12.7" swaplevel="1"/>
@@ -10857,7 +10858,9 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <connect gate="P" pin="V-" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATA_SHEET" value="&lt;a href=&quot;http://www.ti.com/lit/ds/symlink/tl084a.pdf&quot;&gt; Data sheet &lt;/a&gt;" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="D" package="SO08">
@@ -10872,7 +10875,9 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <connect gate="P" pin="V-" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATA_SHEET" value="&lt;a href=&quot;http://www.ti.com/lit/ds/symlink/tl084a.pdf&quot;&gt; Data sheet &lt;/a&gt;"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -16740,7 +16745,6 @@ http://focus.ti.com .. opa241.pdf</description>
 <description>Power &lt;b&gt;OP AMP&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="OPAMP+-" x="0" y="0"/>
-<gate name="V-2" symbol="V-" x="25.4" y="0" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="K04A">
@@ -16749,8 +16753,7 @@ http://focus.ti.com .. opa241.pdf</description>
 <connect gate="G$1" pin="-IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="4"/>
 <connect gate="G$1" pin="V+" pad="3"/>
-<connect gate="G$1" pin="V-" pad="5"/>
-<connect gate="V-2" pin="V-" pad="5/"/>
+<connect gate="G$1" pin="V-" pad="5 5/" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -20032,8 +20035,8 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C1,C1154,C1009,C10
 </deviceset>
 <deviceset name="78L*" prefix="IC">
 <description>&lt;b&gt;POSITOIV-VOLTAGE REGULATORS&lt;/b&gt;&lt;p&gt;
-Output up to 100 mA&lt;b&gt;
-Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
+Output up to 100 mA&lt;br&gt;
+Source: &lt;a href="http://focus.ti.com/lit/ds/symlink/ua78l05.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="78XX2GND" x="0" y="0"/>
 </gates>
@@ -20345,10 +20348,10 @@ Source: opa277.pdf</description>
 REPLACES OP-07, OP-77, OP-177&lt;br&gt;
 Source: opa277.pdf</description>
 <gates>
-<gate name="A" symbol="OPAMP" x="-15.24" y="7.62"/>
-<gate name="B" symbol="OPAMP" x="-15.24" y="-7.62"/>
-<gate name="C" symbol="OPAMP" x="12.7" y="7.62"/>
-<gate name="D" symbol="OPAMP" x="12.7" y="-7.62"/>
+<gate name="A" symbol="OPAMP" x="-15.24" y="7.62" swaplevel="1"/>
+<gate name="B" symbol="OPAMP" x="-15.24" y="-7.62" swaplevel="1"/>
+<gate name="C" symbol="OPAMP" x="12.7" y="7.62" swaplevel="1"/>
+<gate name="D" symbol="OPAMP" x="12.7" y="-7.62" swaplevel="1"/>
 <gate name="P" symbol="PWR+-" x="-15.24" y="7.62" addlevel="always"/>
 </gates>
 <devices>
@@ -22597,6 +22600,43 @@ Source: OP1177_2177_4177.pdf</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TS931?*" prefix="IC">
+<description>&lt;b&gt;Output rail-to-rail micropower operational amplifiers&lt;/b&gt;&lt;p&gt;
+Source: http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00001973.pdf</description>
+<gates>
+<gate name="A" symbol="OPAMP+-" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ILT" package="SOT23-5">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="4"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="V+" pad="5"/>
+<connect gate="A" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="A"/>
+<technology name="B"/>
+</technologies>
+</device>
+<device name="IDT" package="SO08">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="6"/>
+<connect gate="A" pin="V+" pad="7"/>
+<connect gate="A" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="A"/>
+<technology name="B"/>
 </technologies>
 </device>
 </devices>

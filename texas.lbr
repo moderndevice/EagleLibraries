@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25267,8 +25267,8 @@ changed 2011-11-09</description>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-25.4" x2="-25.4" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="-25.4" y1="-25.4" x2="-25.4" y2="25.4" width="0.254" layer="94"/>
-<text x="-25.4" y="26.67" size="1.778" layer="95" font="vector">&gt;PART</text>
-<text x="-7.62" y="-3.81" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-25.4" y="26.67" size="1.778" layer="95">&gt;PART</text>
+<text x="-7.62" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="DEFDCDC3" x="-27.94" y="12.7" length="short" direction="in"/>
 <pin name="VDCDC3" x="-27.94" y="10.16" length="short" direction="in"/>
 <pin name="PGND3" x="-27.94" y="7.62" length="short" direction="in"/>
@@ -25315,8 +25315,8 @@ changed 2011-11-09</description>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-25.4" x2="-25.4" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="-25.4" y1="-25.4" x2="-25.4" y2="25.4" width="0.254" layer="94"/>
-<text x="-25.4" y="26.67" size="1.778" layer="95" font="vector">&gt;PART</text>
-<text x="-7.62" y="-3.81" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-25.4" y="26.67" size="1.778" layer="95">&gt;PART</text>
+<text x="-7.62" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="DEFDCDC3" x="-27.94" y="12.7" length="short" direction="in"/>
 <pin name="VDCDC3" x="-27.94" y="10.16" length="short" direction="in"/>
 <pin name="PGND3" x="-27.94" y="7.62" length="short" direction="in"/>
@@ -25363,7 +25363,7 @@ changed 2011-11-09</description>
 <wire x1="21.59" y1="2.54" x2="21.59" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="21.59" y1="-1.27" x2="-19.05" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-19.05" y1="-1.27" x2="-19.05" y2="2.54" width="0.254" layer="94"/>
-<text x="-3.81" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-3.81" y="0" size="1.778" layer="95">&gt;NAME</text>
 <pin name="EXP16@1" x="-17.78" y="5.08" visible="off" length="short" direction="in" rot="R270"/>
 <pin name="EXP16@2" x="-15.24" y="5.08" visible="off" length="short" direction="in" rot="R270"/>
 <pin name="EXP16@3" x="-12.7" y="5.08" visible="off" length="short" direction="in" rot="R270"/>
@@ -25386,7 +25386,7 @@ changed 2011-11-09</description>
 <wire x1="21.59" y1="2.54" x2="21.59" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="21.59" y1="-1.27" x2="-21.59" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-21.59" y1="-1.27" x2="-21.59" y2="2.54" width="0.254" layer="94"/>
-<text x="-5.08" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="0" size="1.778" layer="95">&gt;NAME</text>
 <pin name="EXP16@1" x="-17.78" y="5.08" visible="off" length="short" direction="in" rot="R270"/>
 <pin name="EXP16@2" x="-15.24" y="5.08" visible="off" length="short" direction="in" rot="R270"/>
 <pin name="EXP16@3" x="-12.7" y="5.08" visible="off" length="short" direction="in" rot="R270"/>
@@ -25684,8 +25684,8 @@ changed 2011-11-09</description>
 <wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<text x="-7.62" y="8.89" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="IN" x="-10.16" y="5.08" length="short" direction="in"/>
 <pin name="!EN" x="-10.16" y="0" length="short" direction="in"/>
 <pin name="NC/FB" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
@@ -25807,7 +25807,7 @@ changed 2011-11-09</description>
 <wire x1="12.7" y1="-2.54" x2="12.7" y2="5.08" width="0.254" layer="94"/>
 <wire x1="12.7" y1="5.08" x2="-15.24" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="5.08" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
-<text x="-15.24" y="6.35" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-15.24" y="6.35" size="1.778" layer="95">&gt;NAME</text>
 <pin name="PP@1" x="-12.7" y="-5.08" visible="pin" length="short" direction="pwr" rot="R90"/>
 <pin name="PP@2" x="-10.16" y="-5.08" visible="pin" length="short" direction="pwr" rot="R90"/>
 <pin name="PP@3" x="-7.62" y="-5.08" visible="pin" length="short" direction="pwr" rot="R90"/>
@@ -25855,8 +25855,8 @@ changed 2011-11-09</description>
 <wire x1="68.58" y1="-35.56" x2="68.58" y2="35.56" width="0.2032" layer="94"/>
 <wire x1="68.58" y1="35.56" x2="-60.96" y2="35.56" width="0.2032" layer="94"/>
 <wire x1="-60.96" y1="35.56" x2="-60.96" y2="-35.56" width="0.2032" layer="94"/>
-<text x="-60.96" y="36.83" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-60.96" y="-38.1" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-60.96" y="36.83" size="1.778" layer="95">&gt;NAME</text>
+<text x="-60.96" y="-38.1" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="P6_4/A4" x="-66.04" y="30.48" length="middle"/>
 <pin name="P6_5/A5" x="-66.04" y="27.94" length="middle"/>
 <pin name="P6_6/A6" x="-66.04" y="25.4" length="middle"/>
@@ -25963,8 +25963,8 @@ changed 2011-11-09</description>
 <wire x1="58.42" y1="-30.48" x2="58.42" y2="27.94" width="0.254" layer="94"/>
 <wire x1="58.42" y1="27.94" x2="-53.34" y2="27.94" width="0.254" layer="94"/>
 <wire x1="-53.34" y1="27.94" x2="-53.34" y2="-30.48" width="0.254" layer="94"/>
-<text x="-53.34" y="29.21" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-53.34" y="-33.02" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-53.34" y="29.21" size="1.778" layer="95">&gt;NAME</text>
+<text x="-53.34" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="P6_4/A4" x="-58.42" y="22.86" length="middle"/>
 <pin name="P6_5/A5" x="-58.42" y="20.32" length="middle"/>
 <pin name="P6_6/A6" x="-58.42" y="17.78" length="middle"/>
@@ -26175,8 +26175,8 @@ changed 2011-11-09</description>
 <wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<text x="-10.16" y="11.43" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-12.7" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-10.16" y="11.43" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="L1" x="-12.7" y="7.62" length="short" direction="pas"/>
 <pin name="L2" x="12.7" y="7.62" length="short" direction="pas" rot="R180"/>
 <pin name="VIN" x="-12.7" y="5.08" length="short" direction="in"/>
@@ -26229,8 +26229,8 @@ changed 2011-11-09</description>
 <wire x1="10.16" y1="-20.32" x2="-7.62" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-20.32" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
-<text x="-7.62" y="19.05" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-22.86" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-7.62" y="19.05" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="INR+" x="-10.16" y="12.7" length="short" direction="in"/>
 <pin name="INR-" x="-10.16" y="10.16" length="short" direction="in"/>
 <pin name="INL+" x="-10.16" y="5.08" length="short" direction="in"/>
@@ -26254,8 +26254,8 @@ changed 2011-11-09</description>
 <wire x1="12.7" y1="20.32" x2="12.7" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-22.86" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
-<text x="-12.7" y="21.59" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-12.7" y="-25.4" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-12.7" y="21.59" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="LIN" x="-15.24" y="5.08" length="short" direction="in"/>
 <pin name="RIN" x="-15.24" y="10.16" length="short" direction="in"/>
 <pin name="BYPASS" x="-15.24" y="0" length="short" direction="in"/>
@@ -26286,8 +26286,8 @@ changed 2011-11-09</description>
 <wire x1="-25.4" y1="3.81" x2="25.4" y2="3.81" width="0.254" layer="94"/>
 <wire x1="25.4" y1="3.81" x2="25.4" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-5.08" x2="-25.4" y2="-5.08" width="0.254" layer="94"/>
-<text x="-25.4" y="5.08" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="5.08" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-25.4" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="EXP" x="-22.86" y="-7.62" visible="pin" length="short" direction="pas" rot="R90"/>
 <pin name="EXP@1" x="-20.32" y="-7.62" visible="pin" length="short" direction="pas" rot="R90"/>
 <pin name="EXP@2" x="-17.78" y="-7.62" visible="pin" length="short" direction="pas" rot="R90"/>
@@ -26419,7 +26419,7 @@ changed 2011-11-09</description>
 <wire x1="3.81" y1="2.54" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="-1.27" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
-<text x="-3.81" y="-3.81" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.778" layer="95">&gt;NAME</text>
 <pin name="EXP@1" x="-2.54" y="5.08" visible="off" length="short" direction="in" rot="R270"/>
 <pin name="EXP@2" x="0" y="5.08" visible="off" length="short" direction="in" rot="R270"/>
 <pin name="EXP@3" x="2.54" y="5.08" visible="off" length="short" direction="in" rot="R270"/>
@@ -27177,7 +27177,7 @@ changed 2011-11-09</description>
 <wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
-<text x="-5.08" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <pin name="EXP" x="-7.62" y="0" visible="pin" length="short" direction="in"/>
 </symbol>
 <symbol name="DIX4192">
@@ -29083,8 +29083,8 @@ changed 2011-11-09</description>
 <wire x1="-33.02" y1="3.81" x2="33.02" y2="3.81" width="0.254" layer="94"/>
 <wire x1="33.02" y1="3.81" x2="33.02" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="33.02" y1="-5.08" x2="-33.02" y2="-5.08" width="0.254" layer="94"/>
-<text x="-33.02" y="5.08" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-17.78" y="5.08" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-33.02" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="EXP@1" x="-30.48" y="-7.62" visible="pin" length="short" direction="pas" rot="R90"/>
 <pin name="EXP@2" x="-27.94" y="-7.62" visible="pin" length="short" direction="pas" rot="R90"/>
 <pin name="EXP@3" x="-25.4" y="-7.62" visible="pin" length="short" direction="pas" rot="R90"/>

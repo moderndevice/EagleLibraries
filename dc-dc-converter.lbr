@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -700,17 +700,17 @@ Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-0
 <deviceset name="VA-*D01" prefix="DC">
 <description>&lt;b&gt;DC DC Converter&lt;/b&gt; Dual Separate Output, 1 Watt&lt;p&gt;
 Motien Technology Co.,Ltd.&lt;br&gt;
-Source: VA-D01.pdf</description>
+Source: &lt;a href="http://www.motien.com.tw/data_sheet/VA-D01%28H%29.pdf"&gt; Data sheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="DC2ISOLATE-OUT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="8DIL-6">
 <connects>
-<connect gate="G$1" pin="+VIN" pad="1"/>
+<connect gate="G$1" pin="+VIN" pad="4"/>
 <connect gate="G$1" pin="+VOUT1" pad="5"/>
 <connect gate="G$1" pin="+VOUT2" pad="7"/>
-<connect gate="G$1" pin="-VIN" pad="4"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
 <connect gate="G$1" pin="-VOUT1" pad="6"/>
 <connect gate="G$1" pin="-VOUT2" pad="8"/>
 </connects>
@@ -812,7 +812,7 @@ Source: VA-D01.pdf</description>
 <deviceset name="VA-*?" prefix="DC">
 <description>&lt;b&gt;DC DC Converter&lt;/b&gt; Single Output, 1 Watt&lt;p&gt;
 Motien Technology Co.,Ltd.&lt;br&gt;
-Source: va-serie.pdf</description>
+Source: &lt;a href="http://www.motien.com.tw/data_sheet/VA-1%28H%29.pdf"&gt; Data sheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="DC+" x="0" y="0"/>
 </gates>

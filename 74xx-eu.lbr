@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1785,7 +1785,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="5.08" y1="-15.24" x2="5.08" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="O0" x="10.16" y="10.16" length="middle" direction="out" function="dot" rot="R180"/>
 <pin name="O1" x="10.16" y="7.62" length="middle" direction="out" function="dot" rot="R180"/>
@@ -1807,7 +1807,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="O0" x="12.7" y="10.16" length="middle" direction="oc" function="dot" rot="R180"/>
 <pin name="O1" x="12.7" y="7.62" length="middle" direction="oc" function="dot" rot="R180"/>
@@ -1893,7 +1893,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1A" x="-12.7" y="12.7" length="middle" direction="in"/>
 <pin name="2A" x="-12.7" y="-5.08" length="middle" direction="in"/>
@@ -1913,7 +1913,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1A" x="-12.7" y="12.7" length="middle" direction="in"/>
 <pin name="2A" x="-12.7" y="-5.08" length="middle" direction="in"/>
@@ -1933,7 +1933,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A" x="-12.7" y="10.16" length="middle" direction="in"/>
 <pin name="B" x="-12.7" y="7.62" length="middle" direction="in"/>
@@ -2037,7 +2037,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="12.7" x2="-10.16" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-10.16" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1CLKA" x="-15.24" y="10.16" length="middle" direction="in" function="clk"/>
 <pin name="1QB" x="15.24" y="7.62" length="middle" direction="out" rot="R180"/>
@@ -2058,7 +2058,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="J1" x="-12.7" y="10.16" length="middle" direction="in" swaplevel="1"/>
@@ -2077,7 +2077,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="J1" x="-12.7" y="10.16" length="middle" direction="in" swaplevel="1"/>
@@ -2124,7 +2124,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="!Q1" x="12.7" y="10.16" length="middle" direction="out" rot="R180"/>
 <pin name="D1" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -2179,7 +2179,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLK" x="-12.7" y="7.62" length="middle" direction="in" function="clk"/>
 <pin name="PR1" x="-12.7" y="2.54" length="middle" direction="in" function="dot"/>
@@ -2215,7 +2215,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A4" x="-12.7" y="5.08" length="middle" direction="in"/>
 <pin name="S3" x="12.7" y="7.62" length="middle" direction="out" rot="R180"/>
@@ -2237,7 +2237,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="10.16" y1="-17.78" x2="10.16" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="10.16" y1="15.24" x2="-10.16" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="15.24" x2="-10.16" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-10.16" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="B3" x="-15.24" y="-5.08" length="middle" direction="in"/>
 <pin name="A&lt;B_I" x="-15.24" y="-10.16" length="middle" direction="in"/>
@@ -2322,7 +2322,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="SER" x="-12.7" y="-2.54" length="middle" direction="in"/>
 <pin name="A" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -2342,7 +2342,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLK" x="-12.7" y="-7.62" length="middle" direction="in" function="clk"/>
 <pin name="A" x="-12.7" y="7.62" length="middle" direction="in"/>
@@ -2364,7 +2364,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="B1" x="-12.7" y="12.7" length="middle" direction="in"/>
 <pin name="B4" x="-12.7" y="5.08" length="middle" direction="in"/>
@@ -2526,7 +2526,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A1" x="-12.7" y="10.16" length="middle" direction="in" function="dot"/>
 <pin name="A2" x="-12.7" y="7.62" length="middle" direction="in" function="dot"/>
@@ -2654,7 +2654,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="SCEI" x="-12.7" y="-7.62" length="middle" direction="in" function="dot"/>
 <pin name="CLK" x="-12.7" y="7.62" length="middle" direction="in" function="clk"/>
@@ -2684,7 +2684,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="5.08" y1="-15.24" x2="5.08" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="0" x="10.16" y="10.16" length="middle" direction="out" function="dot" rot="R180"/>
 <pin name="1" x="10.16" y="7.62" length="middle" direction="out" function="dot" rot="R180"/>
@@ -2727,7 +2727,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="4" x="-12.7" y="0" length="middle" direction="in" function="dot"/>
 <pin name="5" x="-12.7" y="-2.54" length="middle" direction="in" function="dot"/>
@@ -2749,7 +2749,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-30.48" x2="7.62" y2="27.94" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="27.94" x2="-7.62" y2="27.94" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="27.94" x2="-7.62" y2="-30.48" width="0.4064" layer="94"/>
-<text x="-7.62" y="28.575" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="28.575" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="E7" x="-12.7" y="7.62" length="middle" direction="in"/>
 <pin name="E6" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -2779,7 +2779,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="D3" x="-12.7" y="7.62" length="middle" direction="in"/>
 <pin name="D2" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -2801,7 +2801,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="D4" x="-12.7" y="2.54" length="middle" direction="in"/>
 <pin name="D3" x="-12.7" y="5.08" length="middle" direction="in"/>
@@ -2821,7 +2821,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1G" x="-12.7" y="-15.24" length="middle" direction="in" function="dot"/>
 <pin name="B" x="-12.7" y="-12.7" length="middle" direction="in"/>
@@ -2843,7 +2843,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-22.86" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-22.86" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="0" x="12.7" y="17.78" length="middle" direction="out" function="dot" rot="R180"/>
 <pin name="1" x="12.7" y="15.24" length="middle" direction="out" function="dot" rot="R180"/>
@@ -2917,7 +2917,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="!A!/B" x="-12.7" y="-10.16" length="middle" direction="in"/>
 <pin name="1A" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -2939,7 +2939,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="!A!/B" x="-12.7" y="-10.16" length="middle" direction="in"/>
 <pin name="1A" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -2961,7 +2961,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-22.86" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-22.86" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="0" x="12.7" y="17.78" length="middle" direction="oc" function="dot" rot="R180"/>
 <pin name="1" x="12.7" y="15.24" length="middle" direction="oc" function="dot" rot="R180"/>
@@ -2991,7 +2991,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="CLK" x="-12.7" y="-2.54" length="middle" direction="in" function="clk"/>
@@ -3033,7 +3033,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="SH/!LD" x="-12.7" y="-15.24" length="middle" direction="in"/>
 <pin name="CLK" x="-12.7" y="-10.16" length="middle" direction="in" function="clk"/>
@@ -3055,7 +3055,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="SER" x="-12.7" y="-5.08" length="middle" direction="in"/>
 <pin name="A" x="-12.7" y="15.24" length="middle" direction="in"/>
@@ -3077,7 +3077,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="B2" x="-12.7" y="7.62" length="middle" direction="in"/>
 <pin name="B3" x="-12.7" y="5.08" length="middle" direction="in"/>
@@ -3098,7 +3098,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="U/!D" x="-12.7" y="-7.62" length="middle" direction="in"/>
 <pin name="CLK" x="-12.7" y="-2.54" length="middle" direction="in" function="clk"/>
@@ -3120,7 +3120,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="D2" x="-12.7" y="10.16" length="middle" direction="in"/>
 <pin name="D3" x="-12.7" y="7.62" length="middle" direction="in"/>
@@ -3142,7 +3142,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="!Q1" x="12.7" y="12.7" length="middle" direction="out" rot="R180"/>
 <pin name="!Q2" x="12.7" y="5.08" length="middle" direction="out" rot="R180"/>
@@ -3164,7 +3164,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="M" x="-12.7" y="-2.54" length="middle" direction="in" function="dot"/>
 <pin name="N" x="-12.7" y="-5.08" length="middle" direction="in" function="dot"/>
@@ -3186,7 +3186,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="Q1" x="12.7" y="10.16" length="middle" direction="out" rot="R180"/>
@@ -3208,7 +3208,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="Q1" x="12.7" y="12.7" length="middle" direction="out" rot="R180"/>
@@ -3230,7 +3230,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="LD" x="-12.7" y="-7.62" length="middle" direction="in" function="dot"/>
 <pin name="QC" x="12.7" y="5.08" length="middle" direction="out" rot="R180"/>
@@ -3250,7 +3250,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="B" x="-12.7" y="7.62" length="middle" direction="in"/>
 <pin name="A" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -3270,7 +3270,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="B" x="-12.7" y="5.08" length="middle" direction="in"/>
@@ -3292,7 +3292,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G" x="-12.7" y="-2.54" length="middle" direction="in"/>
 <pin name="H" x="-12.7" y="-5.08" length="middle" direction="in"/>
@@ -3312,7 +3312,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-22.86" x2="7.62" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="22.86" x2="-7.62" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="22.86" x2="-7.62" y2="-22.86" width="0.4064" layer="94"/>
-<text x="-7.62" y="23.495" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="23.495" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="B0" x="-12.7" y="7.62" length="middle" direction="in" function="dot"/>
 <pin name="A0" x="-12.7" y="20.32" length="middle" direction="in" function="dot"/>
@@ -3342,7 +3342,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G1" x="-12.7" y="0" length="middle" direction="in" function="dot"/>
 <pin name="P1" x="-12.7" y="2.54" length="middle" direction="in" function="dot"/>
@@ -3399,7 +3399,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="B" x="-12.7" y="7.62" length="middle" direction="in"/>
 <pin name="QB" x="12.7" y="7.62" length="middle" direction="out" rot="R180"/>
@@ -3421,7 +3421,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="B" x="-12.7" y="7.62" length="middle" direction="in"/>
 <pin name="QB" x="12.7" y="7.62" length="middle" direction="out" rot="R180"/>
@@ -3443,7 +3443,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="SR" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -3465,7 +3465,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="J" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -3487,7 +3487,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S0" x="-12.7" y="-12.7" length="middle" direction="in"/>
 <pin name="SR" x="-12.7" y="-7.62" length="middle" direction="in"/>
@@ -3517,7 +3517,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="K" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="J" x="-12.7" y="-7.62" length="middle" direction="in"/>
@@ -3616,7 +3616,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="DIR" x="-12.7" y="-10.16" length="middle" direction="in"/>
 <pin name="A1" x="-12.7" y="12.7" length="middle"/>
@@ -3642,7 +3642,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-30.48" x2="7.62" y2="27.94" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="27.94" x2="-7.62" y2="27.94" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="27.94" x2="-7.62" y2="-30.48" width="0.4064" layer="94"/>
-<text x="-7.62" y="28.575" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="28.575" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="E7" x="-12.7" y="7.62" length="middle" direction="in"/>
 <pin name="E6" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -3672,7 +3672,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="D3" x="-12.7" y="7.62" length="middle" direction="in"/>
 <pin name="D2" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -3694,7 +3694,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1G" x="-12.7" y="-15.24" length="middle" direction="in" function="dot"/>
 <pin name="B" x="-12.7" y="-12.7" length="middle" direction="in"/>
@@ -3716,7 +3716,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="!A!/B" x="-12.7" y="-12.7" length="middle" direction="in"/>
 <pin name="1A" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -3738,7 +3738,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="!A!/B" x="-12.7" y="-12.7" length="middle" direction="in"/>
 <pin name="1A" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -3782,7 +3782,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="B3" x="-12.7" y="2.54" length="middle" direction="in"/>
 <pin name="B4" x="-12.7" y="0" length="middle" direction="in"/>
@@ -3804,7 +3804,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="Q1" x="12.7" y="12.7" length="middle" direction="out" rot="R180"/>
@@ -3830,7 +3830,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-22.86" length="middle" direction="in" function="dot"/>
 <pin name="1J" x="-12.7" y="17.78" length="middle" direction="in"/>
@@ -3887,7 +3887,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G" x="-12.7" y="-5.08" length="middle" direction="in"/>
 <pin name="H" x="-12.7" y="-7.62" length="middle" direction="in"/>
@@ -3906,7 +3906,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S2" x="12.7" y="10.16" length="middle" direction="out" rot="R180"/>
 <pin name="B2" x="-12.7" y="-2.54" length="middle" direction="in"/>
@@ -3928,7 +3928,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2C" x="-12.7" y="-2.54" length="middle" direction="in"/>
 <pin name="2B" x="-12.7" y="0" length="middle" direction="in"/>
@@ -3950,7 +3950,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2C" x="-12.7" y="-2.54" length="middle" direction="in"/>
 <pin name="2B" x="-12.7" y="0" length="middle" direction="in"/>
@@ -3972,7 +3972,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-10.16" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="15.24" x2="-10.16" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-10.16" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G" x="-15.24" y="-2.54" length="middle" direction="in"/>
 <pin name="H" x="-15.24" y="-5.08" length="middle" direction="in"/>
@@ -4010,7 +4010,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="B" x="-12.7" y="7.62" length="middle" direction="in"/>
 <pin name="E" x="-12.7" y="0" length="middle" direction="in"/>
@@ -4063,7 +4063,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="SER" x="-12.7" y="-5.08" length="middle" direction="in"/>
 <pin name="A" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -4083,7 +4083,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="B2" x="-12.7" y="5.08" length="middle" direction="in"/>
 <pin name="A2" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -4105,7 +4105,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S0" x="-12.7" y="10.16" length="middle" direction="in"/>
 <pin name="G1" x="-12.7" y="0" length="middle" direction="in" function="dot"/>
@@ -4169,7 +4169,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G" x="-12.7" y="-17.78" length="middle" direction="in" function="dot"/>
 <pin name="S/!P" x="-12.7" y="-20.32" length="middle" direction="in"/>
@@ -4195,7 +4195,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="4" x="-12.7" y="0" length="middle" direction="in" function="dot"/>
 <pin name="5" x="-12.7" y="-2.54" length="middle" direction="in" function="dot"/>
@@ -4217,7 +4217,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1G" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="B" x="-12.7" y="-17.78" length="middle" direction="in"/>
@@ -4239,7 +4239,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1G" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="B" x="-12.7" y="-17.78" length="middle" direction="in"/>
@@ -4261,7 +4261,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="D7" x="-12.7" y="5.08" length="middle" direction="in"/>
 <pin name="D6" x="-12.7" y="7.62" length="middle" direction="in"/>
@@ -4287,7 +4287,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="D7" x="-12.7" y="5.08" length="middle" direction="in"/>
 <pin name="D6" x="-12.7" y="7.62" length="middle" direction="in"/>
@@ -4313,7 +4313,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="D7" x="-12.7" y="5.08" length="middle" direction="in"/>
 <pin name="D6" x="-12.7" y="7.62" length="middle" direction="in"/>
@@ -4339,7 +4339,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="D7" x="-12.7" y="5.08" length="middle" direction="in"/>
 <pin name="D6" x="-12.7" y="7.62" length="middle" direction="in"/>
@@ -4365,7 +4365,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G1" x="-12.7" y="-7.62" length="middle" direction="in" function="dot"/>
 <pin name="A1" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -4387,7 +4387,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G1" x="-12.7" y="-7.62" length="middle" direction="in" function="dot"/>
 <pin name="A1" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -4409,7 +4409,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1G" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="1A1" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -4431,7 +4431,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1G" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="1A1" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -4453,7 +4453,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="1Q" x="12.7" y="12.7" length="middle" direction="hiz" rot="R180"/>
@@ -4479,7 +4479,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="1Q" x="12.7" y="12.7" length="middle" direction="hiz" rot="R180"/>
@@ -4505,7 +4505,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1D" x="-12.7" y="12.7" length="middle" direction="in"/>
 <pin name="!1Q" x="12.7" y="10.16" length="middle" direction="out" rot="R180"/>
@@ -4527,7 +4527,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="1J" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -4549,7 +4549,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="1Q" x="12.7" y="12.7" length="middle" direction="out" rot="R180"/>
@@ -4575,7 +4575,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G" x="-12.7" y="-7.62" length="middle" direction="in" function="dot"/>
 <pin name="1Q" x="12.7" y="10.16" length="middle" direction="out" rot="R180"/>
@@ -4597,7 +4597,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="1Q" x="12.7" y="12.7" length="middle" direction="out" rot="R180"/>
@@ -4619,7 +4619,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A1" x="-12.7" y="15.24" length="middle" direction="in"/>
 <pin name="B1" x="-12.7" y="2.54" length="middle" direction="in"/>
@@ -4645,7 +4645,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A1" x="-12.7" y="15.24" length="middle" direction="in"/>
 <pin name="B1" x="-12.7" y="2.54" length="middle" direction="in"/>
@@ -4671,7 +4671,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-15.24" length="middle" direction="in" function="dot"/>
 <pin name="X3" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -4693,7 +4693,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="22.86" x2="-7.62" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="22.86" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="23.495" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="23.495" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLK" x="-12.7" y="-20.32" length="middle" direction="in" function="clk"/>
 <pin name="1S" x="12.7" y="20.32" length="middle" direction="out" rot="R180"/>
@@ -4748,7 +4748,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="SER" x="-12.7" y="-5.08" length="middle" direction="in"/>
@@ -4770,7 +4770,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2Q1" x="12.7" y="7.62" length="middle" direction="out" rot="R180"/>
 <pin name="1Q1" x="12.7" y="10.16" length="middle" direction="out" rot="R180"/>
@@ -4792,7 +4792,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="WS" x="-12.7" y="-12.7" length="middle" direction="in"/>
 <pin name="QA" x="12.7" y="12.7" length="middle" direction="out" rot="R180"/>
@@ -4818,7 +4818,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="WS" x="-12.7" y="-12.7" length="middle" direction="in"/>
 <pin name="QA" x="12.7" y="12.7" length="middle" direction="out" rot="R180"/>
@@ -4840,7 +4840,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S1" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="M" x="-12.7" y="-15.24" length="middle" direction="in"/>
@@ -4870,7 +4870,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A1" x="-12.7" y="10.16" length="middle" direction="in" function="dot"/>
 <pin name="A2" x="-12.7" y="7.62" length="middle" direction="in" function="dot"/>
@@ -4888,7 +4888,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CS" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="B1" x="12.7" y="10.16" length="middle" rot="R180"/>
@@ -4914,7 +4914,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="O0" x="12.7" y="10.16" length="middle" direction="out" function="dot" rot="R180"/>
 <pin name="O1" x="12.7" y="7.62" length="middle" direction="out" function="dot" rot="R180"/>
@@ -4936,7 +4936,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GBA" x="-12.7" y="0" length="middle" direction="in" function="dot"/>
 <pin name="A1" x="-12.7" y="12.7" length="middle"/>
@@ -4958,7 +4958,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GBA" x="-12.7" y="0" length="middle" direction="in" function="dot"/>
 <pin name="A1" x="-12.7" y="12.7" length="middle"/>
@@ -4980,7 +4980,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G1" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="A1" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -5006,7 +5006,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G1" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="A1" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -5117,7 +5117,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G1" x="-12.7" y="2.54" length="middle" direction="in" function="dot"/>
 <pin name="P1" x="-12.7" y="5.08" length="middle" direction="in" function="dot"/>
@@ -5623,7 +5623,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G" x="-12.7" y="-22.86" length="middle" direction="in" function="dot"/>
 <pin name="P0" x="-12.7" y="22.86" length="middle" direction="in"/>
@@ -5649,7 +5649,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G1" x="-12.7" y="-22.86" length="middle" direction="in" function="dot"/>
 <pin name="P0" x="-12.7" y="22.86" length="middle" direction="in"/>
@@ -5675,7 +5675,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G1" x="-12.7" y="-22.86" length="middle" direction="in" function="dot"/>
 <pin name="P0" x="-12.7" y="22.86" length="middle" direction="in"/>
@@ -5701,7 +5701,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="22.86" x2="-7.62" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="22.86" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="23.495" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="23.495" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G" x="-12.7" y="-22.86" length="middle" direction="in" function="dot"/>
 <pin name="P0" x="-12.7" y="20.32" length="middle" direction="in" function="dot"/>
@@ -5727,7 +5727,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-27.94" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-27.94" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G" x="-12.7" y="-25.4" length="middle" direction="in" function="dot"/>
 <pin name="P0" x="-12.7" y="22.86" length="middle" direction="in" function="dot"/>
@@ -5753,7 +5753,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G1" x="-12.7" y="-17.78" length="middle" direction="in" function="dot"/>
 <pin name="P0" x="-12.7" y="15.24" length="middle" direction="in" function="dot"/>
@@ -5775,7 +5775,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G1" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="A1" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -5801,7 +5801,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G1" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="A1" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -5827,7 +5827,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="ALD" x="-12.7" y="-7.62" length="middle" direction="in" function="dot"/>
 <pin name="CLK" x="-12.7" y="2.54" length="middle" direction="in" function="clk"/>
@@ -5853,7 +5853,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="U/!D" x="-12.7" y="-12.7" length="middle" direction="in"/>
 <pin name="CLK" x="-12.7" y="2.54" length="middle" direction="in" function="clk"/>
@@ -5879,7 +5879,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="B" x="-12.7" y="15.24" length="middle" direction="in"/>
 <pin name="C" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -5901,7 +5901,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="QB" x="12.7" y="7.62" length="middle" direction="hiz" rot="R180"/>
 <pin name="QC" x="12.7" y="5.08" length="middle" direction="hiz" rot="R180"/>
@@ -5923,7 +5923,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="QB" x="12.7" y="7.62" length="middle" direction="oc" rot="R180"/>
 <pin name="QC" x="12.7" y="5.08" length="middle" direction="oc" rot="R180"/>
@@ -5945,7 +5945,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="B" x="-12.7" y="12.7" length="middle" direction="in"/>
 <pin name="C" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -5967,7 +5967,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="10.16" y1="-12.7" x2="10.16" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-10.16" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A/QA" x="15.24" y="15.24" length="middle" rot="R180"/>
 <pin name="B/QB" x="15.24" y="12.7" length="middle" rot="R180"/>
@@ -5993,7 +5993,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="QB" x="12.7" y="7.62" length="middle" direction="out" rot="R180"/>
 <pin name="QC" x="12.7" y="5.08" length="middle" direction="out" rot="R180"/>
@@ -6015,7 +6015,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="QB" x="12.7" y="7.62" length="middle" direction="hiz" rot="R180"/>
 <pin name="QC" x="12.7" y="5.08" length="middle" direction="hiz" rot="R180"/>
@@ -6037,7 +6037,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="QB" x="12.7" y="7.62" length="middle" direction="oc" rot="R180"/>
 <pin name="QC" x="12.7" y="5.08" length="middle" direction="oc" rot="R180"/>
@@ -6059,7 +6059,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-22.86" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-22.86" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="B" x="-12.7" y="12.7" length="middle" direction="in"/>
 <pin name="C" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -6081,7 +6081,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-10.16" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="15.24" x2="-10.16" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-10.16" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A/QA" x="12.7" y="12.7" length="middle" rot="R180"/>
 <pin name="B/QB" x="12.7" y="10.16" length="middle" rot="R180"/>
@@ -6107,7 +6107,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="QB" x="12.7" y="7.62" length="middle" direction="oc" rot="R180"/>
 <pin name="QC" x="12.7" y="5.08" length="middle" direction="oc" rot="R180"/>
@@ -6129,7 +6129,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLK" x="-12.7" y="-22.86" length="middle" direction="in" function="clk"/>
 <pin name="A/!B" x="-12.7" y="-20.32" length="middle" direction="in"/>
@@ -6163,7 +6163,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLK" x="-12.7" y="-22.86" length="middle" direction="in" function="clk"/>
 <pin name="A/!B" x="-12.7" y="-20.32" length="middle" direction="in"/>
@@ -6197,7 +6197,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="12.7" y1="-15.24" x2="12.7" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-12.7" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-12.7" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="PRECHRG" x="-17.78" y="-12.7" length="middle" direction="in"/>
 <pin name="P/!N" x="-17.78" y="10.16" length="middle" direction="in"/>
@@ -6219,7 +6219,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GAB" x="-12.7" y="-12.7" length="middle" direction="in"/>
 <pin name="A1" x="-12.7" y="12.7" length="middle"/>
@@ -6245,7 +6245,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GAB" x="-12.7" y="-12.7" length="middle" direction="in"/>
 <pin name="A1" x="-12.7" y="12.7" length="middle" direction="oc"/>
@@ -6271,7 +6271,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CAB" x="-12.7" y="-10.16" length="middle" direction="in" function="clk"/>
 <pin name="SAB" x="-12.7" y="-12.7" length="middle" direction="in"/>
@@ -6301,7 +6301,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="U/!D" x="-12.7" y="-12.7" length="middle" direction="in"/>
 <pin name="CLK" x="-12.7" y="-2.54" length="middle" direction="in" function="clk"/>
@@ -6323,7 +6323,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="D2" x="-12.7" y="10.16" length="middle" direction="in"/>
 <pin name="D3" x="-12.7" y="7.62" length="middle" direction="in"/>
@@ -6345,7 +6345,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="SRR" x="-12.7" y="2.54" length="middle" direction="in"/>
 <pin name="SCK" x="-12.7" y="0" length="middle" direction="in" function="clk"/>
@@ -6371,7 +6371,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="10.16" y1="-22.86" x2="10.16" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="10.16" y1="25.4" x2="-10.16" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="25.4" x2="-10.16" y2="-22.86" width="0.4064" layer="94"/>
-<text x="-10.16" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CS" x="-15.24" y="-17.78" length="middle" direction="in" function="dot"/>
 <pin name="SHCLK" x="-15.24" y="12.7" length="middle" direction="in" function="clk"/>
@@ -6401,7 +6401,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-27.94" x2="7.62" y2="27.94" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="27.94" x2="-10.16" y2="27.94" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="27.94" x2="-10.16" y2="-27.94" width="0.4064" layer="94"/>
-<text x="-10.16" y="28.575" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="28.575" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CS" x="-15.24" y="-25.4" length="middle" direction="in" function="dot"/>
 <pin name="CLK" x="-15.24" y="-17.78" length="middle" direction="in" function="clk"/>
@@ -6430,7 +6430,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-30.48" x2="7.62" y2="30.48" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="30.48" x2="-7.62" y2="30.48" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="30.48" x2="-7.62" y2="-30.48" width="0.4064" layer="94"/>
-<text x="-7.62" y="31.115" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="31.115" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A1" x="-12.7" y="27.94" length="middle" direction="in"/>
 <pin name="A2" x="-12.7" y="25.4" length="middle" direction="in"/>
@@ -6460,7 +6460,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A1" x="-12.7" y="22.86" length="middle" direction="in"/>
 <pin name="A2" x="-12.7" y="20.32" length="middle" direction="in"/>
@@ -6486,7 +6486,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A1" x="-12.7" y="22.86" length="middle" direction="in"/>
 <pin name="A2" x="-12.7" y="20.32" length="middle" direction="in"/>
@@ -6512,7 +6512,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="10.16" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="10.16" x2="-10.16" y2="10.16" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-10.16" y="10.795" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="10.795" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLK" x="-15.24" y="7.62" length="middle" direction="in" function="clk"/>
 <pin name="RS2" x="-15.24" y="-2.54" length="middle" direction="in"/>
@@ -6538,7 +6538,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-22.86" x2="7.62" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="22.86" x2="-7.62" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="22.86" x2="-7.62" y2="-22.86" width="0.4064" layer="94"/>
-<text x="-7.62" y="23.495" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="23.495" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="P&gt;Q" x="12.7" y="15.24" length="middle" direction="out" function="dot" rot="R180"/>
 <pin name="P0" x="-12.7" y="20.32" length="middle" direction="in"/>
@@ -6564,7 +6564,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-22.86" x2="7.62" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="22.86" x2="-7.62" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="22.86" x2="-7.62" y2="-22.86" width="0.4064" layer="94"/>
-<text x="-7.62" y="23.495" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="23.495" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="P&gt;Q" x="12.7" y="15.24" length="middle" direction="oc" function="dot" rot="R180"/>
 <pin name="P0" x="-12.7" y="20.32" length="middle" direction="in"/>
@@ -6590,7 +6590,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-27.94" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-27.94" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="P&gt;Q" x="12.7" y="17.78" length="middle" direction="out" function="dot" rot="R180"/>
 <pin name="G1" x="-12.7" y="-22.86" length="middle" direction="in" function="dot"/>
@@ -6618,7 +6618,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-27.94" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-27.94" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="P&gt;Q" x="12.7" y="17.78" length="middle" direction="oc" function="dot" rot="R180"/>
 <pin name="G1" x="-12.7" y="-22.86" length="middle" direction="in" function="dot"/>
@@ -6646,7 +6646,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G" x="-12.7" y="-22.86" length="middle" direction="in" function="dot"/>
 <pin name="P0" x="-12.7" y="22.86" length="middle" direction="in"/>
@@ -6672,7 +6672,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G" x="-12.7" y="-22.86" length="middle" direction="in" function="dot"/>
 <pin name="P0" x="-12.7" y="22.86" length="middle" direction="in"/>
@@ -6698,7 +6698,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="22.86" x2="-7.62" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="22.86" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="23.495" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="23.495" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CCL" x="-12.7" y="5.08" length="middle" direction="in" function="dot"/>
 <pin name="CCK" x="-12.7" y="7.62" length="middle" direction="in" function="clk"/>
@@ -6724,7 +6724,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-22.86" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-22.86" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="U/!D" x="-12.7" y="-5.08" length="middle" direction="in"/>
 <pin name="CCK" x="-12.7" y="5.08" length="middle" direction="in" function="clk"/>
@@ -6750,7 +6750,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G1" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="A1" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -6776,7 +6776,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G1" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="A1" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -6908,7 +6908,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-33.02" x2="7.62" y2="33.02" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="33.02" x2="-7.62" y2="33.02" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="33.02" x2="-7.62" y2="-33.02" width="0.4064" layer="94"/>
-<text x="-7.62" y="33.655" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="33.655" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="D7" x="-12.7" y="12.7" length="middle" direction="in"/>
 <pin name="D6" x="-12.7" y="15.24" length="middle" direction="in"/>
@@ -6942,7 +6942,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-33.02" x2="7.62" y2="33.02" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="33.02" x2="-7.62" y2="33.02" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="33.02" x2="-7.62" y2="-33.02" width="0.4064" layer="94"/>
-<text x="-7.62" y="33.655" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="33.655" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="D7" x="-12.7" y="12.7" length="middle" direction="in"/>
 <pin name="D6" x="-12.7" y="15.24" length="middle" direction="in"/>
@@ -6976,7 +6976,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S0" x="-12.7" y="-12.7" length="middle" direction="in"/>
 <pin name="S1" x="-12.7" y="-15.24" length="middle" direction="in"/>
@@ -7006,7 +7006,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OEB" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="OEA" x="-12.7" y="-15.24" length="middle" direction="in" function="dot"/>
@@ -7036,7 +7036,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-22.86" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-22.86" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S0" x="-12.7" y="-15.24" length="middle" direction="in"/>
 <pin name="1A" x="-12.7" y="17.78" length="middle" direction="in"/>
@@ -7066,7 +7066,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-33.02" x2="7.62" y2="33.02" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="33.02" x2="-10.16" y2="33.02" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="33.02" x2="-10.16" y2="-33.02" width="0.4064" layer="94"/>
-<text x="-10.16" y="33.655" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="33.655" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="QLE" x="-15.24" y="-25.4" length="middle" direction="in"/>
 <pin name="L/!A" x="-15.24" y="-20.32" length="middle" direction="in"/>
@@ -7100,7 +7100,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S0" x="-12.7" y="-15.24" length="middle" direction="in"/>
 <pin name="S1" x="-12.7" y="-17.78" length="middle" direction="in"/>
@@ -7187,7 +7187,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S0" x="-12.7" y="-12.7" length="middle" direction="in"/>
 <pin name="S1" x="-12.7" y="-15.24" length="middle" direction="in"/>
@@ -7255,7 +7255,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CN" x="-12.7" y="-22.86" length="middle" direction="in"/>
 <pin name="G0" x="-12.7" y="0" length="middle" direction="in" function="dot"/>
@@ -7284,7 +7284,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-27.94" x2="7.62" y2="30.48" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="30.48" x2="-7.62" y2="30.48" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="30.48" x2="-7.62" y2="-27.94" width="0.4064" layer="94"/>
-<text x="-7.62" y="31.115" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="31.115" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="L/!A" x="-12.7" y="-25.4" length="middle" direction="in"/>
 <pin name="P&lt;Q_I" x="-12.7" y="-20.32" length="middle" direction="in"/>
@@ -7331,7 +7331,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="1Q" x="12.7" y="12.7" length="middle" direction="hiz" function="dot" rot="R180"/>
@@ -7357,7 +7357,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="1Q" x="12.7" y="12.7" length="middle" direction="hiz" function="dot" rot="R180"/>
@@ -7383,7 +7383,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -7409,7 +7409,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -7435,7 +7435,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -7461,7 +7461,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -7487,7 +7487,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-15.24" length="middle" direction="in" function="dot"/>
 <pin name="OC" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
@@ -7514,7 +7514,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -7540,7 +7540,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="-15.24" length="middle" direction="in" function="dot"/>
 <pin name="OC" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
@@ -7567,7 +7567,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -7593,7 +7593,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-10.16" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-10.16" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-15.24" y="-15.24" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-15.24" y="15.24" length="middle" direction="in"/>
@@ -7623,7 +7623,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-10.16" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-10.16" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-15.24" y="-15.24" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-15.24" y="15.24" length="middle" direction="in" function="dot"/>
@@ -7653,7 +7653,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-15.24" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="15.24" length="middle" direction="in"/>
@@ -7683,7 +7683,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-15.24" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="15.24" length="middle" direction="in" function="dot"/>
@@ -7713,7 +7713,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC1" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="OC2" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
@@ -7743,7 +7743,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC1" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="OC2" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
@@ -7773,7 +7773,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-10.16" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-10.16" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-15.24" y="-15.24" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-15.24" y="15.24" length="middle" direction="in"/>
@@ -7803,7 +7803,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-10.16" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-10.16" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-15.24" y="-15.24" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-15.24" y="15.24" length="middle" direction="in" function="dot"/>
@@ -7833,7 +7833,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="15.24" length="middle" direction="in"/>
@@ -7863,7 +7863,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="15.24" length="middle" direction="in" function="dot"/>
@@ -7893,7 +7893,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC1" x="-12.7" y="-7.62" length="middle" direction="in" function="dot"/>
 <pin name="OC2" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
@@ -7923,7 +7923,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC1" x="-12.7" y="-7.62" length="middle" direction="in" function="dot"/>
 <pin name="OC2" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
@@ -7953,7 +7953,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OERB" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -7979,7 +7979,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OERB" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="12.7" length="middle" direction="in"/>
@@ -8005,7 +8005,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OERB" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="15.24" length="middle" direction="in"/>
@@ -8035,7 +8035,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OERB" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="15.24" length="middle" direction="in"/>
@@ -8065,7 +8065,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OERB" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="15.24" length="middle" direction="in"/>
@@ -8095,7 +8095,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-7.62" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OERB" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
 <pin name="1D" x="-12.7" y="15.24" length="middle" direction="in"/>
@@ -8140,7 +8140,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1D" x="-12.7" y="12.7" length="middle" direction="in"/>
 <pin name="2D" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -8166,7 +8166,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="!TC" x="12.7" y="-10.16" length="middle" direction="out" rot="R180"/>
 <pin name="MR" x="-12.7" y="12.7" length="middle" direction="in" function="dot"/>
@@ -8232,7 +8232,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="15.24" x2="7.62" y2="-15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="-15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OE" x="-12.7" y="12.7" length="middle" direction="in" function="dot"/>
 <pin name="S0" x="-12.7" y="10.16" length="middle"/>
@@ -8254,8 +8254,8 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="10.16" y1="-15.24" x2="10.16" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="15.24" x2="-10.16" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-10.16" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="0" y="15.875" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-10.16" y="15.875" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="15.875" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G" x="-15.24" y="12.7" length="middle" direction="in" function="dot"/>
 <pin name="CLK" x="-15.24" y="10.16" length="middle" direction="in" function="clk"/>
 <pin name="CLR" x="-15.24" y="7.62" length="middle" direction="in" function="dot"/>
@@ -8352,7 +8352,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="B*" x="-12.7" y="-5.08" length="middle"/>
 <pin name="BC" x="-12.7" y="-7.62" length="middle" direction="in" function="dot"/>
@@ -8372,7 +8372,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-22.86" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-22.86" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="P1A" x="-12.7" y="17.78" length="middle" direction="in"/>
 <pin name="P1B" x="-12.7" y="15.24" length="middle" direction="in"/>
@@ -8394,7 +8394,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="JK" x="-12.7" y="2.54" length="middle" direction="in"/>
 <pin name="PRE" x="-12.7" y="17.78" length="middle" direction="in" function="dot"/>
@@ -8414,7 +8414,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="8" x="12.7" y="-10.16" length="middle" direction="oc" function="dot" rot="R180"/>
 <pin name="9" x="12.7" y="-12.7" length="middle" direction="oc" function="dot" rot="R180"/>
@@ -8436,7 +8436,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLR" x="-12.7" y="2.54" length="middle" direction="in" function="dot"/>
 <pin name="7" x="12.7" y="-5.08" length="middle" direction="oc" function="dot" rot="R180"/>
@@ -8458,7 +8458,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-33.02" x2="7.62" y2="30.48" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="30.48" x2="-7.62" y2="30.48" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="30.48" x2="-7.62" y2="-33.02" width="0.4064" layer="94"/>
-<text x="-7.62" y="31.115" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="31.115" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1W1" x="-12.7" y="12.7" length="middle" direction="in"/>
 <pin name="1W0" x="-12.7" y="15.24" length="middle" direction="in"/>
@@ -8488,7 +8488,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GBA" x="-12.7" y="-7.62" length="middle" direction="in" function="dot"/>
 <pin name="S1" x="-12.7" y="0" length="middle" direction="in"/>
@@ -8510,7 +8510,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OC" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="Q1" x="12.7" y="10.16" length="middle" direction="hiz" rot="R180"/>
@@ -8532,7 +8532,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="AN" x="-12.7" y="10.16" length="middle" direction="in"/>
 <pin name="AN1" x="-12.7" y="7.62" length="middle" direction="in"/>
@@ -8558,7 +8558,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="10.16" y1="-15.24" x2="10.16" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="10.16" y1="15.24" x2="-10.16" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="15.24" x2="-10.16" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-10.16" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2N@1" x="-15.24" y="12.7" length="middle" direction="in"/>
 <pin name="2N@2" x="-15.24" y="10.16" length="middle" direction="in"/>
@@ -8580,7 +8580,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="10.16" y1="-20.32" x2="10.16" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-10.16" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="STSTB" x="-15.24" y="7.62" length="middle" direction="in" function="dot"/>
 <pin name="HLDA" x="-15.24" y="12.7" length="middle" direction="in"/>
@@ -8614,7 +8614,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S1" x="-12.7" y="-5.08" length="middle" direction="in" function="dot"/>
 <pin name="M" x="-12.7" y="-15.24" length="middle" direction="in"/>
@@ -8644,7 +8644,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="G1" x="-12.7" y="-7.62" length="middle" direction="in" function="dot"/>
 <pin name="A1" x="-12.7" y="10.16" length="middle" direction="in"/>
@@ -8666,7 +8666,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-7.62" y="15.875" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="E" x="-12.7" y="2.54" length="middle" direction="in"/>
 <pin name="D" x="-12.7" y="5.08" length="middle" direction="in"/>
@@ -8692,7 +8692,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GBA" x="-12.7" y="17.78" length="middle" direction="in" function="dot"/>
 <pin name="CEBA" x="-12.7" y="15.24" length="middle" direction="in" function="dot"/>
@@ -8722,7 +8722,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="10.16" y1="22.86" x2="10.16" y2="-12.7" width="0.4064" layer="94"/>
 <wire x1="10.16" y1="22.86" x2="-10.16" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="-12.7" x2="-10.16" y2="22.86" width="0.4064" layer="94"/>
-<text x="-10.16" y="23.495" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="23.495" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="!G" x="-15.24" y="20.32" length="middle" direction="in"/>
 <pin name="T/R" x="-15.24" y="17.78" length="middle" direction="in" function="dot"/>
@@ -8759,7 +8759,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="10.16" y1="-35.56" x2="10.16" y2="33.02" width="0.4064" layer="94"/>
 <wire x1="10.16" y1="33.02" x2="-10.16" y2="33.02" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="33.02" x2="-10.16" y2="-35.56" width="0.4064" layer="94"/>
-<text x="-10.16" y="33.655" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="33.655" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-38.1" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="LEDBO" x="15.24" y="30.48" length="middle" direction="hiz" function="dot" rot="R180"/>
 <pin name="MERR" x="15.24" y="5.08" length="middle" direction="out" function="dot" rot="R180"/>
@@ -8797,7 +8797,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="10.16" y1="-35.56" x2="10.16" y2="33.02" width="0.4064" layer="94"/>
 <wire x1="10.16" y1="33.02" x2="-10.16" y2="33.02" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="33.02" x2="-10.16" y2="-35.56" width="0.4064" layer="94"/>
-<text x="-10.16" y="33.655" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="33.655" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-38.1" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="LEDBO" x="15.24" y="30.48" length="middle" direction="oc" function="dot" rot="R180"/>
 <pin name="MERR" x="15.24" y="5.08" length="middle" direction="out" function="dot" rot="R180"/>
@@ -8835,7 +8835,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-55.88" x2="7.62" y2="55.88" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="55.88" x2="-10.16" y2="55.88" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="55.88" x2="-10.16" y2="-55.88" width="0.4064" layer="94"/>
-<text x="-10.16" y="56.515" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="56.515" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-58.42" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="MERR" x="12.7" y="5.08" length="middle" direction="out" function="dot" rot="R180"/>
 <pin name="ERR" x="12.7" y="-7.62" length="middle" direction="out" function="dot" rot="R180"/>
@@ -8888,7 +8888,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="10.16" y1="-55.88" x2="10.16" y2="55.88" width="0.4064" layer="94"/>
 <wire x1="10.16" y1="55.88" x2="-10.16" y2="55.88" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="55.88" x2="-10.16" y2="-55.88" width="0.4064" layer="94"/>
-<text x="-10.16" y="56.515" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="56.515" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-58.42" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="MERR" x="15.24" y="5.08" length="middle" direction="out" function="dot" rot="R180"/>
 <pin name="ERR" x="15.24" y="-7.62" length="middle" direction="out" function="dot" rot="R180"/>
@@ -8941,7 +8941,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OERB" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="OE1" x="-12.7" y="-5.08" length="middle" direction="in" function="dot"/>
@@ -8971,7 +8971,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OERB" x="-12.7" y="-10.16" length="middle" direction="in" function="dot"/>
 <pin name="OE1" x="-12.7" y="-5.08" length="middle" direction="in" function="dot"/>
@@ -9001,7 +9001,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-22.86" x2="7.62" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="22.86" x2="-7.62" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="22.86" x2="-7.62" y2="-22.86" width="0.4064" layer="94"/>
-<text x="-7.62" y="23.495" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="23.495" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S0" x="-12.7" y="-5.08" length="middle" direction="in"/>
 <pin name="1A0" x="-12.7" y="20.32" length="middle" direction="in"/>
@@ -9031,7 +9031,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-27.94" x2="7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="-7.62" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-27.94" width="0.4064" layer="94"/>
-<text x="-7.62" y="26.035" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="26.035" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="DA1" x="-12.7" y="-17.78" length="middle" direction="in"/>
 <pin name="DA2" x="-12.7" y="-20.32" length="middle" direction="in"/>
@@ -9065,7 +9065,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="10.16" y1="-17.78" x2="10.16" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.4064" layer="94"/>
-<text x="-10.16" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OE" x="-15.24" y="7.62" length="middle" direction="in" function="dot"/>
 <pin name="SERIN" x="-15.24" y="-15.24" length="middle" direction="in"/>
@@ -9091,7 +9091,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="10.16" y1="-20.32" x2="10.16" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.4064" layer="94"/>
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-10.16" y="18.415" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OE" x="-15.24" y="10.16" length="middle" direction="in" function="dot"/>
 <pin name="SERIN" x="-15.24" y="-17.78" length="middle" direction="in"/>
@@ -9117,7 +9117,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.4064" layer="94"/>
-<text x="-7.62" y="20.955" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1D" x="-12.7" y="17.78" length="middle"/>
 <pin name="2D" x="-12.7" y="15.24" length="middle"/>
@@ -9194,7 +9194,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.4064" layer="94"/>
-<text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="13.335" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1A" x="-12.7" y="10.16" length="middle" direction="in"/>
 <pin name="2A" x="-12.7" y="-2.54" length="middle" direction="in"/>

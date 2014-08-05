@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -176,8 +176,8 @@ Used for: Condor C1919A, C1919B, C1919C, Copernicus, Copernicus-II, Resolution-S
 <smd name="26" x="9.1821" y="5.715" dx="0.762" dy="1.651" layer="1" rot="R90"/>
 <smd name="27" x="9.1821" y="6.985" dx="0.762" dy="1.651" layer="1" rot="R90"/>
 <smd name="28" x="9.1821" y="8.255" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<text x="-3.175" y="10.795" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-3.175" y="-12.065" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-3.175" y="10.795" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-12.065" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-14.986" y="-9.017" size="1.016" layer="47" font="vector" rot="R90">1.27</text>
 <text x="-15.113" y="6.096" size="1.016" layer="47" font="vector" rot="R90">0.762</text>
 <text x="-10.922" y="15.113" size="1.016" layer="47" font="vector">1.651</text>
@@ -287,8 +287,8 @@ Used for: Condor C1216&lt;p&gt;
 <smd name="26" x="-8.4" y="-7.4" dx="1.8" dy="0.8" layer="1"/>
 <smd name="27" x="-8.4" y="-8.5" dx="1.8" dy="0.8" layer="1"/>
 <smd name="28" x="-8.4" y="-9.6" dx="1.8" dy="0.8" layer="1"/>
-<text x="-3.175" y="10.795" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-3.175" y="-13.97" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-3.175" y="10.795" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-13.97" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-1.6" y="-16" size="1.016" layer="47" font="vector" ratio="10">16.8</text>
 <text x="-14" y="6.3" size="1.016" layer="47" font="vector" ratio="10" rot="R90">0.8</text>
 <text x="-14" y="-1.1" size="1.016" layer="47" font="vector" ratio="10" rot="R90">3.8</text>
@@ -395,8 +395,8 @@ Used for: Condor C1216&lt;p&gt;
 <smd name="22" x="-6" y="-5.9" dx="1.8" dy="0.8" layer="1"/>
 <smd name="23" x="-6" y="-7" dx="1.8" dy="0.8" layer="1"/>
 <smd name="24" x="-6" y="-8.1" dx="1.8" dy="0.8" layer="1"/>
-<text x="-3.175" y="7.62" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-3.175" y="-10.795" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-3.175" y="7.62" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-10.795" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-0.8" y="-12.5" size="1.016" layer="47" font="vector" ratio="10">12</text>
 <text x="-11.5" y="4.8" size="1.016" layer="47" font="vector" ratio="10" rot="R90">0.8</text>
 <text x="-11.5" y="-1.1" size="1.016" layer="47" font="vector" ratio="10" rot="R90">3.0</text>
@@ -476,8 +476,8 @@ Used for: Condor C1011&lt;p&gt;
 <smd name="26" x="5.145" y="2" dx="0.43" dy="0.43" layer="1"/>
 <smd name="27" x="5.145" y="3" dx="0.43" dy="0.43" layer="1"/>
 <smd name="28" x="5.145" y="4" dx="0.43" dy="0.43" layer="1"/>
-<text x="-3.175" y="5.715" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-3.175" y="-6.985" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-3.175" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-6.985" y="3.4925" size="1.27" layer="21" font="vector">1</text>
 <rectangle x1="-5.815" y1="-5.315" x2="5.815" y2="5.315" layer="29"/>
 <rectangle x1="-4.81" y1="-4.31" x2="4.81" y2="4.31" layer="41"/>

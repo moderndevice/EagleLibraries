@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1361,8 +1361,8 @@ Source: &lt;a href="http://www.allegromicro.com/Products/Motor-Driver-And-Interf
 <wire x1="7.62" y1="10.16" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-12.7" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="11.43" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-15.24" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-7.62" y="11.43" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="IN1" x="-10.16" y="2.54" length="short" direction="in"/>
 <pin name="IN2" x="-10.16" y="0" length="short" direction="in"/>
 <pin name="IN3" x="-10.16" y="-2.54" length="short" direction="in"/>
@@ -1516,8 +1516,8 @@ Source: &lt;a href="http://www.allegromicro.com/Products/Motor-Driver-And-Interf
 <wire x1="10.16" y1="15.24" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-25.4" x2="-10.16" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-25.4" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-<text x="-10.16" y="16.51" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-27.94" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-10.16" y="16.51" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="IN1" x="-12.7" y="-2.54" length="short" direction="in"/>
 <pin name="IN2" x="-12.7" y="-5.08" length="short" direction="in"/>
 <pin name="IN3" x="-12.7" y="-7.62" length="short" direction="in"/>

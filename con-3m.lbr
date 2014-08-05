@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16756,8 +16756,8 @@ Source: 3M</description>
 <wire x1="-3.81" y1="19.05" x2="-3.81" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="15.24" x2="-5.08" y2="13.97" width="0.254" layer="94" curve="-90"/>
 <wire x1="-5.08" y1="13.97" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
-<text x="0" y="13.97" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-15.24" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="13.97" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
@@ -16791,8 +16791,8 @@ Source: 3M</description>
 <wire x1="-3.81" y1="19.05" x2="-3.81" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="15.24" x2="-5.08" y2="13.97" width="0.254" layer="94" curve="-90"/>
 <wire x1="-5.08" y1="13.97" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
-<text x="0" y="13.97" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-17.78" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="13.97" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
@@ -16828,8 +16828,8 @@ Source: 3M</description>
 <wire x1="-3.81" y1="21.59" x2="-3.81" y2="17.78" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="17.78" x2="-5.08" y2="16.51" width="0.254" layer="94" curve="-90"/>
 <wire x1="-5.08" y1="16.51" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
-<text x="0" y="16.51" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-17.78" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="16.51" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-10.16" y="10.16" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
@@ -16867,8 +16867,8 @@ Source: 3M</description>
 <wire x1="-3.81" y1="21.59" x2="-3.81" y2="17.78" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="17.78" x2="-5.08" y2="16.51" width="0.254" layer="94" curve="-90"/>
 <wire x1="-5.08" y1="16.51" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
-<text x="0" y="16.51" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-20.32" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="16.51" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-10.16" y="10.16" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
@@ -16908,8 +16908,8 @@ Source: 3M</description>
 <wire x1="-3.81" y1="24.13" x2="-3.81" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="20.32" x2="-5.08" y2="19.05" width="0.254" layer="94" curve="-90"/>
 <wire x1="-5.08" y1="19.05" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
-<text x="0" y="19.05" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-20.32" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="19.05" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-10.16" y="12.7" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-10.16" y="10.16" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
@@ -16951,8 +16951,8 @@ Source: 3M</description>
 <wire x1="-3.81" y1="24.13" x2="-3.81" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="20.32" x2="-5.08" y2="19.05" width="0.254" layer="94" curve="-90"/>
 <wire x1="-5.08" y1="19.05" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
-<text x="0" y="19.05" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-22.86" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="19.05" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-10.16" y="12.7" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-10.16" y="10.16" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
@@ -16996,8 +16996,8 @@ Source: 3M</description>
 <wire x1="-3.81" y1="26.67" x2="-3.81" y2="22.86" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="22.86" x2="-5.08" y2="21.59" width="0.254" layer="94" curve="-90"/>
 <wire x1="-5.08" y1="21.59" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
-<text x="0" y="21.59" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-24.13" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="21.59" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-24.13" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-10.16" y="15.24" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-10.16" y="12.7" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-10.16" y="10.16" visible="pad" length="short" direction="pas"/>
@@ -17045,8 +17045,8 @@ Source: 3M</description>
 <wire x1="-3.81" y1="29.21" x2="-3.81" y2="25.4" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="25.4" x2="-5.08" y2="24.13" width="0.254" layer="94" curve="-90"/>
 <wire x1="-5.08" y1="24.13" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
-<text x="0" y="24.13" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-26.67" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="24.13" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-26.67" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-10.16" y="17.78" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-10.16" y="15.24" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-10.16" y="12.7" visible="pad" length="short" direction="pas"/>
@@ -17098,8 +17098,8 @@ Source: 3M</description>
 <wire x1="-3.81" y1="34.29" x2="-3.81" y2="30.48" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="30.48" x2="-5.08" y2="29.21" width="0.254" layer="94" curve="-90"/>
 <wire x1="-5.08" y1="29.21" x2="-5.08" y2="25.4" width="0.254" layer="94"/>
-<text x="0" y="29.21" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-31.75" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="29.21" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-31.75" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-10.16" y="22.86" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-10.16" y="20.32" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-10.16" y="17.78" visible="pad" length="short" direction="pas"/>
@@ -17159,8 +17159,8 @@ Source: 3M</description>
 <wire x1="-3.81" y1="36.83" x2="-3.81" y2="33.02" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="33.02" x2="-5.08" y2="31.75" width="0.254" layer="94" curve="-90"/>
 <wire x1="-5.08" y1="31.75" x2="-5.08" y2="27.94" width="0.254" layer="94"/>
-<text x="0" y="31.75" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-31.75" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="31.75" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-31.75" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-10.16" y="25.4" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-10.16" y="22.86" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-10.16" y="20.32" visible="pad" length="short" direction="pas"/>
@@ -17222,8 +17222,8 @@ Source: 3M</description>
 <wire x1="-3.81" y1="39.37" x2="-3.81" y2="35.56" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="35.56" x2="-5.08" y2="34.29" width="0.254" layer="94" curve="-90"/>
 <wire x1="-5.08" y1="34.29" x2="-5.08" y2="30.48" width="0.254" layer="94"/>
-<text x="0" y="34.29" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-36.83" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="34.29" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-36.83" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-10.16" y="27.94" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-10.16" y="25.4" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-10.16" y="22.86" visible="pad" length="short" direction="pas"/>
@@ -17291,8 +17291,8 @@ Source: 3M</description>
 <wire x1="-3.81" y1="49.53" x2="-3.81" y2="45.72" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="45.72" x2="-5.08" y2="44.45" width="0.254" layer="94" curve="-90"/>
 <wire x1="-5.08" y1="44.45" x2="-5.08" y2="40.64" width="0.254" layer="94"/>
-<text x="0" y="44.45" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-46.99" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="44.45" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-46.99" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-10.16" y="38.1" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-10.16" y="35.56" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-10.16" y="33.02" visible="pad" length="short" direction="pas"/>
@@ -17363,8 +17363,8 @@ Source: 3M</description>
 <wire x1="-22.86" y1="-22.86" x2="22.86" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="22.86" y1="-22.86" x2="22.86" y2="22.86" width="0.254" layer="94"/>
 <wire x1="22.86" y1="22.86" x2="-22.86" y2="22.86" width="0.254" layer="94"/>
-<text x="-5.08" y="5.08" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-7.62" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-25.4" y="20.32" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-25.4" y="17.78" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-25.4" y="15.24" visible="pad" length="short" direction="pas"/>
@@ -17439,8 +17439,8 @@ Source: 3M</description>
 <wire x1="-27.94" y1="-27.94" x2="27.94" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="27.94" y1="-27.94" x2="27.94" y2="27.94" width="0.254" layer="94"/>
 <wire x1="27.94" y1="27.94" x2="-27.94" y2="27.94" width="0.254" layer="94"/>
-<text x="-7.62" y="7.62" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-15.24" y="-15.24" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-30.48" y="0" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-30.48" y="-2.54" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-30.48" y="-5.08" visible="pad" length="short" direction="pas"/>

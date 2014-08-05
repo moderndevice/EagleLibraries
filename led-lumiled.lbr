@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -531,7 +531,7 @@ Stop and Cream Mask defined by &lt;b&gt;Footprint Rebel customer_070207.dxf&lt;/
 </packages>
 <symbols>
 <symbol name="LUXEON_THERMAL">
-<text x="-2.54" y="1.143" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="1.143" size="1.778" layer="95">&gt;NAME</text>
 <pin name="TH" x="0" y="-2.54" visible="off" length="short" direction="pwr" swaplevel="1" rot="R90"/>
 </symbol>
 <symbol name="LED">

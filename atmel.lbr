@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4.2">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10708,8 +10708,8 @@ Source: &lt;a href="http://www.atmel.com/Images/doc2543.pdf"&gt; Data sheet &lt;
 <wire x1="15.24" y1="20.32" x2="15.24" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-22.86" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
-<text x="-12.7" y="21.59" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-12.7" y="-25.4" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-12.7" y="21.59" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="RX_ON" x="-15.24" y="17.78" length="short" direction="in"/>
 <pin name="PU" x="-15.24" y="15.24" length="short" direction="in"/>
 <pin name="VS_LNA" x="-15.24" y="10.16" length="short" direction="in"/>
