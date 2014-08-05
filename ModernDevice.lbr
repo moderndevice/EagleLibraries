@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -38526,6 +38526,9 @@ Source: Source: http://www.micrel.com/_PDF/mic2297.pdf</description>
 <smd name="24" x="-1" y="1.5" dx="0.6" dy="0.2" layer="1" rot="R270"/>
 <text x="-2.45" y="2.8" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.5" y="-4.15" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="PAULTESTPACKAGE">
+<rectangle x1="0" y1="0" x2="5.08" y2="3.81" layer="21"/>
 </package>
 </packages>
 <symbols>
