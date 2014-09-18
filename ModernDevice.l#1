@@ -54087,6 +54087,14 @@ Standard quad package</description>
 </gates>
 <devices>
 <device name="SOT363" package="SOT363">
+<connects>
+<connect gate="G$1" pin="DIR_5" pad="5"/>
+<connect gate="G$1" pin="GND_2" pad="2"/>
+<connect gate="G$1" pin="SIGNALA_3" pad="3"/>
+<connect gate="G$1" pin="SIGNALB_4" pad="4"/>
+<connect gate="G$1" pin="VCCA_1" pad="1"/>
+<connect gate="G$1" pin="VCCB_6" pad="6"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
