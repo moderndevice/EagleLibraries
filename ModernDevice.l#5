@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -38584,6 +38584,30 @@ Source: Source: http://www.micrel.com/_PDF/mic2297.pdf</description>
 <rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
 <wire x1="7.62" y1="0.635" x2="7.62" y2="-0.635" width="0.2032" layer="21"/>
 </package>
+<package name="SOT363">
+<description>&lt;b&gt;Source:&lt;/b&gt; http://www.nxp.com/documents/data_sheet/2N7002PS.pdf</description>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.2032" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.2032" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.2032" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.2032" layer="51"/>
+<wire x1="-1.1" y1="0.45" x2="-1.1" y2="-0.45" width="0.2032" layer="21"/>
+<wire x1="1.1" y1="0.45" x2="1.1" y2="-0.45" width="0.2032" layer="21"/>
+<circle x="-1.5" y="-0.35" radius="0.1" width="0.2032" layer="21"/>
+<smd name="1" x="-0.75" y="-0.9" dx="0.5" dy="0.5" layer="1"/>
+<smd name="2" x="0" y="-0.9" dx="0.4" dy="0.5" layer="1"/>
+<smd name="3" x="0.75" y="-0.9" dx="0.5" dy="0.5" layer="1"/>
+<smd name="4" x="0.75" y="0.9" dx="0.5" dy="0.5" layer="1"/>
+<smd name="5" x="0" y="0.9" dx="0.4" dy="0.5" layer="1"/>
+<smd name="6" x="-0.75" y="0.9" dx="0.5" dy="0.5" layer="1"/>
+<text x="1.651" y="0.127" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.651" y="-0.508" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.125" y1="-1.05" x2="0.125" y2="-0.7" layer="51"/>
+<rectangle x1="-0.775" y1="-1.05" x2="-0.525" y2="-0.7" layer="51"/>
+<rectangle x1="0.525" y1="-1.05" x2="0.775" y2="-0.7" layer="51"/>
+<rectangle x1="-0.775" y1="0.7" x2="-0.525" y2="1.05" layer="51"/>
+<rectangle x1="-0.125" y1="0.7" x2="0.125" y2="1.05" layer="51"/>
+<rectangle x1="0.525" y1="0.7" x2="0.775" y2="1.05" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ATSAM2195">
@@ -42465,6 +42489,18 @@ Mouser 538-52808-1470</description>
 <wire x1="1.27" y1="11.43" x2="2.54" y2="11.43" width="0.6096" layer="94"/>
 <text x="-8.001" y="8.001" size="1.778" layer="95">TXD</text>
 <text x="-8.001" y="10.541" size="1.778" layer="95">RST</text>
+</symbol>
+<symbol name="SN74LVC1T45">
+<wire x1="-10.16" y1="5.08" x2="17.78" y2="5.08" width="0.254" layer="94"/>
+<wire x1="17.78" y1="5.08" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<pin name="VCCA_1" x="-15.24" y="2.54" length="middle" direction="pwr"/>
+<pin name="GND_2" x="-15.24" y="-5.08" length="middle" direction="pwr"/>
+<pin name="SIGNALA_3" x="-15.24" y="-12.7" length="middle"/>
+<pin name="SIGNALB_4" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="DIR_5" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="VCCB_6" x="22.86" y="2.54" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
