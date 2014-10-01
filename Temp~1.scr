@@ -1,0 +1,2 @@
+OPEN '/Applications/EAGLE-6.6.0/lbr/ModernDeviceMPU9250.lbr';
+RUN '/Applications/EAGLE-6.6.0/tools/merge_lbr.ulp' 1 'ModernDeviceMPU9250.lbr';

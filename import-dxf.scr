@@ -1,0 +1,17 @@
+# X[2147483647.0000, -2147483648.0000]
+# Y[2147483647.0000, -2147483648.0000]
+# size[-4294967295.0000, -4294967295.0000]
+# lines=0, arcs=0, circles=0, polylines=1
+
+# import-dxf generated script file.
+Grid mic 1 off;
+Set Wire_Bend 2;
+Change Font Vector;
+Change Width 2540.00;
+Layer  94;
+# Skipped Section Search
+
+# lwpolyline 0
+
+Window Fit;
+Grid last;
