@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4.4">
+<eagle version="7.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="0.127" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1546,30 +1546,30 @@ Source: www.lcd-module.de dip126-6.pdf</description>
 <wire x1="30.5" y1="19" x2="30.5" y2="-19" width="0.002" layer="21"/>
 <wire x1="30.5" y1="-19" x2="-30.5" y2="-19" width="0.002" layer="21"/>
 <wire x1="-30.5" y1="-19" x2="-30.5" y2="19" width="0.002" layer="21"/>
-<pad name="1" x="-31.75" y="13.97" drill="0.8" diameter="1.27"/>
-<pad name="13" x="31.75" y="-13.97" drill="0.8" diameter="1.27"/>
-<pad name="2" x="-31.75" y="11.43" drill="0.8" diameter="1.27"/>
-<pad name="3" x="-31.75" y="8.89" drill="0.8" diameter="1.27"/>
-<pad name="4" x="-31.75" y="6.35" drill="0.8" diameter="1.27"/>
-<pad name="5" x="-31.75" y="3.81" drill="0.8" diameter="1.27"/>
-<pad name="6" x="-31.75" y="1.27" drill="0.8" diameter="1.27"/>
-<pad name="7" x="-31.75" y="-1.27" drill="0.8" diameter="1.27"/>
-<pad name="8" x="-31.75" y="-3.81" drill="0.8" diameter="1.27"/>
-<pad name="9" x="-31.75" y="-6.35" drill="0.8" diameter="1.27"/>
-<pad name="10" x="-31.75" y="-8.89" drill="0.8" diameter="1.27"/>
-<pad name="11" x="-31.75" y="-11.43" drill="0.8" diameter="1.27"/>
-<pad name="12" x="-31.75" y="-13.97" drill="0.8" diameter="1.27"/>
-<pad name="14" x="31.75" y="-11.43" drill="0.8" diameter="1.27"/>
-<pad name="15" x="31.75" y="-8.89" drill="0.8" diameter="1.27"/>
-<pad name="16" x="31.75" y="-6.35" drill="0.8" diameter="1.27"/>
-<pad name="17" x="31.75" y="-3.81" drill="0.8" diameter="1.27"/>
-<pad name="18" x="31.75" y="-1.27" drill="0.8" diameter="1.27"/>
-<pad name="19" x="31.75" y="1.27" drill="0.8" diameter="1.27"/>
-<pad name="20" x="31.75" y="3.81" drill="0.8" diameter="1.27"/>
-<pad name="21" x="31.75" y="6.35" drill="0.8" diameter="1.27"/>
-<pad name="22" x="31.75" y="8.89" drill="0.8" diameter="1.27"/>
-<pad name="23" x="31.75" y="11.43" drill="0.8" diameter="1.27"/>
-<pad name="24" x="31.75" y="13.97" drill="0.8" diameter="1.27"/>
+<pad name="1" x="-31.75" y="-13.97" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="13" x="31.75" y="13.97" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="2" x="-31.75" y="-11.43" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="3" x="-31.75" y="-8.89" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="4" x="-31.75" y="-6.35" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="5" x="-31.75" y="-3.81" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="6" x="-31.75" y="-1.27" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="7" x="-31.75" y="1.27" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="8" x="-31.75" y="3.81" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="9" x="-31.75" y="6.35" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="10" x="-31.75" y="8.89" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="11" x="-31.75" y="11.43" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="12" x="-31.75" y="13.97" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="14" x="31.75" y="11.43" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="15" x="31.75" y="8.89" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="16" x="31.75" y="6.35" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="17" x="31.75" y="3.81" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="18" x="31.75" y="1.27" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="19" x="31.75" y="-1.27" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="20" x="31.75" y="-3.81" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="21" x="31.75" y="-6.35" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="22" x="31.75" y="-8.89" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="23" x="31.75" y="-11.43" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="24" x="31.75" y="-13.97" drill="0.8" diameter="1.27" rot="R180"/>
 <text x="-40.64" y="23.495" size="1.27" layer="25">&gt;NAME</text>
 <text x="-40.64" y="-24.765" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-28.15" y1="16.13" x2="-27.73" y2="16.63" layer="51"/>

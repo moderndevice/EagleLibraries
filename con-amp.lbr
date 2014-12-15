@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.2">
+<eagle version="7.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -53866,19 +53866,20 @@ Distributor: Bürklin 71F972&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="MTA06-100" prefix="J" uservalue="yes">
-<description>&lt;b&gt;AMP connector&lt;/b&gt;</description>
+<description>&lt;b&gt;AMP connector&lt;/b&gt;&lt;p&gt;
+Connection corrected 2014-09-19</description>
 <gates>
 <gate name="G$1" symbol="MTA-1_6" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="10X06MTA">
 <connects>
-<connect gate="G$1" pin="1" pad="6"/>
-<connect gate="G$1" pin="2" pad="5"/>
-<connect gate="G$1" pin="3" pad="4"/>
-<connect gate="G$1" pin="4" pad="3"/>
-<connect gate="G$1" pin="5" pad="2"/>
-<connect gate="G$1" pin="6" pad="1"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>

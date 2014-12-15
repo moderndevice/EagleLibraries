@@ -1,6 +1,340 @@
 ﻿EAGLE Library ChangeLog
 =======================
 
+2014-10-28
+  * display-lcd.lbr: Eagle 7.1.3
+    corrected PADs: LCD-DIP128-64.PAC
+
+2014-10-28
+  * display-kingbright.lbr: Eagle 7.1.2
+    corrected pad position:
+    SA10-21.PAC
+    SA18-11.PAC
+
+2014-10-24
+  * analog-devices.lbr: Eagle 7.1.2
+    connected pac-variant R & RU: ADG413.DEV
+
+2014-10-23
+  * con-molex.lbr: Eagle 7.1.2
+    added:
+    0446200001.DEV
+    0446200002.DEV
+    0446200001.PAC
+    0446200002.PAC
+
+2014-10-23
+  * on-semiconductor.lbr: Eagle 7.1.2
+    added:
+    SA571*.DEV
+
+2014-10-23
+  * con-lumberg.lbr: Eagle 7.1.2
+    added:
+    1613_14.DEV
+    1613_14.PAC
+
+2014-10-20
+  * battery.lbr: Eagle 7.1.2
+    added:
+    BATTERY-HOLDER_11.6MM.DEV
+    CH23-1220LF.DEV
+    CH291-1220LF.DEV
+    CELL_RETAINER_11.6MM.PAC
+    CH23-1220LF.PAC
+    CH291-1220LF.PAC
+
+2014-10-17
+  * led.lbr: Eagle 7.1.2
+    added:
+    LZ4-40U600.DEV
+    LED3MM_H.PAC
+    LED3MM_H7,5MM.PAC
+    LED5MM_H6,0MM.PAC
+    LZ4-40U600.PAC
+
+2014-10-17
+  * con-molex.lbr: Eagle 7.1.2
+    corrected SMD koordinates pad 1 .. 15: 679105700.PAC
+
+2014-10-15
+  * micro-renesas.lbr: Eagle 7.1.2
+    added:
+    R5F10PBDYNA.DEV
+    RL78/F13-20.DEV
+    RL78/F13-30.DEV
+    RL78/F13-32.DEV
+    RL78/F13-48.DEV
+    RL78/F13-64.DEV
+    RL78/F13-80.DEV
+    RL78/F14-30.DEV
+    RL78/F14-32.DEV
+    RL78/F14-48.DEV
+    RL78/F14-64.DEV
+    RL78/F14-80.DEV
+    RL78/F14-100.DEV
+    P-HVQFN32-5X5.PAC
+    P-HVQFN48-7X7.PAC
+    P-LFQFP48-7X7.PAC
+    P-LFQFP64-10X10.PAC
+    P-LFQFP80-12X12.PAC
+    P-LFQFP100-14X14.PAC
+    P-LSSOP30-6.1X9.7.PAC
+    PP_SSOP20_7.62MM.PAC
+
+2014-10-10
+  * texas.lbr: Eagle 7.1.2
+    added:
+    ADS7042.DEV
+    DCU_(R-PDSO-G8).PAC
+    RUG_(R-PQFP-N8).PAC
+    ADS8684.DEV
+    ADS8688.DEV
+
+2014-10-08
+  * con-molex.lbr: Eagle 7.1.2
+    added:
+    VHDCI-68.DEV (73412-0110)
+    VHDCI-68.PAC
+
+2014-10-06
+  * on-semiconductor.lbr: Eagle 7.1.2
+    added:
+    SA571.DEV
+    DIL16.PAC
+    SO16WB.PAC
+
+2014-10-06
+  * avago.lbr: Eagle 7.1.2
+    added:
+    HSMS-285B.DEV
+    HSMS-285C.DEV
+    HSMS-285E.DEV
+    HSMS-285F.DEV
+    HSMS-285K.DEV
+    HSMS-285L.DEV
+    HSMS-285P.DEV
+    HSMS-285R.DEV
+    HSMS-2850.DEV
+    HSMS-2852.DEV
+    HSMS-2853.DEV
+    HSMS-2854.DEV
+    HSMS-2855.DEV
+    SOT23.PAC
+    SOT143_AVAGO.PAC
+    SOT323.PAC
+    SOT363.PAC
+
+2014-10-06
+  * con-coax.lbr: Eagle 7.1.2
+    added:
+    734120110.DEV
+    734120110.PAC
+
+2014-10-01
+  * cypress.lbr: Eagle 7.1.1
+    added:
+    CY8C58LPXXX.DEV
+    CY8C58LPXXX_5JTAG.DEV
+    CY8C58LPXXX_USB_4JTAG.DEV
+    CY8C58LPXXX_USB_5JTAG.DEV
+    TQFP100-14X14.PAC
+
+2014-09-26
+  * linear-technology.lbr: Eagle 7.1.1
+    added:
+    LT1634.DEV
+    TO92.PAC.PAC
+
+2014-09-24
+  * linear-technology.lbr: Eagle 7.1.1
+    added:
+    LT1991.DEV
+
+2014-09-23
+  * rcl.lbr: Eagle 7.1.1
+    delete wire on layer tKeepout: C01005.PAC
+
+2014-09-19
+  * con-amp.lbr: Eagle 7.1.1
+    connection corrected: MTA06-100.DEV
+
+2014-09-08
+  * resistor.lbr: Eagle 7.1.1
+    added - UPDATE : R-EU_.DEV, R-US_, C-EU.DEV, C-US.DEV,
+    1812X7R.PAC
+    C0201.PAC
+    C01005.PAC
+    C1808.PAC
+    C3640.PAC
+    HPC0201.PAC
+    PRL1632.PAC
+    R0201.PAC
+    R01005.PAC
+    R1218.PAC
+    R4527.PAC
+    VMTA55.PAC
+    VMTB60.PAC
+    VTA52.PAC
+    VTA53.PAC
+    VTA54.PAC
+    VTA55.PAC
+    VTA56.PAC
+    WSC0001.PAC
+    WSC01/2.PAC
+    WSC0002.PAC
+    WSC2515.PAC
+    WSC4527.PAC
+    WSC6927.PAC
+
+2014-09-08
+  * rcl.lbr: Eagle 7.1.1
+    added:
+    C01005.PAC
+    PRL1632.PAC
+    R01005.PAC
+    deleted:
+    C1005.PAC
+    R1005.PAC
+
+2014-08-28
+  * resistor.lbr: Eagle 7.1.1
+   delete R-TRIMM.DEV and copy new from rcl.lbr (corrected PAD names: TSM53YJ.PAC)
+
+2014-08-07
+  * texas.lbr: Eagle 7.0.1
+    added:
+    DM385.DEV
+    DM385_DAVINCI.DEV
+    AAR.PAC
+
+2014-08-04
+  * resistor.lbr: Eagle 6.6.0
+    corrected description:
+    BT/3528-21R.PAC
+    T/3528-12R.PAC
+
+2014-07-29
+  * infineon.lbr: Eagle 6.6.0
+    added:
+    TLE5009.DEV
+    PG-DSO-8.PAC
+
+2014-07-21
+  * IQD-Frequency-Products.lbr: Eagle 6.6.0
+    added:
+    CFPT-9006.DEV
+    CRYSTALS-GND-LID.DEV
+    CRYSTALS-NOGND.DEV
+    E2747.DEV
+    HC49.DEV
+    OCXO.DEV
+    OCXO-6-PIN.DEV
+    OSC-OE.DEV
+    SMD-OCXO.DEV
+    TCXO.DEV
+    TCXO-NO-VC.DEV
+    2.0X1.2-2PAD.PAC
+    2.0X1.6-4-PAD.PAC
+    2.5X2-4-PAD.PAC
+    2.6X2.1-4-PAD.PAC
+    3.2X1.5-2-PAD.PAC
+    3.4X2.7-4-PAD.PAC
+    5.0X3.2-4-PAD.PAC
+    5.0X3.2-TCXO.PAC
+    5.2X3.4-4-PAD.PAC
+    7.0X5.0-4-PAD.PAC
+    7.0X5.0-10-PAD.PAC
+    7.2X5.2-4-PAD.PAC
+    7.5X5-2-PAD.PAC
+    7.5X5-4-PAD.PAC
+    85SMX.PAC
+    86SMX.PAC
+    90SMX.PAC
+    91SMX.PAC
+    C0-08-8.PAC
+    CO-08-5.PAC
+    CO-15-1.PAC
+    CS-09-9.PAC
+    HC49.PAC
+    HC49-3L.PAC
+    HC49-4-HSMX.PAC
+    WATCH-3X8.PAC
+
+2014-07-17
+  * battery.lbr: Eagle 6.6.0
+    added:
+    10MM_SM_COIN_CELL_CLIP.DEV
+    10MM_SM_COIN_CELL_CLIP.PAC
+
+2014-07-14
+  * microchip.lbr: Eagle 6.6.0
+    added:
+    PIC12F529T48A.DEV
+
+2014-07-10
+  * battery.lbr: Eagle 6.6.0
+    added:
+    BK-889.DEV
+    BK-889.PAC
+
+2014-07-10
+  * roundsolutions.lbr: Eagle 6.6.0
+    added:
+    ANT-GXE474.DEV
+    ANT-GXE474.PAC
+
+2014-07-10
+  * diode.lbr: Eagle 6.6.0
+    added:
+    BAT60J.DEV
+    S1M.DEV
+    SOD323_ST.PAC
+
+2014-07-10
+  * st-microelectronics.lbr: Eagle 6.6.0
+    added:
+    LD3985.DEV
+    FLIP-CHIP-5.PAC
+    SOT23-5L.PAC
+    TSOT23-5L.PAC
+
+2014-07-09
+  * silabs.lbr: Eagle 6.6.0
+    added:
+    SI114*.DEV
+    QFN-10.PAC
+
+2014-07-03
+  * dc-dc-converter.lbr: Eagle 6.6.0
+    added:
+    EMCO-HVDC_?*.DEV
+    EMCO-HVDC_Q?*.DEV
+    EMCO-A_100-2000V.PAC
+    EMCO-A_3000-5000V.PAC
+    EMCO-A_6000V.PAC
+    EMCO-HVDC-Q_100-2000V.PAC
+    EMCO-HVDC-Q_2500-5000V.PAC
+
+2014-06-25
+  * stm32xx.lbr: Eagle 6.6.0
+    added:
+    STM32L15*E.DEV
+    LQFP100_14X14.PAC
+
+2014-06-16
+  * infineon.lbr: Eagle 6.6.0
+    added:
+    ILD4001.DEV
+    SC74_INFINEON.PAC
+
+2014-06-11
+  * texas.lbr: Eagle 6.6.0
+    added:
+    LM3401.DEV
+    TPS6306*.DEV
+    DSC-S-PWSON-N10.PAC
+
 2014-05-23
   * microphon.lbr: Eagle 6.5.4
     added:

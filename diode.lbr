@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.3">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -4658,14 +4658,14 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <description>&lt;b&gt;Diode Package&lt;/b&gt; Reflow soldering&lt;p&gt;
 INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="-0.8" y1="0.55" x2="0.8" y2="0.55" width="0.1016" layer="21"/>
-<wire x1="0.8" y1="0.55" x2="0.8" y2="-0.55" width="0.1016" layer="21"/>
+<wire x1="0.8" y1="0.55" x2="0.8" y2="-0.55" width="0.1016" layer="51"/>
 <wire x1="0.8" y1="-0.55" x2="-0.8" y2="-0.55" width="0.1016" layer="21"/>
 <wire x1="-0.8" y1="-0.55" x2="-0.8" y2="0.55" width="0.1016" layer="51"/>
 <smd name="C" x="-1.25" y="0" dx="0.8" dy="0.6" layer="1"/>
 <smd name="A" x="1.25" y="0" dx="0.8" dy="0.6" layer="1"/>
 <text x="-1.65" y="0.75" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.65" y="-2" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8" y1="-0.55" x2="0" y2="0.55" layer="21"/>
+<rectangle x1="-0.8" y1="-0.55" x2="0" y2="0.55" layer="51"/>
 <rectangle x1="-1.25" y1="-0.15" x2="-0.8" y2="0.15" layer="51"/>
 <rectangle x1="0.8" y1="-0.15" x2="1.25" y2="0.15" layer="51"/>
 </package>
@@ -4680,7 +4680,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="0.2" y1="-0.3" x2="-0.2" y2="-0.3" width="0.127" layer="48"/>
 <wire x1="-0.2" y1="-0.3" x2="0" y2="-0.7" width="0.127" layer="48"/>
 <wire x1="-0.8" y1="0.55" x2="0.8" y2="0.55" width="0.1016" layer="21"/>
-<wire x1="0.8" y1="0.55" x2="0.8" y2="-0.55" width="0.1016" layer="21"/>
+<wire x1="0.8" y1="0.55" x2="0.8" y2="-0.55" width="0.1016" layer="51"/>
 <wire x1="0.8" y1="-0.55" x2="-0.8" y2="-0.55" width="0.1016" layer="21"/>
 <wire x1="-0.8" y1="-0.55" x2="-0.8" y2="0.55" width="0.1016" layer="51"/>
 <smd name="C" x="-1.35" y="0" dx="1" dy="0.6" layer="1"/>
@@ -4690,7 +4690,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <text x="0.4" y="-0.5" size="0.254" layer="48">wavesoldering</text>
 <text x="-1.65" y="0.75" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.65" y="-2" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8" y1="-0.55" x2="0" y2="0.55" layer="21"/>
+<rectangle x1="-0.8" y1="-0.55" x2="0" y2="0.55" layer="51"/>
 <rectangle x1="-1.25" y1="-0.15" x2="-0.8" y2="0.15" layer="51"/>
 <rectangle x1="0.8" y1="-0.15" x2="1.25" y2="0.15" layer="51"/>
 </package>
@@ -4759,13 +4759,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/literature/9397/7
 </package>
 <package name="SOD323-R">
 <description>&lt;b&gt;SOD323 Reflow soldering&lt;/b&gt; Philips SC01_Mounting_1996.pdf</description>
-<wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.1524" layer="51"/>
+<wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.1524" layer="21"/>
 <wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.1524" layer="51"/>
-<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.1524" layer="51"/>
+<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.1524" layer="21"/>
 <wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.1524" layer="51"/>
-<wire x1="-0.5" y1="0" x2="0.1" y2="0.4" width="0.1524" layer="51"/>
-<wire x1="0.1" y1="0.4" x2="0.1" y2="-0.4" width="0.1524" layer="51"/>
-<wire x1="0.1" y1="-0.4" x2="-0.5" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.5" y1="0" x2="0.1" y2="0.4" width="0.1524" layer="21"/>
+<wire x1="0.1" y1="0.4" x2="0.1" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="0.1" y1="-0.4" x2="-0.5" y2="0" width="0.1524" layer="21"/>
 <smd name="C" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
 <smd name="A" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
 <text x="-1.1" y="1" size="1.27" layer="25">&gt;NAME</text>
@@ -4778,9 +4778,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/literature/9397/7
 <wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.1524" layer="51"/>
 <wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.1524" layer="51"/>
 <wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.1524" layer="51"/>
-<wire x1="-0.5" y1="0" x2="0.1" y2="0.4" width="0.1524" layer="51"/>
-<wire x1="0.1" y1="0.4" x2="0.1" y2="-0.4" width="0.1524" layer="51"/>
-<wire x1="0.1" y1="-0.4" x2="-0.5" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.5" y1="0" x2="0.1" y2="0.4" width="0.1524" layer="21"/>
+<wire x1="0.1" y1="0.4" x2="0.1" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="0.1" y1="-0.4" x2="-0.5" y2="0" width="0.1524" layer="21"/>
 <smd name="C" x="-1.45" y="0" dx="1.5" dy="1.2" layer="1"/>
 <smd name="A" x="1.45" y="0" dx="1.5" dy="1.2" layer="1"/>
 <text x="-1.1" y="1" size="1.27" layer="25">&gt;NAME</text>
@@ -5319,6 +5319,22 @@ Source: http://www.diodes.com/datasheets/ds30899.pdf</description>
 <wire x1="-0.425" y1="0" x2="0" y2="-0.35" width="0.2" layer="51"/>
 <text x="-1.8516" y="0.7786" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.8516" y="-2.5566" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SOD323_ST">
+<description>&lt;b&gt;SOD-323&lt;/b&gt;&lt;p&gt;
+Source: www.st.com, BAT60J.pdf</description>
+<wire x1="-0.85" y1="0.55" x2="0.85" y2="0.55" width="0.1016" layer="21"/>
+<wire x1="0.85" y1="0.55" x2="0.85" y2="-0.55" width="0.1016" layer="51"/>
+<wire x1="0.85" y1="-0.55" x2="-0.85" y2="-0.55" width="0.1016" layer="21"/>
+<wire x1="-0.85" y1="-0.55" x2="-0.85" y2="0.55" width="0.1016" layer="51"/>
+<smd name="C" x="-1.25" y="0" dx="0.8" dy="0.6" layer="1"/>
+<smd name="A" x="1.25" y="0" dx="0.8" dy="0.6" layer="1"/>
+<text x="-1.65" y="0.75" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.65" y="-2" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.65" y1="-0.55" x2="-0.05" y2="0.55" layer="21"/>
+<rectangle x1="-1.35" y1="-0.15" x2="-0.8" y2="0.15" layer="51"/>
+<rectangle x1="0.8" y1="-0.15" x2="1.35" y2="0.15" layer="51"/>
+<rectangle x1="-0.85" y1="-0.55" x2="-0.05" y2="0.55" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -11216,6 +11232,40 @@ Source: http://www.nxp.com/documents/data_sheet/PESD1CAN.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S1M" prefix="D">
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="SMA">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAT60J" prefix="D">
+<description>&lt;b&gt;Schottky barrier diode&lt;/b&gt;&lt;p&gt;
+Source: www.st.com, BAT60J.pdf</description>
+<gates>
+<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD323_ST">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
