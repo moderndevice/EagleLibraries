@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -27545,7 +27545,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="PC2(ADC2)" x="25.4" y="20.32" length="middle" rot="R180"/>
 <pin name="PC1(ADC1)" x="25.4" y="22.86" length="middle" rot="R180"/>
 <pin name="PC0(ADC0)" x="25.4" y="25.4" length="middle" rot="R180"/>
-<pin name="PC6(/RESET)" x="-22.86" y="25.4" length="middle" function="dot"/>
+<pin name="!PC6(/RESET)" x="-22.86" y="25.4" length="middle" function="dot"/>
 </symbol>
 <symbol name="A3L-LOC">
 <wire x1="0" y1="0" x2="50.8" y2="0" width="0.1016" layer="94"/>
@@ -37466,6 +37466,7 @@ Socket for SIM cellular cards. Schematic element and footprint production proven
 <devices>
 <device name="MLF" package="MLF32">
 <connects>
+<connect gate="G$1" pin="!PC6(/RESET)" pad="29"/>
 <connect gate="G$1" pin="ADC6" pad="19"/>
 <connect gate="G$1" pin="ADC7" pad="22"/>
 <connect gate="G$1" pin="AGND" pad="21"/>
@@ -37487,7 +37488,6 @@ Socket for SIM cellular cards. Schematic element and footprint production proven
 <connect gate="G$1" pin="PC3(ADC3)" pad="26"/>
 <connect gate="G$1" pin="PC4(ADC4/SDA)" pad="27"/>
 <connect gate="G$1" pin="PC5(ADC5/SCL)" pad="28"/>
-<connect gate="G$1" pin="PC6(/RESET)" pad="29"/>
 <connect gate="G$1" pin="PD0(RXD)" pad="30"/>
 <connect gate="G$1" pin="PD1(TXD)" pad="31"/>
 <connect gate="G$1" pin="PD2(INT0)" pad="32"/>
@@ -37505,6 +37505,7 @@ Socket for SIM cellular cards. Schematic element and footprint production proven
 </device>
 <device name="" package="TQFP32-08">
 <connects>
+<connect gate="G$1" pin="!PC6(/RESET)" pad="29"/>
 <connect gate="G$1" pin="ADC6" pad="19"/>
 <connect gate="G$1" pin="ADC7" pad="22"/>
 <connect gate="G$1" pin="AGND" pad="5"/>
@@ -37526,7 +37527,6 @@ Socket for SIM cellular cards. Schematic element and footprint production proven
 <connect gate="G$1" pin="PC3(ADC3)" pad="26"/>
 <connect gate="G$1" pin="PC4(ADC4/SDA)" pad="27"/>
 <connect gate="G$1" pin="PC5(ADC5/SCL)" pad="28"/>
-<connect gate="G$1" pin="PC6(/RESET)" pad="29"/>
 <connect gate="G$1" pin="PD0(RXD)" pad="30"/>
 <connect gate="G$1" pin="PD1(TXD)" pad="31"/>
 <connect gate="G$1" pin="PD2(INT0)" pad="32"/>

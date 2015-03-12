@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -16482,14 +16482,17 @@ Keying posts into board</description>
 <pin name="GND@1" x="-2.54" y="-7.62" visible="off" length="short"/>
 </symbol>
 <symbol name="USB">
-<wire x1="5.08" y1="8.89" x2="0" y2="8.89" width="0.254" layer="94"/>
-<wire x1="0" y1="8.89" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="11.43" x2="0" y2="11.43" width="0.254" layer="94"/>
+<wire x1="0" y1="11.43" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="3.81" y="0" size="2.54" layer="94" rot="R90">USB</text>
-<pin name="D+" x="-2.54" y="7.62" visible="pad" length="short"/>
-<pin name="D-" x="-2.54" y="5.08" visible="pad" length="short"/>
+<text x="3.81" y="1.27" size="2.54" layer="94" rot="R90">USB</text>
+<pin name="D+" x="-2.54" y="10.16" visible="pad" length="short"/>
+<pin name="D-" x="-2.54" y="7.62" visible="pad" length="short"/>
 <pin name="VBUS" x="-2.54" y="2.54" visible="pad" length="short"/>
 <pin name="GND" x="-2.54" y="0" visible="pad" length="short"/>
+<pin name="CASE" x="2.54" y="-2.54" length="short"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="-3.81" width="0.254" layer="94"/>
+<pin name="ID" x="-2.54" y="5.08" visible="pad" length="short"/>
 </symbol>
 <symbol name="USB+SHIELD">
 <wire x1="7.62" y1="10.16" x2="0" y2="10.16" width="0.254" layer="94"/>
@@ -21778,7 +21781,7 @@ Power pads are designated by the star cutout in the top layer.</description>
 &lt;p&gt;USB-B-SMT is throughly reviewed, but untested. Needs silkscreen touching up.
 &lt;p&gt;USB-A-S has not been used/tested
 &lt;p&gt;USB-MB-H has not been used/tested
-&lt;P&gt;USB-MICROB has been used. CONN-09505</description>
+&lt;P&gt;USB-MICROB has been used. CONN-09505 Digikey 609-4613-1-ND</description>
 <gates>
 <gate name="G$1" symbol="USB" x="0" y="0"/>
 </gates>
