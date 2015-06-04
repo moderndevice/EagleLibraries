@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.2">
+<eagle version="7.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,7 +8,7 @@
 </settings>
 <grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
@@ -39,7 +39,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="5" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -5553,6 +5553,40 @@ Source: &lt;a href="http://www.ledengin.com/files/products/LZ4/LZ4-00U600.pdf"&g
 <circle x="0" y="0" radius="3" width="0.2" layer="51"/>
 <circle x="2.75" y="2.75" radius="0.25" width="0" layer="51"/>
 </package>
+<package name="LUXEON_5630">
+<description>&lt;b&gt;LUXEON 5630 Mid-Power LEDs&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="www.philipslumileds.com/uploads/351/DS201-pdf"&gt; Data sheet &lt;/a&gt;&lt;br&gt;
+Lumileds 5630 Datasheet DS201 20130228 ©2013 Philips Lumileds Lighting Company.</description>
+<smd name="1@1" x="-2.4" y="-0.65" dx="1.1" dy="1" layer="1"/>
+<smd name="1@2" x="-2.4" y="0.65" dx="1.1" dy="1" layer="1"/>
+<smd name="4" x="2.4" y="0.65" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="2.4" y="-0.65" dx="1.1" dy="1" layer="1"/>
+<smd name="3" x="0" y="0" dx="2.2" dy="1.8" layer="1"/>
+<wire x1="-2.55" y1="1.4" x2="2.55" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="2.55" y1="1.4" x2="2.55" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.55" y1="-1.4" x2="-2.55" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-2.55" y1="-1.4" x2="-2.55" y2="1.4" width="0.2032" layer="51"/>
+<rectangle x1="2.55" y1="-0.9" x2="2.8" y2="-0.4" layer="51"/>
+<rectangle x1="2.55" y1="0.4" x2="2.8" y2="0.9" layer="51"/>
+<rectangle x1="-2.8" y1="0.4" x2="-2.55" y2="0.9" layer="51"/>
+<rectangle x1="-2.8" y1="-0.9" x2="-2.55" y2="-0.4" layer="51"/>
+<rectangle x1="-0.8125" y1="-0.6375" x2="0.8125" y2="0.6375" layer="51"/>
+<polygon width="0.1" layer="51">
+<vertex x="-2.6" y="-0.9"/>
+<vertex x="-2.05" y="-1.45"/>
+<vertex x="-2.55" y="-1.45"/>
+<vertex x="-2.6" y="-1.4"/>
+</polygon>
+<polygon width="0.1" layer="21">
+<vertex x="-2.2625" y="-1.2375"/>
+<vertex x="-2.05" y="-1.45"/>
+<vertex x="-2.55" y="-1.45"/>
+<vertex x="-2.6" y="-1.4"/>
+<vertex x="-2.6" y="-1.2375"/>
+</polygon>
+<text x="-2.55" y="1.79" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.7" y="-3.15" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -10176,6 +10210,25 @@ Source: &lt;a href="http://www.ledengin.com/files/products/LZ4/LZ4-00U600.pdf"&g
 <connect gate="C" pin="C" pad="6"/>
 <connect gate="D" pin="A" pad="7"/>
 <connect gate="D" pin="C" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LUXEON_5630" prefix="LED">
+<description>&lt;b&gt;LUXEON 5630 Mid-Power LEDs&lt;/b&gt; SD201&lt;p&gt;
+Source: &lt;a href="www.philipslumileds.com/uploads/351/DS201-pdf"&gt; Data sheet &lt;/a&gt;&lt;br&gt;
+Lumileds 5630 Datasheet DS201 20130228 ©2013 Philips Lumileds Lighting Company.</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LUXEON_5630">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1@1 1@2"/>
 </connects>
 <technologies>
 <technology name=""/>

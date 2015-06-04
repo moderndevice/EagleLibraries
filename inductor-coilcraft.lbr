@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="7.2.10">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -22,9 +22,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -39,11 +39,11 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -91,6 +91,68 @@
 <text x="-6.35" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 <text x="-6.35" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="MSS7341">
+<description>&lt;b&gt;Package MSS7341&lt;/b&gt; 6.6 × 6.6 mm x 4.1 mm high, shielded inductors&lt;p&gt;
+Source: http://www.farnell.com/datasheets/1681958.pdf</description>
+<polygon width="0.2" layer="1">
+<vertex x="-3.45" y="1.15"/>
+<vertex x="-3.45" y="3.45"/>
+<vertex x="3.45" y="3.45"/>
+<vertex x="3.45" y="1.15"/>
+<vertex x="2.6875" y="1.15" curve="133.798882"/>
+<vertex x="-2.6875" y="1.15"/>
+</polygon>
+<polygon width="0.3" layer="29">
+<vertex x="-3.45" y="1.15"/>
+<vertex x="-3.45" y="3.45"/>
+<vertex x="3.45" y="3.45"/>
+<vertex x="3.45" y="1.15"/>
+<vertex x="2.6875" y="1.15" curve="133.798882"/>
+<vertex x="-2.6875" y="1.15"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-3.45" y="1.15"/>
+<vertex x="-3.45" y="3.45"/>
+<vertex x="3.45" y="3.45"/>
+<vertex x="3.45" y="1.15"/>
+<vertex x="2.6875" y="1.15" curve="133.798882"/>
+<vertex x="-2.6875" y="1.15"/>
+</polygon>
+<smd name="1" x="0" y="3.225" dx="0.5" dy="0.5" layer="1" stop="no" cream="no"/>
+<polygon width="0.2" layer="1">
+<vertex x="3.45" y="-1.15"/>
+<vertex x="3.45" y="-3.45"/>
+<vertex x="-3.45" y="-3.45"/>
+<vertex x="-3.45" y="-1.15"/>
+<vertex x="-2.6875" y="-1.15" curve="133.798882"/>
+<vertex x="2.6875" y="-1.15"/>
+</polygon>
+<polygon width="0.3" layer="29">
+<vertex x="3.45" y="-1.15"/>
+<vertex x="3.45" y="-3.45"/>
+<vertex x="-3.45" y="-3.45"/>
+<vertex x="-3.45" y="-1.15"/>
+<vertex x="-2.6875" y="-1.15" curve="133.798882"/>
+<vertex x="2.6875" y="-1.15"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="3.45" y="-1.15"/>
+<vertex x="3.45" y="-3.45"/>
+<vertex x="-3.45" y="-3.45"/>
+<vertex x="-3.45" y="-1.15"/>
+<vertex x="-2.6875" y="-1.15" curve="133.798882"/>
+<vertex x="2.6875" y="-1.15"/>
+</polygon>
+<smd name="2" x="0" y="-3.225" dx="0.5" dy="0.5" layer="1" rot="R180" stop="no" cream="no"/>
+<text x="-3.65" y="3.825" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.65" y="-5.1375" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.55" y1="-3.55" x2="-3.55" y2="2.4539875" width="0.2032" layer="51"/>
+<wire x1="-3.55" y1="2.4539875" x2="-2.4539875" y2="3.55" width="0.2032" layer="51"/>
+<wire x1="-2.4539875" y1="3.55" x2="3.55" y2="3.55" width="0.2032" layer="51"/>
+<wire x1="3.55" y1="3.55" x2="3.55" y2="-2.4539875" width="0.2032" layer="51"/>
+<wire x1="2.4539875" y1="-3.55" x2="-3.55" y2="-3.55" width="0.2032" layer="51"/>
+<wire x1="3.55" y1="-2.4539875" x2="2.4539875" y2="-3.55" width="0.2032" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR">
@@ -134,6 +196,25 @@
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MSS7341" prefix="L">
+<description>&lt;b&gt;Shielded Power Inductors&lt;/b&gt;&lt;p&gt;
+Package 6.6 × 6.6 mm x 4.1 mm high&lt;br&gt;
+Source: http://www.farnell.com/datasheets/1681958.pdf</description>
+<gates>
+<gate name="G$1" symbol="L-EURO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MSS7341">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

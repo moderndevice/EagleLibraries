@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4.1">
+<eagle version="7.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -57,7 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -1674,6 +1674,41 @@ Source: 2SC2395.pdf</description>
 <pad name="B" x="2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
 <text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SOT363-INFINION">
+<description>&lt;b&gt;SOT363&lt;/b&gt;&lt;p&gt;
+Source: Infineon-BCR22PN-DS-v01_01-en.pdf</description>
+<wire x1="-0.95" y1="0.575" x2="-0.95" y2="-0.575" width="0.1016" layer="21"/>
+<wire x1="0.95" y1="-0.575" x2="0.95" y2="0.575" width="0.1016" layer="21"/>
+<wire x1="-0.95" y1="0.575" x2="0.95" y2="0.575" width="0.1016" layer="51"/>
+<wire x1="-0.95" y1="-0.575" x2="0.95" y2="-0.575" width="0.1016" layer="51"/>
+<circle x="-0.775" y="-0.3125" radius="0.075" width="0" layer="21"/>
+<smd name="1" x="-0.65" y="-0.8" dx="0.3" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0" y="-0.8" dx="0.3" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.65" y="-0.8" dx="0.3" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="4" x="0.65" y="0.8" dx="0.3" dy="0.7" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="5" x="0" y="0.8" dx="0.3" dy="0.7" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="6" x="-0.65" y="0.8" dx="0.3" dy="0.7" layer="1" rot="R180" stop="no" cream="no"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.15" y1="-1.05" x2="0.15" y2="-0.55" layer="51" rot="R180"/>
+<rectangle x1="-0.15" y1="0.55" x2="0.15" y2="1.05" layer="51"/>
+<rectangle x1="-0.8" y1="0.55" x2="-0.5" y2="1.05" layer="51"/>
+<rectangle x1="0.5" y1="0.55" x2="0.8" y2="1.05" layer="51"/>
+<rectangle x1="-0.8" y1="-1.05" x2="-0.5" y2="-0.55" layer="51" rot="R180"/>
+<rectangle x1="0.5" y1="-1.05" x2="0.8" y2="-0.55" layer="51" rot="R180"/>
+<rectangle x1="-0.8375" y1="-1.2" x2="-0.4625" y2="-0.4125" layer="29"/>
+<rectangle x1="-0.775" y1="-1.125" x2="-0.525" y2="-0.475" layer="31"/>
+<rectangle x1="-0.1875" y1="-1.2" x2="0.1875" y2="-0.4125" layer="29"/>
+<rectangle x1="-0.125" y1="-1.125" x2="0.125" y2="-0.475" layer="31"/>
+<rectangle x1="0.4625" y1="-1.2" x2="0.8375" y2="-0.4125" layer="29"/>
+<rectangle x1="0.525" y1="-1.125" x2="0.775" y2="-0.475" layer="31"/>
+<rectangle x1="0.4625" y1="0.4125" x2="0.8375" y2="1.2" layer="29" rot="R180"/>
+<rectangle x1="0.525" y1="0.475" x2="0.775" y2="1.125" layer="31" rot="R180"/>
+<rectangle x1="-0.1875" y1="0.4125" x2="0.1875" y2="1.2" layer="29" rot="R180"/>
+<rectangle x1="-0.125" y1="0.475" x2="0.125" y2="1.125" layer="31" rot="R180"/>
+<rectangle x1="-0.8375" y1="0.4125" x2="-0.4625" y2="1.2" layer="29" rot="R180"/>
+<rectangle x1="-0.775" y1="0.475" x2="-0.525" y2="1.125" layer="31" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -5829,6 +5864,29 @@ Source: SEMTECH ELECTRONICS LTD. ... 2SC945  2.pdf</description>
 <connect gate="G$1" pin="B" pad="B"/>
 <connect gate="G$1" pin="C" pad="C"/>
 <connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BCR22PN" prefix="T">
+<description>&lt;b&gt;NPN/PNP Silicon Digital Transistor Array&lt;/b&gt;&lt;p&gt;
+Source: Infineon-BCR22PN-DS-v01_01-en.pdf</description>
+<gates>
+<gate name="A" symbol="NPN-DRIVER" x="0" y="10.16" swaplevel="1"/>
+<gate name="B" symbol="PNP-DRIVER" x="0" y="-7.62" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="SOT363-INFINION">
+<connects>
+<connect gate="A" pin="B" pad="2"/>
+<connect gate="A" pin="C" pad="6"/>
+<connect gate="A" pin="E" pad="1"/>
+<connect gate="B" pin="B" pad="5"/>
+<connect gate="B" pin="C" pad="3"/>
+<connect gate="B" pin="E" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
