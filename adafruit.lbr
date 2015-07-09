@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="254" unitdist="mic" unit="mic" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -10281,36 +10281,33 @@ JST PH 2-pin thru-home side entry</description>
 <pad name="5V" x="38.1" y="2.54" drill="1" diameter="1.6764" shape="octagon"/>
 <pad name="3V" x="35.56" y="2.54" drill="1" diameter="1.6764" shape="octagon"/>
 <pad name="RESET" x="33.02" y="2.54" drill="1" diameter="1.6764" shape="octagon"/>
-<text x="31.2319" y="3.81" size="1.016" layer="21" font="vector">RST</text>
-<text x="34.7523" y="3.81" size="1.016" layer="21" font="vector">3v</text>
-<text x="37.5463" y="3.81" size="1.016" layer="21" font="vector">5v</text>
-<text x="40.7771" y="3.81" size="1.016" layer="21" font="vector">Gnd</text>
-<text x="44.7853" y="3.81" size="1.016" layer="21" font="vector">Vin</text>
-<text x="54.1121" y="0.4623" size="1.016" layer="21" font="vector">Analog In</text>
-<text x="50.419" y="3.81" size="1.016" layer="21" font="vector">0</text>
-<text x="52.959" y="3.81" size="1.016" layer="21" font="vector">1</text>
-<text x="55.499" y="3.81" size="1.016" layer="21" font="vector">2</text>
-<text x="58.039" y="3.81" size="1.016" layer="21" font="vector">3</text>
-<text x="60.579" y="3.81" size="1.016" layer="21" font="vector">4</text>
-<text x="63.119" y="3.81" size="1.016" layer="21" font="vector">5</text>
-<text x="24.765" y="49.53" size="1.016" layer="21" font="vector" rot="R180">ARef</text>
-<text x="27.94" y="49.53" size="1.016" layer="21" font="vector" rot="R180">gnd</text>
-<text x="30.099" y="49.53" size="1.016" layer="21" font="vector" rot="R180">13</text>
-<text x="32.639" y="49.53" size="1.016" layer="21" font="vector" rot="R180">12</text>
-<text x="35.179" y="49.53" size="1.016" layer="21" font="vector" rot="R180">11</text>
-<text x="37.719" y="49.53" size="1.016" layer="21" font="vector" rot="R180">10</text>
-<text x="39.751" y="49.53" size="1.016" layer="21" font="vector" rot="R180">9</text>
-<text x="42.291" y="49.53" size="1.016" layer="21" font="vector" rot="R180">8</text>
-<text x="46.355" y="49.53" size="1.016" layer="21" font="vector" rot="R180">7</text>
-<text x="48.895" y="49.53" size="1.016" layer="21" font="vector" rot="R180">6</text>
-<text x="51.435" y="49.53" size="1.016" layer="21" font="vector" rot="R180">5</text>
-<text x="53.975" y="49.53" size="1.016" layer="21" font="vector" rot="R180">4</text>
-<text x="56.515" y="49.53" size="1.016" layer="21" font="vector" rot="R180">3</text>
-<text x="59.055" y="49.53" size="1.016" layer="21" font="vector" rot="R180">2</text>
-<text x="61.595" y="49.53" size="1.016" layer="21" font="vector" rot="R180">1</text>
-<text x="64.135" y="49.53" size="1.016" layer="21" font="vector" rot="R180">0</text>
-<text x="31.623" y="52.07" size="1.016" layer="21" font="vector">Digital I/O</text>
-<text x="50.927" y="52.07" size="1.016" layer="21" font="vector">Digital I/O</text>
+<text x="31.2319" y="0" size="1.016" layer="21" font="vector">RST</text>
+<text x="34.7523" y="0" size="1.016" layer="21" font="vector">3v</text>
+<text x="37.5463" y="0" size="1.016" layer="21" font="vector">5v</text>
+<text x="40.7771" y="0" size="1.016" layer="21" font="vector">Gnd</text>
+<text x="44.7853" y="0" size="1.016" layer="21" font="vector">Vin</text>
+<text x="49.911" y="0" size="1.016" layer="21" font="vector">A0</text>
+<text x="52.705" y="0" size="1.016" layer="21" font="vector">A1</text>
+<text x="55.245" y="0" size="1.016" layer="21" font="vector">A2</text>
+<text x="57.785" y="0" size="1.016" layer="21" font="vector">A3</text>
+<text x="60.325" y="0" size="1.016" layer="21" font="vector">A4</text>
+<text x="62.865" y="0" size="1.016" layer="21" font="vector">A5</text>
+<text x="24.765" y="52.832" size="1.016" layer="21" font="vector" rot="R180">ARef</text>
+<text x="27.94" y="52.832" size="1.016" layer="21" font="vector" rot="R180">gnd</text>
+<text x="30.099" y="52.832" size="1.016" layer="21" font="vector" rot="R180">13</text>
+<text x="32.639" y="52.832" size="1.016" layer="21" font="vector" rot="R180">12</text>
+<text x="35.179" y="52.832" size="1.016" layer="21" font="vector" rot="R180">11</text>
+<text x="37.719" y="52.832" size="1.016" layer="21" font="vector" rot="R180">10</text>
+<text x="39.751" y="52.832" size="1.016" layer="21" font="vector" rot="R180">9</text>
+<text x="42.291" y="52.832" size="1.016" layer="21" font="vector" rot="R180">8</text>
+<text x="46.355" y="52.832" size="1.016" layer="21" font="vector" rot="R180">7</text>
+<text x="48.895" y="52.832" size="1.016" layer="21" font="vector" rot="R180">6</text>
+<text x="51.435" y="52.832" size="1.016" layer="21" font="vector" rot="R180">5</text>
+<text x="53.975" y="52.832" size="1.016" layer="21" font="vector" rot="R180">4</text>
+<text x="56.515" y="52.832" size="1.016" layer="21" font="vector" rot="R180">3</text>
+<text x="59.055" y="52.832" size="1.016" layer="21" font="vector" rot="R180">2</text>
+<text x="61.595" y="52.832" size="1.016" layer="21" font="vector" rot="R180">1</text>
+<text x="64.135" y="52.832" size="1.016" layer="21" font="vector" rot="R180">0</text>
 </package>
 <package name="USB-MINIB-THM-MOLEX">
 <wire x1="3.9" y1="4.58" x2="3.9" y2="9.18" width="0.127" layer="51"/>
