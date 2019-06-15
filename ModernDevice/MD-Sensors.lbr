@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -10081,7 +10082,7 @@ SEN-09404</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TMP36/37_SMD">
+<deviceset name="TMP36/37_SMD" prefix="TEMP_SENS">
 <gates>
 <gate name="G$1" symbol="TMP36-37SMD" x="0" y="0"/>
 </gates>
