@@ -7495,17 +7495,14 @@ For Vishay VNCL4000 proximity and ambient light sensor.&lt;br&gt;
 </symbol>
 <symbol name="TMP36">
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
 <text x="-5.08" y="5.588" size="1.778" layer="95">&gt;Name</text>
-<text x="-4.318" y="-15.24" size="1.778" layer="96">&gt;Value</text>
+<text x="-4.318" y="-8.89" size="1.778" layer="96">&gt;Value</text>
 <pin name="VCC" x="-7.62" y="2.54" length="short"/>
 <pin name="GND" x="-7.62" y="-2.54" length="short"/>
 <pin name="VOUT" x="7.62" y="0" length="short" rot="R180"/>
-<pin name="NC" x="7.62" y="-7.62" length="short" rot="R180"/>
-<pin name="SHTDN" x="-7.62" y="-10.16" length="short"/>
-<text x="-3.556" y="-6.35" size="0.7112" layer="94" ratio="15">SMD pck only</text>
 </symbol>
 <symbol name="TMP102">
 <wire x1="-10.16" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>

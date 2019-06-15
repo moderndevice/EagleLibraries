@@ -7661,6 +7661,19 @@ For Vishay VNCL4000 proximity and ambient light sensor.&lt;br&gt;
 <text x="-12.7" y="-12.7" size="1.778" layer="95">&gt;VALUE</text>
 <pin name="SDA/SDI" x="17.78" y="0" length="middle" rot="R180"/>
 </symbol>
+<symbol name="TMP36-37SMD">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-11.43" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-11.43" x2="-5.08" y2="-11.43" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-11.43" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="5.588" size="1.778" layer="95">&gt;Name</text>
+<text x="-4.318" y="-13.97" size="1.778" layer="96">&gt;Value</text>
+<pin name="VCC" x="-7.62" y="2.54" length="short"/>
+<pin name="GND" x="-7.62" y="-2.54" length="short"/>
+<pin name="VOUT" x="7.62" y="0" length="short" rot="R180"/>
+<pin name="SHTDN" x="-7.62" y="-8.89" length="short"/>
+<pin name="NC" x="7.62" y="-6.35" length="short" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ADMP401">
@@ -10055,6 +10068,63 @@ SEN-09404</description>
 <connect gate="G$1" pin="SCL/SCLK" pad="23"/>
 <connect gate="G$1" pin="SDA/SDI" pad="24"/>
 <connect gate="G$1" pin="VDD" pad="13"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TMP36/37_SMD">
+<gates>
+<gate name="G$1" symbol="TMP36" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TMP3XSMD" prefix="U" uservalue="yes">
+<description>Precision degC temp sensor, analog out</description>
+<gates>
+</gates>
+<devices>
+<device name="GT9" package="TO-92">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TO-92-KIT" package="TO-92-KIT">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TMP36_37SMD" prefix="U" uservalue="yes">
+<description>Precision degC temp sensor, analog out</description>
+<gates>
+<gate name="G$1" symbol="TMP36" x="0" y="0"/>
+</gates>
+<devices>
+<device name="GT9" package="TO-92">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TO-92-KIT" package="TO-92-KIT">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
