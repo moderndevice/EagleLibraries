@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.3.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TABLET_POGO_INTRFC">
+<pad name="1" x="1.27" y="1.27" drill="1.2192" diameter="2.413"/>
+<pad name="2" x="1.27" y="-1.27" drill="1.2192" diameter="2.413"/>
+<pad name="3" x="3.81" y="1.27" drill="1.2192" diameter="2.413"/>
+<pad name="4" x="3.81" y="-1.27" drill="1.2192" diameter="2.413"/>
+<pad name="5" x="6.35" y="1.27" drill="1.2192" diameter="2.413"/>
+<pad name="6" x="7.62" y="-2.54" drill="1.2192" diameter="2.413"/>
+<pad name="7" x="8.89" y="0" drill="1.2192" diameter="2.413"/>
+<pad name="8" x="10.16" y="2.54" drill="1.2192" diameter="2.413"/>
+<pad name="9" x="10.16" y="-2.54" drill="1.2192" diameter="2.413"/>
+<pad name="10" x="11.43" y="0" drill="1.2192" diameter="2.413"/>
+<pad name="11" x="12.7" y="2.54" drill="1.2192" diameter="2.413"/>
+<pad name="12" x="12.7" y="-2.54" drill="1.2192" diameter="2.413"/>
+<pad name="13" x="13.97" y="0" drill="1.2192" diameter="2.413"/>
+<pad name="14" x="15.24" y="2.54" drill="1.2192" diameter="2.413"/>
+<pad name="15" x="15.24" y="-2.54" drill="1.2192" diameter="2.413"/>
+<pad name="16" x="16.51" y="0" drill="1.2192" diameter="2.413"/>
+<pad name="17" x="17.78" y="2.54" drill="1.2192" diameter="2.413"/>
+<pad name="18" x="17.78" y="-2.54" drill="1.2192" diameter="2.413"/>
+<pad name="19" x="19.05" y="0" drill="1.2192" diameter="2.413"/>
+<pad name="20" x="20.32" y="2.54" drill="1.2192" diameter="2.413"/>
+<pad name="21" x="20.32" y="-2.54" drill="1.2192" diameter="2.413"/>
+<pad name="22" x="21.59" y="0" drill="1.2192" diameter="2.413"/>
+<pad name="23" x="22.86" y="2.54" drill="1.2192" diameter="2.413"/>
+<pad name="24" x="22.86" y="-2.54" drill="1.2192" diameter="2.413"/>
+<pad name="25" x="24.13" y="0" drill="1.2192" diameter="2.413"/>
+<pad name="26" x="25.4" y="2.54" drill="1.2192" diameter="2.413"/>
+<pad name="27" x="25.4" y="-2.54" drill="1.2192" diameter="2.413"/>
+<pad name="28" x="26.67" y="0" drill="1.2192" diameter="2.413"/>
+<pad name="29" x="27.94" y="2.54" drill="1.2192" diameter="2.413"/>
+<pad name="30" x="27.94" y="-2.54" drill="1.2192" diameter="2.413"/>
+<pad name="31" x="29.21" y="0" drill="1.2192" diameter="2.413"/>
+<pad name="32" x="30.48" y="2.54" drill="1.2192" diameter="2.413"/>
+<pad name="33" x="30.48" y="-2.54" drill="1.2192" diameter="2.413"/>
+<pad name="34" x="31.75" y="0" drill="1.2192" diameter="2.413"/>
+<pad name="35" x="33.02" y="2.54" drill="1.2192" diameter="2.413"/>
+<pad name="36" x="33.02" y="-2.54" drill="1.2192" diameter="2.413"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TABLET_POGO_PINS">
+<pin name="1" x="5.08" y="10.16" visible="pin" length="point"/>
+<pin name="2" x="5.08" y="5.08" visible="pin" length="point"/>
+<pin name="3" x="12.7" y="10.16" visible="pin" length="point"/>
+<pin name="4" x="12.7" y="5.08" visible="pin" length="point"/>
+<pin name="5" x="20.32" y="10.16" visible="pin" length="point"/>
+<pin name="6" x="25.4" y="2.54" visible="pin" length="point"/>
+<pin name="7" x="27.94" y="7.62" visible="pin" length="point"/>
+<pin name="8" x="30.48" y="12.7" visible="pin" length="point"/>
+<pin name="9" x="33.02" y="2.54" visible="pin" length="point"/>
+<pin name="10" x="35.56" y="7.62" visible="pin" length="point"/>
+<pin name="11" x="38.1" y="12.7" visible="pin" length="point"/>
+<pin name="12" x="40.64" y="2.54" visible="pin" length="point"/>
+<pin name="13" x="43.18" y="7.62" visible="pin" length="point"/>
+<pin name="14" x="45.72" y="12.7" visible="pin" length="point"/>
+<pin name="15" x="48.26" y="2.54" visible="pin" length="point"/>
+<pin name="16" x="50.8" y="7.62" visible="pin" length="point"/>
+<pin name="17" x="53.34" y="12.7" visible="pin" length="point"/>
+<pin name="18" x="55.88" y="2.54" visible="pin" length="point"/>
+<pin name="19" x="58.42" y="7.62" visible="pin" length="point"/>
+<pin name="20" x="60.96" y="12.7" visible="pin" length="point"/>
+<pin name="21" x="63.5" y="2.54" visible="pin" length="point"/>
+<pin name="22" x="66.04" y="7.62" visible="pin" length="point"/>
+<pin name="23" x="68.58" y="12.7" visible="pin" length="point"/>
+<pin name="24" x="71.12" y="2.54" visible="pin" length="point"/>
+<pin name="25" x="73.66" y="7.62" visible="pin" length="point"/>
+<pin name="26" x="76.2" y="12.7" visible="pin" length="point"/>
+<pin name="27" x="78.74" y="2.54" visible="pin" length="point"/>
+<pin name="28" x="81.28" y="7.62" visible="pin" length="point"/>
+<pin name="29" x="83.82" y="12.7" visible="pin" length="point"/>
+<pin name="30" x="86.36" y="2.54" visible="pin" length="point"/>
+<pin name="31" x="88.9" y="7.62" visible="pin" length="point"/>
+<pin name="32" x="91.44" y="12.7" visible="pin" length="point"/>
+<pin name="33" x="93.98" y="2.54" visible="pin" length="point"/>
+<pin name="34" x="96.52" y="7.62" visible="pin" length="point"/>
+<pin name="35" x="99.06" y="12.7" visible="pin" length="point"/>
+<pin name="36" x="104.14" y="2.54" visible="pin" length="point"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TABLET_POGO_INTERFACE">
+<gates>
+<gate name="G$1" symbol="TABLET_POGO_PINS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TABLET_POGO_INTRFC">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="34" pad="34"/>
+<connect gate="G$1" pin="35" pad="35"/>
+<connect gate="G$1" pin="36" pad="36"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

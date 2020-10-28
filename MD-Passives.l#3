@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="5" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1599,8 +1599,8 @@ Source: RS Components</description>
 <wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
 <text x="-10.16" y="2.54" size="1.27" layer="95">&gt;Name</text>
 <text x="5.08" y="2.54" size="1.27" layer="96">&gt;Value</text>
-<pin name="1" x="-10.16" y="0" length="middle"/>
-<pin name="2" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="1" x="-10.16" y="0" visible="pad" length="middle"/>
+<pin name="2" x="10.16" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
 <symbol name="INDUCTOR">
 <wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
